@@ -4,7 +4,7 @@ UD-Old-Russian-TOROT is a conversion of a selection of the Old East Slavonic and
 
 # Introduction
 
-UD-Old-Russian-TOROT is a conversion of a selection of the Old East Slavonic and Middle Russian data in the Tromsø Old Russian and OCS Treebank (TOROT), which is on PROIEL dependency format and is still under development. The treebank contains texts from a variety of medieval and early modern genres, such as chronicles, legal documents, lives of saints and letters. 
+UD-Old-Russian-TOROT is a conversion of a selection of the Old East Slavonic and Middle Russian data in the Tromsø Old Russian and OCS Treebank (TOROT), which is on PROIEL dependency format and manually annotated with some automatic preprocessing. New texts are still being added. The treebank contains texts from a variety of mediaeval and early modern genres, such as chronicles, legal documents, lives of saints and correspondence. 
 
 # Acknowledgments
 
@@ -16,6 +16,8 @@ The test set consists of Afanasij Nikitin 5; birchbark letters 497, 502 and 902;
 
 The development set consists of Afanasij Nikitin 6; birchbark letters 644 and 682; Russkaja pravda 8-9; Novgorod First Chronicle (Synodal ms.), entries for 6675-6681; Primary Chronicle (Laurentian ms.), the two entries for 6453; Suzdal Chronicle (Laurentian ms.), entry for 6659; The tale of Dracula; Tale of the fall of Constantinople, chapter 3; Uspenskij sbornik, Life of Feodosij Pečerskij 27.
 
+The training set consists of larger excerpts from Afanasij Nikitin, Russkaja pravda, Novgorod First Chronicle (Synodal ms.), Primary Chronicle (Laurentian ms.), Suzdal Chronicle (Laurentian ms.), Tale of the fall of Constantinople, Uspenskij sbornik, as well as a further selection of birchbark letters and The tale of Igor's campaign.
+
 
 ## References
 
@@ -24,9 +26,9 @@ Hanne Martine Eckhoff and Aleksandrs Berdičevskis. 2015. 'Linguistics vs. digit
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.4
-License: CC BY-SA 4.0
+License: CC BY-NC-SA 3.0
 Includes text: yes
-Genre: historiographic, religious, legal
+Genre: nonfiction, legal
 Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: manual native
