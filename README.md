@@ -4,7 +4,7 @@ UD-Old-Russian-TOROT is a conversion of a selection of the Old East Slavonic and
 
 # Introduction
 
-UD-Old-Russian-TOROT is a conversion of a selection of the Old East Slavonic and Middle Russian data in the Tromsø Old Russian and OCS Treebank (TOROT), which is maintained at UiT The Arctic University of Norway. The treebank is manually annotated with some automatic preprocessing on PROIEL dependency format. New texts are still being added. The treebank contains texts from a variety of mediaeval and early modern genres, such as chronicles, legal documents, lives of saints and correspondence. Treebank releases are available from  https://github.com/torottreebank/treebank-releases. This conversion is based on the 20190505 release.
+UD-Old-Russian-TOROT is a conversion of a selection of the Old East Slavonic and Middle Russian data in the Tromsø Old Russian and OCS Treebank (TOROT), which is maintained at UiT The Arctic University of Norway. The treebank is manually annotated, with some automatic preprocessing, on PROIEL dependency format. New texts are still being added. The treebank contains texts from a variety of mediaeval and early modern genres, such as chronicles, legal documents, lives of saints and correspondence. Treebank releases are available from  https://github.com/torottreebank/treebank-releases. This conversion is based on the 20190505 release.
 
 # Data splits
 
