@@ -4,11 +4,7 @@ UD-Old-Russian-TOROT is a conversion of a selection of the Old East Slavonic and
 
 # Introduction
 
-UD-Old-Russian-TOROT is a conversion of a selection of the Old East Slavonic and Middle Russian data in the Tromsø Old Russian and OCS Treebank (TOROT), which is on PROIEL dependency format and manually annotated with some automatic preprocessing. New texts are still being added. The treebank contains texts from a variety of mediaeval and early modern genres, such as chronicles, legal documents, lives of saints and correspondence. 
-
-# Acknowledgments
-
-The conversion was performed using a script written by Dag Haug and modified by Hanne Eckhoff.
+UD-Old-Russian-TOROT is a conversion of a selection of the Old East Slavonic and Middle Russian data in the Tromsø Old Russian and OCS Treebank (TOROT), which is on PROIEL dependency format and manually annotated with some automatic preprocessing. New texts are still being added. The treebank contains texts from a variety of mediaeval and early modern genres, such as chronicles, legal documents, lives of saints and correspondence.
 
 # Data splits
 
@@ -16,12 +12,16 @@ The test set consists of Afanasij Nikitin 5; birchbark letters 497, 502 and 902;
 
 The development set consists of Afanasij Nikitin 6; birchbark letters 644 and 682; Russkaja pravda 8-9; Novgorod First Chronicle (Synodal ms.), entries for 6675-6681; Primary Chronicle (Laurentian ms.), the two entries for 6453; Suzdal Chronicle (Laurentian ms.), entry for 6659; The tale of Dracula; Tale of the fall of Constantinople, chapter 3; Uspenskij sbornik, Life of Feodosij Pečerskij 27.
 
-The training set consists of larger excerpts from Afanasij Nikitin, Russkaja pravda, Novgorod First Chronicle (Synodal ms.), Primary Chronicle (Laurentian ms.), Suzdal Chronicle (Laurentian ms.), Tale of the fall of Constantinople, Uspenskij sbornik, as well as a further selection of birchbark letters and The tale of Igor's campaign.
+The training set consists of larger, continuous excerpts from Afanasij Nikitin, Russkaja pravda, Novgorod First Chronicle (Synodal ms.), Primary Chronicle (Laurentian ms.), Suzdal Chronicle (Laurentian ms.), Tale of the fall of Constantinople, Uspenskij sbornik, as well as a further selection of birchbark letters and The tale of Igor's campaign.
 
+# Acknowledgments
+
+The conversion was performed using a script written by Dag Haug and modified by Hanne Eckhoff. The texts were annotated and reviewed by a brilliant team of annotators, and we are very grateful for their work.
 
 ## References
 
 Hanne Martine Eckhoff and Aleksandrs Berdičevskis. 2015. 'Linguistics vs. digital editions: The Tromsø Old Russian and OCS Treebank'. Scripta & e-scripta 14–15, pp. 9-25.
+
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
