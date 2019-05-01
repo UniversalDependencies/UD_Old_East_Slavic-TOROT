@@ -28,7 +28,7 @@ Hanne Martine Eckhoff and Aleksandrs Berdičevskis. 2015. 'Linguistics vs. digit
 Data available since: UD v2.4
 License: CC BY-NC-SA 3.0
 Includes text: yes
-Genre: nonfiction, legal
+Genre: nonfiction legal
 Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: manual native
