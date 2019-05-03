@@ -5840,6 +5840,1310 @@
 5	д҃ншнго	дьньсьныи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Strength=Weak	6	amod	_	ref=17.24
 6	д҃не	дьнь	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	1	obl	_	ref=17.24
 
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = В лѣт ҂ѕ҃ у҃ ѯ҃ г Иде ѡльга въ греки
+# sent_id = 125524
+1	В	въ	ADP	R-	_	2	case	_	ref=60.25
+2	лѣт	лѣто	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	ref=60.25
+3	҂ѕ҃	шесть.тысячь	NUM	Ma	_	2	nummod	_	ref=60.25
+4	у҃	четырисъта	NUM	Ma	_	3	conj	_	ref=60.25
+5	ѯ҃	шестьдесятъ	NUM	Ma	_	3	conj	_	ref=60.25
+6	г	трие	NUM	Ma	_	3	conj	_	ref=60.25
+7	Иде	ити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=60.25
+8	ѡльга	ольга	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	ref=60.25
+9	въ	въ	ADP	R-	_	10	case	_	ref=60.25
+10	греки	грьчинъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	7	obl	_	ref=60.25
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и приде ц҃рюгороду
+# sent_id = 125525
+1	и	и	CCONJ	C-	_	2	cc	_	ref=60.26
+2	приде	приити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=60.26
+3	ц҃рюгороду	цѣсарьгородъ	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	2	iobj	_	ref=60.26
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = бѣ тогда ц҃рь имѧнемь цѣмьскии
+# sent_id = 140988
+1	бѣ	быти	AUX	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=60.26
+2	тогда	тъгда	ADV	Df	_	1	advmod	_	ref=60.26
+3	ц҃рь	цѣсарь	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	ref=60.26
+4	имѧнемь	имя	NOUN	Nb	Case=Ins|Gender=Neut|Number=Sing	5	nmod	_	ref=60.26
+5	цѣмьскии	цѣмьскыи	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	ref=60.26
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и приде к нему ѡльга
+# sent_id = 125526
+1	и	и	CCONJ	C-	_	2	cc	_	ref=60.27
+2	приде	приити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=60.27
+3	к	къ	ADP	R-	_	4	case	_	ref=60.27
+4	нему	и	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	ref=60.27
+5	ѡльга	ольга	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	ref=60.27
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и видѣвъ ю добру сущю зѣло лицемъ и смыслену оудививъ сѧ ц҃рь разуму ея бесѣдова к неи и рекъ еи
+# sent_id = 125527
+1	и	и	CCONJ	C-	_	15	cc	_	ref=60.27
+2	видѣвъ	видѣти	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Act	15	advcl	_	ref=60.27
+3	ю	и	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	ref=60.27
+4	добру	добрыи	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Strength=Strong	2	xcomp	_	ref=60.28
+5	сущю	быти	AUX	V-	Case=Acc|Gender=Fem|Number=Sing|Strength=Strong|Tense=Pres|VerbForm=Part|Voice=Act	4	cop	_	ref=60.28
+6	зѣло	зѣло	ADV	Df	_	4	advmod	_	ref=60.28
+7	лицемъ	лице	NOUN	Nb	Case=Ins|Gender=Neut|Number=Sing	4	obl	_	ref=60.28
+8	и	и	CCONJ	C-	_	4	cc	_	ref=60.28
+9	смыслену	съмысльныи	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Strength=Strong	4	conj	_	ref=60.28
+10	оудививъ	удивити	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Act	15	advcl	_	ref=60.28
+11	сѧ	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	expl	_	ref=60.28
+12	ц҃рь	цѣсарь	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	ref=60.29
+13	разуму	разумъ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	10	iobj	_	ref=60.29
+14	ея	и	PRON	Pp	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	det	_	ref=60.29
+15	бесѣдова	бесѣдовати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=60.29
+16	к	къ	ADP	R-	_	17	case	_	ref=60.29
+17	неи	и	PRON	Pp	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obl	_	ref=60.29
+18	и	и	CCONJ	C-	_	15	cc	_	ref=60.29
+19	рекъ	рещи	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Act	15	conj	_	ref=60.29
+20	еи	и	PRON	Pp	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	iobj	_	ref=60.30
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = подобна еси црт҃вти въ град с нами
+# sent_id = 125531
+1	подобна	подобьныи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Strength=Strong	0	root	_	ref=60.30
+2	еси	быти	AUX	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	ref=60.30
+3	црт҃вти	цѣсарьствовати	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	1	advcl	_	ref=60.30
+4	въ	въ	ADP	R-	_	5	case	_	ref=60.30
+5	град	градъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	ref=60.30
+6	с	съ	ADP	R-	_	7	case	_	ref=60.30
+7	нами	мы	PRON	Pp	Case=Ins|Gender=Masc|Number=Plur|Person=1|PronType=Prs	3	obl	_	ref=60.30
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = ѡна же разумѣвши реч ко ц҃рю
+# sent_id = 125532
+1	ѡна	онъ	ADJ	Pd	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	ref=60.30
+2	же	же	ADV	Df	_	4	discourse	_	ref=61.1
+3	разумѣвши	разумѣти	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Act	4	advcl	_	ref=61.1
+4	реч	рещи	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=61.1
+5	ко	къ	ADP	R-	_	6	case	_	ref=61.1
+6	ц҃рю	цѣсарь	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	ref=61.1
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = азъ погана есмь
+# sent_id = 125533
+1	азъ	азъ	PRON	Pp	Case=Nom|Gender=Fem|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	ref=61.1
+2	погана	поганыи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Strength=Strong	0	root	_	ref=61.1
+3	есмь	быти	AUX	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	ref=61.1
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = да аще мѧ хощеши крсти то крст мѧ самъ
+# sent_id = 125534
+1	да	да	ADV	Df	_	7	discourse	_	ref=61.1|LId=2
+2	аще	аще	SCONJ	G-	_	4	mark	_	ref=61.2
+3	мѧ	азъ	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=1|PronType=Prs	5	obj	_	ref=61.2
+4	хощеши	хотѣти	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	dislocated	_	ref=61.2
+5	крсти	крьстити	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	4	xcomp	_	ref=61.2
+6	то	то	ADV	Df	_	7	advmod	_	ref=61.2
+7	крст	крьстити	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=61.2
+8	мѧ	азъ	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=1|PronType=Prs	7	obj	_	ref=61.2
+9	самъ	самъ	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	ref=61.2
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = аще ли то не кр҃щю сѧ
+# sent_id = 125536
+1	аще	аще	SCONJ	G-	_	5	dislocated	_	ref=61.2
+2	ли	ли	ADV	Df	_	5	discourse	_	ref=61.3
+3	то	то	ADV	Df	_	5	advmod	_	ref=61.3
+4	не	не	ADV	Df	Polarity=Neg	5	advmod	_	ref=61.3
+5	кр҃щю	крьстити	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=61.3
+6	сѧ	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	expl	_	ref=61.3
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и кртси ю црь с пт҃архмъ
+# sent_id = 125537
+1	и	и	CCONJ	C-	_	2	cc	_	ref=61.3
+2	кртси	крьстити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=61.3
+3	ю	и	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	ref=61.3
+4	црь	цѣсарь	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	ref=61.3
+5	с	съ	ADP	R-	_	6	case	_	ref=61.3
+6	пт҃архмъ	патриархъ	NOUN	Nb	Case=Ins|Gender=Masc|Number=Sing	4	nmod	_	ref=61.3
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = просвѣщена же бывши радоваше сѧ д҃шею и тѣломъ
+# sent_id = 125538
+1	просвѣщена	просвѣтити	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Pass	4	advcl	_	ref=61.4
+2	же	же	ADV	Df	_	4	discourse	_	ref=61.4
+3	бывши	быти	AUX	V-	Case=Nom|Gender=Fem|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Act	1	cop	_	ref=61.4
+4	радоваше	радовати	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=61.4
+5	сѧ	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	expl	_	ref=61.4
+6	д҃шею	душа	NOUN	Nb	Case=Ins|Gender=Fem|Number=Sing	4	obl	_	ref=61.4
+7	и	и	CCONJ	C-	_	6	cc	_	ref=61.4
+8	тѣломъ	тѣло	NOUN	Nb	Case=Ins|Gender=Neut|Number=Sing	6	conj	_	ref=61.5
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и пооучи ю патреархъ ѡ вѣрѣ
+# sent_id = 125540
+1	и	и	CCONJ	C-	_	2	cc	_	ref=61.5
+2	пооучи	поучити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=61.5
+3	ю	и	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	ref=61.5
+4	патреархъ	патриархъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	ref=61.5
+5	ѡ	о	ADP	R-	_	6	case	_	ref=61.5
+6	вѣрѣ	вѣра	NOUN	Nb	Case=Loc|Gender=Fem|Number=Sing	2	obl	_	ref=61.5
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = реч еи
+# sent_id = 125541
+1	реч	рещи	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=61.6
+2	еи	и	PRON	Pp	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	iobj	_	ref=61.6
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = блгсна ты в руских яко возлюби свѣтъ а тьму ѡстави
+# sent_id = 140990
+1	блгсна	благословеныи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Strength=Strong	0	root	_	ref=61.6
+2	ты	ты	PRON	Pp	Case=Nom|Gender=Fem|Number=Sing|Person=2|PronType=Prs	1	nsubj	_	ref=61.6
+3	в	въ	ADP	R-	_	4	case	_	ref=61.6
+4	руских	русьскыи	ADJ	A-	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|Strength=Weak	1	advmod	_	ref=61.6
+5	яко	яко	SCONJ	G-	_	6	mark	_	ref=61.6
+6	возлюби	възлюбити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	ref=61.6
+7	свѣтъ	свѣтъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	ref=61.7
+8	а	а	CCONJ	C-	_	6	cc	_	ref=61.7
+9	тьму	тьма	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	ref=61.7
+10	ѡстави	оставити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	ref=61.7
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = блглсвти тѧ хотѧть свне рустии в послѣднии родъ внукъ твоих
+# sent_id = 125544
+1	блглсвти	благословити	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	3	xcomp	_	ref=61.7
+2	тѧ	ты	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=2|PronType=Prs	1	obj	_	ref=61.7
+3	хотѧть	хотѣти	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=61.7
+4	свне	сынъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	ref=61.8
+5	рустии	русьскыи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Strength=Weak	4	amod	_	ref=61.8
+6	в	въ	ADP	R-	_	8	case	_	ref=61.8
+7	послѣднии	послѣдьнии	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Strength=Weak	8	amod	_	ref=61.8
+8	родъ	родъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	ref=61.8
+9	внукъ	вънукъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	ref=61.8
+10	твоих	твои	ADJ	Ps	Case=Gen|Gender=Masc|Number=Plur|Person=2|Poss=Yes	9	nmod	_	ref=61.8
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и заповѣда еи ѡ црк҃внмь оуставѣ ѡ млтвѣ и ѡ постѣ ѡ млтсни и ѡ въздержаньи тѣла чиста
+# sent_id = 125546
+1	и	и	CCONJ	C-	_	2	cc	_	ref=61.9
+2	заповѣда	заповѣдати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=61.9
+3	еи	и	PRON	Pp	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	iobj	_	ref=61.9
+4	ѡ	о	ADP	R-	_	6	case	_	ref=61.9
+5	црк҃внмь	цьркъвьныи	ADJ	A-	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Strength=Weak	6	amod	_	ref=61.9
+6	оуставѣ	уставъ	NOUN	Nb	Case=Loc|Gender=Masc|Number=Sing	2	obl	_	ref=61.9
+7	ѡ	о	ADP	R-	_	8	case	_	ref=61.9
+8	млтвѣ	молитва	NOUN	Nb	Case=Loc|Gender=Fem|Number=Sing	6	conj	_	ref=61.9
+9	и	и	CCONJ	C-	_	6	cc	_	ref=61.9
+10	ѡ	о	ADP	R-	_	11	case	_	ref=61.10
+11	постѣ	постъ	NOUN	Nb	Case=Loc|Gender=Masc|Number=Sing	6	conj	_	ref=61.10
+12	ѡ	о	ADP	R-	_	13	case	_	ref=61.10
+13	млтсни	милостыня	NOUN	Nb	Case=Loc|Gender=Fem|Number=Sing	6	conj	_	ref=61.10
+14	и	и	CCONJ	C-	_	6	cc	_	ref=61.10
+15	ѡ	о	ADP	R-	_	16	case	_	ref=61.10
+16	въздержаньи	въздьржание	NOUN	Nb	Case=Loc|Gender=Neut|Number=Sing	6	conj	_	ref=61.10
+17	тѣла	тѣло	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	ref=61.10
+18	чиста	чистыи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Strength=Strong	17	amod	_	ref=61.11
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = ѡна же поклонивши главу стояше аки губа напаяема внимающи оученья поклонивши сѧ пт҃рарху гл҃щи
+# sent_id = 125549
+1	ѡна	онъ	ADJ	Pd	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	ref=61.11
+2	же	же	ADV	Df	_	5	discourse	_	ref=61.11
+3	поклонивши	поклонити	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Act	5	advcl	_	ref=61.11
+4	главу	глава	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	ref=61.11
+5	стояше	стояти	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=61.11
+6	аки	акы	ADV	Df	_	9	advcl	_	ref=61.11
+7	губа	губа	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	ref=61.12
+8	напаяема	напаяти	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|Strength=Strong|Tense=Pres|VerbForm=Part|Voice=Pass	7	acl	_	ref=61.12
+9	внимающи	вънимати	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|Strength=Strong|Tense=Pres|VerbForm=Part|Voice=Act	5	advcl	_	ref=61.12
+10	оученья	учение	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	9	obj	_	ref=61.12
+11	поклонивши	поклонити	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Act	14	advcl	_	ref=61.12
+12	сѧ	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	11	expl	_	ref=61.12
+13	пт҃рарху	патриархъ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	11	iobj	_	ref=61.13
+14	гл҃щи	глаголати	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|Strength=Strong|Tense=Pres|VerbForm=Part|Voice=Act	5	advcl	_	ref=61.13
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = мл҃твами твоими вл҃дко да схранена буду ѿ сѣти неприязньны
+# sent_id = 125553
+1	мл҃твами	молитва	NOUN	Nb	Case=Ins|Gender=Fem|Number=Plur	5	obl	_	ref=61.13
+2	твоими	твои	ADJ	Ps	Case=Ins|Gender=Fem|Number=Plur|Person=2|Poss=Yes	1	nmod	_	ref=61.13
+3	вл҃дко	владыка	NOUN	Nb	Case=Voc|Gender=Masc|Number=Sing	5	vocative	_	ref=61.14
+4	да	да	ADV	Df	_	5	advmod	_	ref=61.14|LId=1
+5	схранена	съхранити	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	ref=61.14
+6	буду	быти	AUX	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	5	cop	_	ref=61.14
+7	ѿ	отъ	ADP	R-	_	8	case	_	ref=61.14
+8	сѣти	сѣть	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	ref=61.14
+9	неприязньны	неприязньныи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Strength=Strong	8	amod	_	ref=61.14
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = бѣ же речно имѧ еи во кр҃щньи ѡлена якоже и древнѧя цр҃цѧ м҃ти великаго костѧнтина
+# sent_id = 125555
+1	бѣ	быти	AUX	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	ref=61.15
+2	же	же	ADV	Df	_	3	discourse	_	ref=61.15
+3	речно	рещи	VERB	V-	Case=Nom|Gender=Neut|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	ref=61.15
+4	имѧ	имя	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	ref=61.15
+5	еи	и	PRON	Pp	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	det	_	ref=61.15
+6	во	въ	ADP	R-	_	7	case	_	ref=61.15
+7	кр҃щньи	крьщение	NOUN	Nb	Case=Loc|Gender=Neut|Number=Sing	3	obl	_	ref=61.15
+8	ѡлена	олена	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	3	xcomp	_	ref=61.15
+9	якоже	якоже	ADV	Df	_	3	advcl	_	ref=61.15
+10	и	и	ADV	Df	_	12	advmod	_	ref=61.16
+11	древнѧя	древьнии	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Strength=Weak	12	amod	_	ref=61.16
+12	цр҃цѧ	цѣсарица	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	ref=61.16
+13	м҃ти	мати	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	12	appos	_	ref=61.16
+14	великаго	великыи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Strength=Weak	15	amod	_	ref=61.16
+15	костѧнтина	костянтинъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	ref=61.16
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = блгсви ю пт҃рархъ
+# sent_id = 125558
+1	блгсви	благословити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=61.17
+2	ю	и	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obj	_	ref=61.17
+3	пт҃рархъ	патриархъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	ref=61.17
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и ѿпусти ю
+# sent_id = 141001
+1	и	и	CCONJ	C-	_	2	cc	_	ref=61.17
+2	ѿпусти	отъпустити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=61.17
+3	ю	и	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	ref=61.17
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и по кр҃щньи возва ю ц҃рь
+# sent_id = 125559
+1	и	и	CCONJ	C-	_	4	cc	_	ref=61.17
+2	по	по	ADP	R-	_	3	case	_	ref=61.17
+3	кр҃щньи	крьщение	NOUN	Nb	Case=Loc|Gender=Neut|Number=Sing	4	obl	_	ref=61.17
+4	возва	възъвати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=61.18
+5	ю	и	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	ref=61.18
+6	ц҃рь	цѣсарь	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ref=61.18
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и рече еи
+# sent_id = 141003
+1	и	и	CCONJ	C-	_	2	cc	_	ref=61.18
+2	рече	рещи	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=61.18
+3	еи	и	PRON	Pp	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	iobj	_	ref=61.18
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = хощю тѧ пояти собѣ женѣ
+# sent_id = 141002
+1	хощю	хотѣти	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=61.18
+2	тѧ	ты	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=2|PronType=Prs	3	obj	_	ref=61.18
+3	пояти	пояти	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	1	xcomp	_	ref=61.18
+4	собѣ	себе	PRON	Pk	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	iobj	_	ref=61.18
+5	женѣ	жена	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	3	xcomp	_	ref=61.19
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = ѡна же реч
+# sent_id = 125560
+1	ѡна	онъ	ADJ	Pd	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	ref=61.19
+2	же	же	ADV	Df	_	3	discourse	_	ref=61.19
+3	реч	рещи	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=61.19
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = како хочеши мѧ пояти крсть мѧ самъ и нарекъ мѧ тъщерью
+# sent_id = 141005
+1	како	како	ADV	Du	PronType=Int	2	advmod	_	ref=61.19
+2	хочеши	хотѣти	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=61.19
+3	мѧ	азъ	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=1|PronType=Prs	4	obj	_	ref=61.19
+4	пояти	пояти	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	2	xcomp	_	ref=61.19
+5	крсть	крьстити	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Act	2	advcl	_	ref=61.20
+6	мѧ	азъ	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=1|PronType=Prs	5	obj	_	ref=61.20
+7	самъ	самъ	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	ref=61.20
+8	и	и	CCONJ	C-	_	5	cc	_	ref=61.20
+9	нарекъ	нарещи	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Act	5	conj	_	ref=61.20
+10	мѧ	азъ	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	ref=61.20
+11	тъщерью	дъщи	NOUN	Nb	Case=Ins|Gender=Fem|Number=Sing	9	xcomp	_	ref=61.20
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = а хсеянехъ того нѣс закона
+# sent_id = 125562
+1	а	а	CCONJ	C-	_	4	cc	_	ref=61.20
+2	хсеянехъ	хрьстиянинъ	NOUN	Nb	Case=Loc|Gender=Masc|Number=Plur	4	obl	_	ref=61.21
+3	того	тыи	ADJ	Pd	Case=Gen|Gender=Neut|Number=Sing	4	nsubj	_	ref=61.21
+4	нѣс	не.быти	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=61.21
+5	закона	законъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	4	xcomp	_	ref=61.21
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = а ты самъ вѣси
+# sent_id = 141006
+1	а	а	CCONJ	C-	_	4	cc	_	ref=61.21
+2	ты	ты	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	ref=61.21
+3	самъ	самъ	DET	Pd	Case=Nom|Gender=Masc|Number=Sing	2	det	_	ref=61.21
+4	вѣси	вѣдѣти	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=61.21
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и реч црь
+# sent_id = 125563
+1	и	и	CCONJ	C-	_	2	cc	_	ref=61.21
+2	реч	рещи	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=61.21
+3	црь	цѣсарь	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	ref=61.22
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = переклюкала мѧ еси ольга
+# sent_id = 141007
+1	переклюкала	переклюкати	VERB	V-	Aspect=Res|Case=Nom|Gender=Fem|Number=Sing|Strength=Strong|VerbForm=Part|Voice=Act	0	root	_	ref=61.22
+2	мѧ	азъ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	1	obj	_	ref=61.22
+3	еси	быти	AUX	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	ref=61.22
+4	ольга	ольга	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	1	vocative	_	ref=61.22
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и дасть еи дары многи злато и сребро паволоки и съсуды различныя
+# sent_id = 125564
+1	и	и	CCONJ	C-	_	2	cc	_	ref=61.22
+2	дасть	дати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=61.22
+3	еи	и	PRON	Pp	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	iobj	_	ref=61.22
+4	дары	даръ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	ref=61.23
+5	многи	мъногыи	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Strength=Strong	4	amod	_	ref=61.23
+6	злато	злато	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	4	appos	_	ref=61.23
+7	и	и	CCONJ	C-	_	6	cc	_	ref=61.23
+8	сребро	сьребро	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	6	conj	_	ref=61.23
+9	паволоки	паволока	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	6	conj	_	ref=61.23
+10	и	и	CCONJ	C-	_	6	cc	_	ref=61.23
+11	съсуды	съсудъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	6	conj	_	ref=61.23
+12	различныя	различьныи	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Strength=Weak	11	amod	_	ref=61.24
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и ѿпусти ю нарекъ ю дъщерью собѣ
+# sent_id = 125566
+1	и	и	CCONJ	C-	_	2	cc	_	ref=61.24
+2	ѿпусти	отъпустити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=61.24
+3	ю	и	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	ref=61.24
+4	нарекъ	нарещи	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Act	2	advcl	_	ref=61.24
+5	ю	и	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	ref=61.24
+6	дъщерью	дъщи	NOUN	Nb	Case=Ins|Gender=Fem|Number=Sing	4	xcomp	_	ref=61.24
+7	собѣ	себе	PRON	Pk	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	det	_	ref=61.25
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = ѡна же хотѧщи домови приде къ патреарху блгсвнья просѧщи на домъ
+# sent_id = 125567
+1	ѡна	онъ	ADJ	Pd	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	ref=61.25
+2	же	же	ADV	Df	_	5	discourse	_	ref=61.25
+3	хотѧщи	хотѣти	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|Strength=Strong|Tense=Pres|VerbForm=Part|Voice=Act	5	advcl	_	ref=61.25
+4	домови	домови	ADV	Df	_	3	xcomp	_	ref=61.25
+5	приде	приити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=61.25
+6	къ	къ	ADP	R-	_	7	case	_	ref=61.25
+7	патреарху	патриархъ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	ref=61.25
+8	блгсвнья	благословение	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	9	obj	_	ref=61.26
+9	просѧщи	просити	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|Strength=Strong|Tense=Pres|VerbForm=Part|Voice=Act	5	advcl	_	ref=61.26
+10	на	на	ADP	R-	_	11	case	_	ref=61.26
+11	домъ	домъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	ref=61.26
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и реч ему
+# sent_id = 125569
+1	и	и	CCONJ	C-	_	2	cc	_	ref=61.26
+2	реч	рещи	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=61.26
+3	ему	и	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	ref=61.26
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = людье мои пагани и с҃нъ мои
+# sent_id = 141010
+1	людье	людие	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	ref=61.26
+2	мои	мои	ADJ	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=1|Poss=Yes	1	nmod	_	ref=61.27
+3	пагани	поганыи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Strength=Strong	0	root	_	ref=61.27
+4	и	и	CCONJ	C-	_	1	cc	_	ref=61.27
+5	с҃нъ	сынъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	ref=61.27
+6	мои	мои	ADJ	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes	5	nmod	_	ref=61.27
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = да бы мѧ б҃ъ съблюлъ ѿ всѧкого зла
+# sent_id = 125570
+1	да	да	ADV	Df	_	5	advmod	_	ref=61.27|LId=1
+2	бы	быти	AUX	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	_	ref=61.27
+3	мѧ	азъ	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=1|PronType=Prs	5	obj	_	ref=61.27
+4	б҃ъ	богъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	ref=61.27
+5	съблюлъ	съблюсти	VERB	V-	Aspect=Res|Case=Nom|Gender=Masc|Number=Sing|Strength=Strong|VerbForm=Part|Voice=Act	0	root	_	ref=61.27
+6	ѿ	отъ	ADP	R-	_	8	case	_	ref=61.28
+7	всѧкого	вьсякыи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Strength=Weak	8	amod	_	ref=61.28
+8	зла	зъло	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	5	obl	_	ref=61.28
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и реч пт҃рархъ
+# sent_id = 125571
+1	и	и	CCONJ	C-	_	2	cc	_	ref=61.28
+2	реч	рещи	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=61.28
+3	пт҃рархъ	патриархъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	ref=61.28
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = чадо вѣрное во кр҃та крстила сѧ еси
+# sent_id = 141012
+1	чадо	чадо	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	5	vocative	_	ref=61.28
+2	вѣрное	вѣрьныи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Strength=Weak	1	amod	_	ref=61.28
+3	во	въ	ADP	R-	_	4	case	_	ref=61.28
+4	кр҃та	христ(ос)ъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	ref=61.29
+5	крстила	крьстити	VERB	V-	Aspect=Res|Case=Nom|Gender=Fem|Number=Sing|Strength=Strong|VerbForm=Part|Voice=Act	0	root	_	ref=61.29
+6	сѧ	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	expl	_	ref=61.29
+7	еси	быти	AUX	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	ref=61.29
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и во крста ѡблече сѧ
+# sent_id = 141014
+1	и	и	CCONJ	C-	_	4	cc	_	ref=61.29
+2	во	въ	ADP	R-	_	3	case	_	ref=61.29
+3	крста	христ(ос)ъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	ref=61.29
+4	ѡблече	облѣщи	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=61.29
+5	сѧ	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	expl	_	ref=61.29
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = хсъ имать схранити тѧ якоже схрани еноха в первыя роды
+# sent_id = 125572
+1	хсъ	христ(ос)ъ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	ref=61.29
+2	имать	имѣти	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=62.1
+3	схранити	съхранити	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	2	xcomp	_	ref=62.1
+4	тѧ	ты	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=2|PronType=Prs	3	obj	_	ref=62.1
+5	якоже	якоже	ADV	Dq	PronType=Rel	6	advmod	_	ref=62.1
+6	схрани	съхранити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	ref=62.1
+7	еноха	енохъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	6	obj	_	ref=62.1
+8	в	въ	ADP	R-	_	10	case	_	ref=62.2
+9	первыя	пьрвыи	ADJ	Mo	Case=Acc|Gender=Masc|Number=Plur	10	nmod	_	ref=62.2
+10	роды	родъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	6	obl	_	ref=62.2
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и потомъ ноя в ковчезѣ
+# sent_id = 125574
+1	и	и	CCONJ	C-	_	0	root	_	ref=62.2
+2	потомъ	потомь	ADV	Df	_	1	advmod	_	ref=62.2
+3	ноя	нои	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	1	obj	_	ref=62.2
+4	в	въ	ADP	R-	_	5	case	_	ref=62.2
+5	ковчезѣ	ковьчегъ	NOUN	Nb	Case=Loc|Gender=Masc|Number=Sing	1	obl	_	ref=62.2
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = аврама ѿ авимелеха
+# sent_id = 141022
+1	аврама	авраамъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	0	root	_	ref=62.2
+2	ѿ	отъ	ADP	R-	_	3	case	_	ref=62.3
+3	авимелеха	авимелехъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	1	obl	_	ref=62.3
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = лота ѿ содомлѧнъ
+# sent_id = 141021
+1	лота	лотъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	0	root	_	ref=62.3
+2	ѿ	отъ	ADP	R-	_	3	case	_	ref=62.3
+3	содомлѧнъ	содомлянинъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	1	obl	_	ref=62.3
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = моисѣя ѿ фараѡна
+# sent_id = 141020
+1	моисѣя	моисеи	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	0	root	_	ref=62.3
+2	ѿ	отъ	ADP	R-	_	3	case	_	ref=62.4
+3	фараѡна	фараонъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	1	obl	_	ref=62.4
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = двда ѿ саоула.
+# sent_id = 141019
+1	двда	давыдъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	0	root	_	ref=62.4
+2	ѿ	отъ	ADP	R-	_	3	case	_	ref=62.4
+3	саоула.	саулъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	1	obl	_	ref=62.4
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = г҃ ѡтроци ѿ пещи
+# sent_id = 141024
+1	г҃	трие	NUM	Ma	_	2	nummod	_	ref=62.4
+2	ѡтроци	отрокъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	ref=62.4
+3	ѿ	отъ	ADP	R-	_	4	case	_	ref=62.5
+4	пещи	пещь	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	2	obl	_	ref=62.5
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = данила ѿ звѣрии
+# sent_id = 141017
+1	данила	данилъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	0	root	_	ref=62.5
+2	ѿ	отъ	ADP	R-	_	3	case	_	ref=62.5
+3	звѣрии	звѣрь	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	1	obl	_	ref=62.5
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = тако и тѧ избавить ѿ неприязни и ѿ сѣтии его
+# sent_id = 125581
+1	тако	тако	ADV	Df	_	4	advmod	_	ref=62.5
+2	и	и	ADV	Df	_	3	advmod	_	ref=62.5
+3	тѧ	ты	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=2|PronType=Prs	4	obj	_	ref=62.5
+4	избавить	избавити	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=62.5
+5	ѿ	отъ	ADP	R-	_	6	case	_	ref=62.6
+6	неприязни	неприязнь	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	ref=62.6
+7	и	и	CCONJ	C-	_	6	cc	_	ref=62.6
+8	ѿ	отъ	ADP	R-	_	9	case	_	ref=62.6
+9	сѣтии	сѣть	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	6	conj	_	ref=62.6
+10	его	и	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	det	_	ref=62.6
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = блвси ю патреархъ
+# sent_id = 125584
+1	блвси	благословити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=62.6
+2	ю	и	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obj	_	ref=62.6
+3	патреархъ	патриархъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	ref=62.7
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и иде с миромъ въ свою зелмю
+# sent_id = 125585
+1	и	и	CCONJ	C-	_	2	cc	_	ref=62.7
+2	иде	ити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=62.7
+3	с	съ	ADP	R-	_	4	case	_	ref=62.7
+4	миромъ	миръ	NOUN	Nb	Case=Ins|Gender=Masc|Number=Sing	2	obl	_	ref=62.7
+5	въ	въ	ADP	R-	_	7	case	_	ref=62.7
+6	свою	свои	ADJ	Pt	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	7	nmod	_	ref=62.7
+7	зелмю	земля	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	ref=62.7
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и приде киеву
+# sent_id = 125586
+1	и	и	CCONJ	C-	_	2	cc	_	ref=62.7
+2	приде	приити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=62.8
+3	киеву	кыевъ	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	2	iobj	_	ref=62.8
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = се же быс якоже при соломанѣ
+# sent_id = 125587
+1	се	сии	ADJ	Pd	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	ref=62.8
+2	же	же	ADV	Df	_	3	discourse	_	ref=62.8
+3	быс	быти	AUX	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=62.8
+4	якоже	якоже	ADV	Df	_	3	advmod	_	ref=62.8
+5	при	при	ADP	R-	_	6	case	_	ref=62.8
+6	соломанѣ	соломонъ	PROPN	Ne	Case=Loc|Gender=Masc|Number=Sing	4	obl	_	ref=62.8
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = приде цр҃ца ефиѡпьская к соломану слышати хотѧщи прм҃дрти соломани
+# sent_id = 125588
+1	приде	приити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=62.9
+2	цр҃ца	цѣсарица	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	ref=62.9
+3	ефиѡпьская	ефиопьскыи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Strength=Weak	2	amod	_	ref=62.9
+4	к	къ	ADP	R-	_	5	case	_	ref=62.9
+5	соломану	соломонъ	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	ref=62.9
+6	слышати	слышати	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	7	xcomp	_	ref=62.10
+7	хотѧщи	хотѣти	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|Strength=Strong|Tense=Pres|VerbForm=Part|Voice=Act	1	advcl	_	ref=62.10
+8	прм҃дрти	прѣмудрость	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	6	iobj	_	ref=62.10
+9	соломани	соломоныи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Strength=Strong	8	amod	_	ref=62.10
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и многу мдсрть видѣ и знамѧнья
+# sent_id = 125590
+1	и	и	CCONJ	C-	_	4	cc	_	ref=62.10
+2	многу	мъногыи	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Strength=Strong	3	amod	_	ref=62.11
+3	мдсрть	мудрость	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	ref=62.11
+4	видѣ	видѣти	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=62.11
+5	и	и	CCONJ	C-	_	3	cc	_	ref=62.11
+6	знамѧнья	знамение	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	3	conj	_	ref=62.11
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = тако же и си бл҃жная ѡльга искаше доброѣ мдсрти б҃жьи
+# sent_id = 141026
+1	тако	тако	ADV	Df	_	7	advmod	_	ref=62.11
+2	же	же	ADV	Df	_	1	discourse	_	ref=62.11
+3	и	и	ADV	Df	_	6	advmod	_	ref=62.11
+4	си	сии	DET	Pd	Case=Nom|Gender=Fem|Number=Sing	6	det	_	ref=62.11
+5	бл҃жная	блаженыи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Strength=Weak	6	amod	_	ref=62.12
+6	ѡльга	ольга	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	ref=62.12
+7	искаше	искати	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=62.12
+8	доброѣ	добрыи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Strength=Weak	9	amod	_	ref=62.12
+9	мдсрти	мудрость	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	7	iobj	_	ref=62.12
+10	б҃жьи	божии	ADJ	A-	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	ref=62.12
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = но ѡна члвсчки
+# sent_id = 125591
+1	но	нъ	CCONJ	C-	_	0	root	_	ref=62.13
+2	ѡна	онъ	ADJ	Pd	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	ref=62.13
+3	члвсчки	человѣчьскыи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Strength=Strong	1	obj	_	ref=62.13
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = а си б҃жья
+# sent_id = 125592
+1	а	а	CCONJ	C-	_	3	cc	_	ref=62.13
+2	си	сь	ADJ	Pd	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	ref=62.13
+3	б҃жья	божии	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Strength=Strong	0	root	_	ref=62.13
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = ищющи бо мдсрти ѡбрѧщють
+# sent_id = 125593
+1	ищющи	искати	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Strength=Strong|Tense=Pres|VerbForm=Part|Voice=Act	4	nsubj	_	ref=62.13
+2	бо	бо	ADV	Df	_	4	discourse	_	ref=62.13
+3	мдсрти	мудрость	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	1	iobj	_	ref=62.13
+4	ѡбрѧщють	обрѣсти	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=62.14
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = прмдрсть на исходищихъ поет сѧ
+# sent_id = 125594
+1	прмдрсть	прѣмудрость	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	ref=62.14
+2	на	на	ADP	R-	_	3	case	_	ref=62.14
+3	исходищихъ	исходити	VERB	V-	Case=Loc|Gender=Masc|Number=Plur|Strength=Strong|Tense=Pres|VerbForm=Part|Voice=Act	4	advcl	_	ref=62.14
+4	поет	пѣти	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=62.14
+5	сѧ	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	expl	_	ref=62.14
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = на путехъ же деръзновенье водить
+# sent_id = 125595
+1	на	на	ADP	R-	_	2	case	_	ref=62.15
+2	путехъ	путь	NOUN	Nb	Case=Loc|Gender=Masc|Number=Plur	5	obl	_	ref=62.15
+3	же	же	ADV	Df	_	5	discourse	_	ref=62.15
+4	деръзновенье	дьрзновение	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	ref=62.15
+5	водить	водити	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=62.15
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = на краихъ же забральныхъ проповѣдаеть
+# sent_id = 125596
+1	на	на	ADP	R-	_	2	case	_	ref=62.15
+2	краихъ	краи	NOUN	Nb	Case=Loc|Gender=Masc|Number=Plur	5	obl	_	ref=62.15
+3	же	же	ADV	Df	_	5	discourse	_	ref=62.16
+4	забральныхъ	забральныи	ADJ	A-	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|Strength=Weak	2	amod	_	ref=62.16
+5	проповѣдаеть	проповѣдати	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=62.16
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = во вратѣхъ же градныхъ дерзающи гл҃ть
+# sent_id = 125597
+1	во	въ	ADP	R-	_	2	case	_	ref=62.16
+2	вратѣхъ	врата	NOUN	Nb	Case=Loc|Gender=Neut|Number=Plur	6	obl	_	ref=62.16
+3	же	же	ADV	Df	_	6	discourse	_	ref=62.16
+4	градныхъ	градьныи	ADJ	A-	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur|Strength=Weak	2	amod	_	ref=62.17
+5	дерзающи	дьрзати	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|Strength=Strong|Tense=Pres|VerbForm=Part|Voice=Act	6	advcl	_	ref=62.17
+6	гл҃ть	глаголати	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=62.17
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = елико бо лѣтъ злобиви держат сѧ по правду
+# sent_id = 125599
+1	елико	елико	ADV	Dq	PronType=Rel	5	advmod	_	ref=62.17
+2	бо	бо	ADV	Df	_	5	discourse	_	ref=62.17
+3	лѣтъ	лѣто	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	ref=62.17
+4	злобиви	зълобивыи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Strength=Strong	5	nsubj	_	ref=62.17
+5	держат	дьржати	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=62.18
+6	сѧ	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	expl	_	ref=62.18
+7	по	по	ADP	R-	_	8	case	_	ref=62.18
+8	правду	правьда	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	ref=62.18
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = си бо ѿ възраста бл҃жная ѡльга искаше мдрстью
+# sent_id = 125600
+1	си	сии	DET	Pd	Case=Nom|Gender=Fem|Number=Sing	6	det	_	ref=62.18
+2	бо	бо	ADV	Df	_	7	discourse	_	ref=62.18
+3	ѿ	отъ	ADP	R-	_	4	case	_	ref=62.18
+4	възраста	възрастъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	ref=62.18
+5	бл҃жная	блаженыи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Strength=Weak	6	amod	_	ref=62.19
+6	ѡльга	ольга	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	ref=62.19
+7	искаше	искати	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=62.19
+8	мдрстью	мудрость	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	ref=62.19
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = все въ свѣтѣ семь
+# sent_id = 125602
+1	все	вьсь	ADJ	Px	Case=Acc|Gender=Neut|Number=Sing	0	root	_	ref=62.19
+2	въ	въ	ADP	R-	_	3	case	_	ref=62.19
+3	свѣтѣ	свѣтъ	NOUN	Nb	Case=Loc|Gender=Masc|Number=Sing	1	obl	_	ref=62.19
+4	семь	сии	DET	Pd	Case=Loc|Gender=Masc|Number=Sing	3	det	_	ref=62.20
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = налѣзе бисеръ многоцѣньныхъ еже есть хссъ
+# sent_id = 141031
+1	налѣзе	налѣзти	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=62.20
+2	бисеръ	бьсиръ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	1	obj	_	ref=62.20
+3	многоцѣньныхъ	мъногоцѣньныи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Strength=Weak	2	amod	_	ref=62.20
+4	еже	иже	PRON	Pr	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	6	nsubj	_	ref=62.20
+5	есть	быти	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	ref=62.21
+6	хссъ	христ(ос)ъ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	ref=62.21
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = реч бо соломанъ
+# sent_id = 125605
+1	реч	рещи	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=62.21
+2	бо	бо	ADV	Df	_	1	discourse	_	ref=62.21
+3	соломанъ	соломонъ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	ref=62.21
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = желанье блгв҃рнхъ наслаженьи д҃шю
+# sent_id = 141032
+1	желанье	желание	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	ref=62.21
+2	блгв҃рнхъ	благовѣрьныи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Strength=Weak	1	amod	_	ref=62.21
+3	наслаженьи	наслажение	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	0	root	_	ref=62.22
+4	д҃шю	душа	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	ref=62.22
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и приложиши въ ср҃це твое в разумъ
+# sent_id = 125607
+1	и	и	CCONJ	C-	_	2	cc	_	ref=62.22
+2	приложиши	приложити	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=62.22
+3	въ	въ	ADP	R-	_	4	case	_	ref=62.22
+4	ср҃це	сьрдьце	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	ref=62.22
+5	твое	твои	ADJ	Ps	Case=Acc|Gender=Neut|Number=Sing|Person=2|Poss=Yes	4	nmod	_	ref=62.22
+6	в	въ	ADP	R-	_	7	case	_	ref=62.23
+7	разумъ	разумъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	ref=62.23
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = азъ любѧщая мѧ люблю
+# sent_id = 141033
+1	азъ	азъ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	ref=62.23
+2	любѧщая	любити	VERB	V-	Case=Acc|Gender=Masc|Number=Plur|Strength=Weak|Tense=Pres|VerbForm=Part|Voice=Act	4	obj	_	ref=62.23
+3	мѧ	азъ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	2	obj	_	ref=62.23
+4	люблю	любити	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=62.23
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и ищющии мене ѡбрѧщють мѧ
+# sent_id = 125608
+1	и	и	CCONJ	C-	_	4	cc	_	ref=62.23
+2	ищющии	искати	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Strength=Weak|Tense=Pres|VerbForm=Part|Voice=Act	4	nsubj	_	ref=62.23
+3	мене	азъ	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs	2	iobj	_	ref=62.24
+4	ѡбрѧщють	обрѣсти	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=62.24
+5	мѧ	азъ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	obj	_	ref=62.24
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = гсь реч
+# sent_id = 125609
+1	гсь	господь	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	ref=62.24
+2	реч	рещи	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=62.24
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = приходѧщая ко мнѣ не иженуть вонъ
+# sent_id = 141034
+1	приходѧщая	приходити	VERB	V-	Case=Acc|Gender=Masc|Number=Plur|Strength=Weak|Tense=Pres|VerbForm=Part|Voice=Act	5	obj	_	ref=62.24
+2	ко	къ	ADP	R-	_	3	case	_	ref=62.25
+3	мнѣ	азъ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	1	obl	_	ref=62.25
+4	не	не	ADV	Df	Polarity=Neg	5	advmod	_	ref=62.25
+5	иженуть	изгънати	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=62.25
+6	вонъ	вънъ	ADV	Df	_	5	advmod	_	ref=62.25
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = си же ѡльга приде киеву
+# sent_id = 125610
+1	си	сии	DET	Pd	Case=Nom|Gender=Fem|Number=Sing	3	det	_	ref=62.26
+2	же	же	ADV	Df	_	4	discourse	_	ref=62.26
+3	ѡльга	ольга	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	ref=62.26
+4	приде	приити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=62.26
+5	киеву	кыевъ	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	4	iobj	_	ref=62.26
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и присла к неи ц҃рь гречьскии гл҃ѧ яко
+# sent_id = 141035
+1	и	и	CCONJ	C-	_	2	cc	_	ref=62.26
+2	присла	присълати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=62.26
+3	к	къ	ADP	R-	_	4	case	_	ref=62.26
+4	неи	и	PRON	Pp	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obl	_	ref=62.26
+5	ц҃рь	цѣсарь	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	ref=62.27
+6	гречьскии	грьчьскыи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Strength=Weak	5	amod	_	ref=62.27
+7	гл҃ѧ	глаголати	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Strength=Strong|Tense=Pres|VerbForm=Part|Voice=Act	2	advcl	_	ref=62.27
+8	яко	яко	SCONJ	G-	_	7	ccomp	_	ref=62.27
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = много дарихъ тѧ
+# sent_id = 141036
+1	много	мъногыи	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Strength=Strong	2	obj	_	ref=62.27
+2	дарихъ	дарити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=62.27
+3	тѧ	ты	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=2|PronType=Prs	2	obj	_	ref=62.27
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = ты бо гл҃ше ко мнѣ яко
+# sent_id = 125612
+1	ты	ты	PRON	Pp	Case=Nom|Gender=Fem|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	ref=62.27
+2	бо	бо	ADV	Df	_	3	discourse	_	ref=62.28
+3	гл҃ше	глаголати	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=62.28
+4	ко	къ	ADP	R-	_	5	case	_	ref=62.28
+5	мнѣ	азъ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	3	obl	_	ref=62.28
+6	яко	яко	SCONJ	G-	_	3	ccomp	_	ref=62.28
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = аще возъвращю сѧ в русь многи дары прислю ти челѧдь воскъ и скъру и вои в помощь
+# sent_id = 141037
+1	аще	аще	SCONJ	G-	_	2	mark	_	ref=62.28
+2	возъвращю	възвратити	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	ref=62.28
+3	сѧ	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	expl	_	ref=62.28
+4	в	въ	ADP	R-	_	5	case	_	ref=62.28
+5	русь	русь	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	ref=62.28
+6	многи	мъногыи	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Strength=Strong	7	amod	_	ref=62.29
+7	дары	даръ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	ref=62.29
+8	прислю	присълати	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=62.29
+9	ти	ты	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	8	iobj	_	ref=62.29
+10	челѧдь	челядь	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	7	appos	_	ref=62.29
+11	воскъ	воскъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	10	conj	_	ref=62.29
+12	и	и	CCONJ	C-	_	10	cc	_	ref=62.29
+13	скъру	скора	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	10	conj	_	ref=62.29
+14	и	и	CCONJ	C-	_	10	cc	_	ref=63.1
+15	вои	вои	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	10	conj	_	ref=63.1
+16	в	въ	ADP	R-	_	17	case	_	ref=63.1
+17	помощь	помощь	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	ref=63.1
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = ѿвѣщавши ѡльга и реч къ сломъ
+# sent_id = 125617
+1	ѿвѣщавши	отъвѣщати	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Act	4	advcl	_	ref=63.1
+2	ѡльга	ольга	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	ref=63.1
+3	и	и	CCONJ	C-	_	4	cc	_	ref=63.1
+4	реч	рещи	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=63.1
+5	къ	къ	ADP	R-	_	6	case	_	ref=63.2
+6	сломъ	сълъ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	ref=63.2
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = аще ты рьци такоже постоиши оу мене в почаинѣ якоже азъ в сюду то тогда ти дамь
+# sent_id = 125618
+1	аще	аще	SCONJ	G-	_	5	mark	_	ref=63.2
+2	ты	ты	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	ref=63.2
+3	рьци	рещи	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	17	parataxis	_	ref=63.2
+4	такоже	такоже	ADV	Df	_	5	advmod	_	ref=63.2
+5	постоиши	постояти	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	17	dislocated	_	ref=63.2
+6	оу	у	ADP	R-	_	7	case	_	ref=63.2
+7	мене	азъ	PRON	Pp	Case=Gen|Gender=Fem|Number=Sing|Person=1|PronType=Prs	5	obl	_	ref=63.3
+8	в	въ	ADP	R-	_	9	case	_	ref=63.3
+9	почаинѣ	почаина	PROPN	Ne	Case=Loc|Gender=Fem|Number=Sing	7	appos	_	ref=63.3
+10	якоже	якоже	ADV	Dq	PronType=Rel	11	orphan	_	ref=63.3
+11	азъ	азъ	PRON	Pp	Case=Nom|Gender=Fem|Number=Sing|Person=1|PronType=Prs	4	appos	_	ref=63.3
+12	в	въ	ADP	R-	_	13	case	_	ref=63.3
+13	сюду	судъ	NOUN	Nb	Case=Loc|Gender=Masc|Number=Sing	11	orphan	_	ref=63.3|LId=2
+14	то	то	ADV	Df	_	17	advmod	_	ref=63.3
+15	тогда	тъгда	ADV	Df	_	17	advmod	_	ref=63.3
+16	ти	ты	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	17	iobj	_	ref=63.4
+17	дамь	дати	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=63.4
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и ѿпусти слы съ рекъши
+# sent_id = 125619
+1	и	и	CCONJ	C-	_	2	cc	_	ref=63.4
+2	ѿпусти	отъпустити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=63.4
+3	слы	сълъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	ref=63.4
+4	съ	сь	ADJ	Pd	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	ref=63.4
+5	рекъши	рещи	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Act	2	advcl	_	ref=63.4
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = живѧше же ѡльга съ с҃нмъ своимъ с҃тославомъ
+# sent_id = 125620
+1	живѧше	жити	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=63.4
+2	же	же	ADV	Df	_	1	discourse	_	ref=63.5
+3	ѡльга	ольга	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	ref=63.5
+4	съ	съ	ADP	R-	_	5	case	_	ref=63.5
+5	с҃нмъ	сынъ	NOUN	Nb	Case=Ins|Gender=Masc|Number=Sing	1	obl	_	ref=63.5
+6	своимъ	свои	ADJ	Pt	Case=Ins|Gender=Masc|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	5	nmod	_	ref=63.5
+7	с҃тославомъ	святославъ	PROPN	Ne	Case=Ins|Gender=Masc|Number=Sing	5	appos	_	ref=63.5
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и оучашеть и м҃ти крстит сиѧ
+# sent_id = 125621
+1	и	и	CCONJ	C-	_	2	cc	_	ref=63.5
+2	оучашеть	учити	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=63.5
+3	и	и	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	ref=63.6
+4	м҃ти	мати	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	ref=63.6
+5	крстит	крьстити	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	2	xcomp	_	ref=63.6
+6	сиѧ	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	expl	_	ref=63.6
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и не бѣжаше того
+# sent_id = 125622
+1	и	и	CCONJ	C-	_	2	cc	_	ref=63.6
+2	не	небрѣщи	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=63.6
+3	бѣжаше	бѣжаше	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	flat	_	ref=63.6
+4	того	тыи	ADJ	Pd	Case=Gen|Gender=Neut|Number=Sing	2	obj	_	ref=63.6
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = ни оуши приимати
+# sent_id = 160157
+1	ни	ни	CCONJ	C-	_	3	cc	_	ref=63.6
+2	оуши	ухо	NOUN	Nb	Case=Ins|Gender=Neut|Number=Dual	3	obl	_	ref=63.7
+3	приимати	приимати	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	0	root	_	ref=63.7
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = но аще кто хотѧше крстити сѧ не бранѧху но ругаху сѧ тому
+# sent_id = 125623
+1	но	нъ	CCONJ	C-	_	8	cc	_	ref=63.7
+2	аще	аще	SCONJ	G-	_	4	mark	_	ref=63.7
+3	кто	къто	ADJ	Px	Case=Nom|Number=Sing	4	nsubj	_	ref=63.7
+4	хотѧше	хотѣти	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	ref=63.7
+5	крстити	крьстити	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	4	xcomp	_	ref=63.7
+6	сѧ	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	expl	_	ref=63.7
+7	не	не	ADV	Df	Polarity=Neg	8	advmod	_	ref=63.8
+8	бранѧху	бранити	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=63.8
+9	но	нъ	CCONJ	C-	_	8	cc	_	ref=63.8
+10	ругаху	ругати	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	ref=63.8
+11	сѧ	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	expl	_	ref=63.8
+12	тому	тыи	ADJ	Pd	Case=Dat|Gender=Masc|Number=Sing	10	iobj	_	ref=63.8
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = невѣрнымъ бо вѣра хреяньска оуродьство есть
+# sent_id = 141041
+1	невѣрнымъ	невѣрьныи	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|Strength=Weak	5	advmod	_	ref=63.8
+2	бо	бо	ADV	Df	_	5	discourse	_	ref=63.9
+3	вѣра	вѣра	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	ref=63.9
+4	хреяньска	хрьстияньскыи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Strength=Strong	3	amod	_	ref=63.9
+5	оуродьство	уродьство	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	ref=63.9
+6	есть	быти	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	ref=63.9
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = не смыслиша бо ни разумѣша во тьмѣ ходѧщии
+# sent_id = 125624
+1	не	не	ADV	Df	Polarity=Neg	2	advmod	_	ref=63.9
+2	смыслиша	съмыслити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=63.9
+3	бо	бо	ADV	Df	_	2	discourse	_	ref=63.10
+4	ни	ни	CCONJ	C-	_	2	cc	_	ref=63.10
+5	разумѣша	разумѣти	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	ref=63.10
+6	во	въ	ADP	R-	_	7	case	_	ref=63.10
+7	тьмѣ	тьма	NOUN	Nb	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	ref=63.10
+8	ходѧщии	ходити	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Strength=Weak|Tense=Pres|VerbForm=Part|Voice=Act	2	nsubj	_	ref=63.10
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и не вѣдѧть славы гнсѧ
+# sent_id = 125625
+1	и	и	CCONJ	C-	_	3	cc	_	ref=63.10
+2	не	не	ADV	Df	Polarity=Neg	3	advmod	_	ref=63.10
+3	вѣдѧть	вѣдѣти	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=63.11
+4	славы	слава	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	3	obj	_	ref=63.11
+5	гнсѧ	господьнь	ADJ	A-	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Strength=Strong	4	amod	_	ref=63.11
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = ѡдобьлѣша бо ср҃ца ихъ
+# sent_id = 141042
+1	ѡдобьлѣша	одебелѣти	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=63.11
+2	бо	бо	ADV	Df	_	1	discourse	_	ref=63.11
+3	ср҃ца	сьрдьце	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	1	nsubj	_	ref=63.11
+4	ихъ	и	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	det	_	ref=63.11
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = оушима тѧжько слышати ѡчима видѣти
+# sent_id = 125626
+1	оушима	ухо	NOUN	Nb	Case=Ins|Gender=Neut|Number=Dual	3	obl	_	ref=63.12
+2	тѧжько	тяжько	ADV	Df	_	0	root	_	ref=63.12
+3	слышати	слышати	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	2	ccomp	_	ref=63.12
+4	ѡчима	око	NOUN	Nb	Case=Ins|Gender=Neut|Number=Dual	5	obl	_	ref=63.12
+5	видѣти	видѣти	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	3	conj	_	ref=63.12
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = реч бо соломанъ
+# sent_id = 125627
+1	реч	рещи	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=63.13
+2	бо	бо	ADV	Df	_	1	discourse	_	ref=63.13
+3	соломанъ	соломонъ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	ref=63.13
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = дѣлатели нечстивыхъ дѣлатель ѿ разума
+# sent_id = 141043
+1	дѣлатели	дѣлатель	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	ref=63.13
+2	нечстивыхъ	нечьстивыи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Strength=Weak	3	amod	_	ref=63.13
+3	дѣлатель	дѣлатель	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	ref=63.13
+4	ѿ	отъ	ADP	R-	_	5	case	_	ref=63.14
+5	разума	разумъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	0	root	_	ref=63.14
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = понеже звахъ вы и не послушасте мене прострохъ словеса
+# sent_id = 141044
+1	понеже	понеже	SCONJ	G-	_	2	mark	_	ref=63.14
+2	звахъ	зъвати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	ref=63.14
+3	вы	вы	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=2|PronType=Prs	2	obj	_	ref=63.14
+4	и	и	CCONJ	C-	_	2	cc	_	ref=63.14
+5	не	не	ADV	Df	Polarity=Neg	6	advmod	_	ref=63.14
+6	послушасте	послушати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	ref=63.14
+7	мене	азъ	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs	6	dep	_	ref=63.15
+8	прострохъ	прострѣти	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=63.15
+9	словеса	слово	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	ref=63.15
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и не внимасте
+# sent_id = 141046
+1	и	и	CCONJ	C-	_	3	cc	_	ref=63.15
+2	не	не	ADV	Df	Polarity=Neg	3	advmod	_	ref=63.15
+3	внимасте	вънимати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=63.15
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = но ѿмѣтасте моя свѣты
+# sent_id = 125629
+1	но	нъ	CCONJ	C-	_	2	cc	_	ref=63.15
+2	ѿмѣтасте	отъмѣтати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=63.15
+3	моя	мои	ADJ	Ps	Case=Acc|Gender=Masc|Number=Plur|Person=1|Poss=Yes	4	nmod	_	ref=63.16
+4	свѣты	съвѣтъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	ref=63.16
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = моихъ же ѡбличении не внимасте
+# sent_id = 125630
+1	моихъ	мои	ADJ	Ps	Case=Gen|Gender=Neut|Number=Plur|Person=1|Poss=Yes	3	nmod	_	ref=63.16
+2	же	же	ADV	Df	_	5	discourse	_	ref=63.16
+3	ѡбличении	обличение	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	5	obj	_	ref=63.16
+4	не	не	ADV	Df	Polarity=Neg	5	advmod	_	ref=63.16
+5	внимасте	вънимати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=63.16
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = възненавидѣша бо прмдрсть
+# sent_id = 125631
+1	възненавидѣша	възненавидѣти	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=63.17
+2	бо	бо	ADV	Df	_	1	discourse	_	ref=63.17
+3	прмдрсть	прѣмудрость	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	ref=63.17
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = а страха гснѧ не изволиша ни хотѧху моихъ внимати свѣтъ
+# sent_id = 125632
+1	а	а	CCONJ	C-	_	5	cc	_	ref=63.17
+2	страха	страхъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	5	obj	_	ref=63.17
+3	гснѧ	господьнь	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Strength=Strong	2	nmod	_	ref=63.17
+4	не	не	ADV	Df	Polarity=Neg	5	advmod	_	ref=63.18
+5	изволиша	изволити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=63.18
+6	ни	ни	CCONJ	C-	_	5	cc	_	ref=63.18
+7	хотѧху	хотѣти	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	ref=63.18
+8	моихъ	мои	ADJ	Ps	Case=Gen|Gender=Masc|Number=Plur|Person=1|Poss=Yes	10	nmod	_	ref=63.18
+9	внимати	вънимати	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	7	xcomp	_	ref=63.18
+10	свѣтъ	съвѣтъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	9	obj	_	ref=63.18
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = подражаху же мои ѡбличенья
+# sent_id = 125634
+1	подражаху	подражати	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=63.19
+2	же	же	ADV	Df	_	1	discourse	_	ref=63.19
+3	мои	мои	ADJ	Ps	Case=Acc|Gender=Neut|Number=Plur|Person=1|Poss=Yes	4	nmod	_	ref=63.19
+4	ѡбличенья	обличение	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	1	obj	_	ref=63.19
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = якоже бо ѡльга часто га҃шеть
+# sent_id = 125635
+1	якоже	якоже	ADV	Dq	PronType=Rel	5	advmod	_	ref=63.19
+2	бо	бо	ADV	Df	_	0	root	_	ref=63.19
+3	ѡльга	ольга	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	ref=63.20
+4	часто	часто	ADV	Df	_	5	advmod	_	ref=63.20
+5	га҃шеть	глаголати	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	ref=63.20
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = азъ с҃ну мои б҃а познахъ
+# sent_id = 125636
+1	азъ	азъ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	ref=63.20
+2	с҃ну	сынъ	NOUN	Nb	Case=Voc|Gender=Masc|Number=Sing	5	vocative	_	ref=63.20
+3	мои	мои	ADJ	Ps	Case=Voc|Gender=Masc|Number=Sing|Person=1|Poss=Yes	2	nmod	_	ref=63.20
+4	б҃а	богъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	5	obj	_	ref=63.20
+5	познахъ	познати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=63.20
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и радую сѧ
+# sent_id = 141047
+1	и	и	CCONJ	C-	_	2	cc	_	ref=63.21
+2	радую	радовати	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=63.21
+3	сѧ	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	expl	_	ref=63.21
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = аще ты познаеши и радовати сѧ почнешь
+# sent_id = 160172
+1	аще	аще	SCONJ	G-	_	3	mark	_	ref=63.21
+2	ты	ты	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	ref=63.21
+3	познаеши	познати	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	ref=63.21
+4	и	и	CCONJ	C-	_	5	cc	_	ref=63.21
+5	радовати	радовати	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	7	xcomp	_	ref=63.21
+6	сѧ	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	expl	_	ref=63.21
+7	почнешь	почати	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=63.22
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = ѡнъ же не внимаше того г҃лѧ
+# sent_id = 125638
+1	ѡнъ	онъ	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ref=63.22
+2	же	же	ADV	Df	_	4	discourse	_	ref=63.22
+3	не	не	ADV	Df	Polarity=Neg	4	advmod	_	ref=63.22
+4	внимаше	вънимати	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=63.22
+5	того	тыи	ADJ	Pd	Case=Gen|Gender=Neut|Number=Sing	4	obj	_	ref=63.22
+6	г҃лѧ	глаголати	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Strength=Strong|Tense=Pres|VerbForm=Part|Voice=Act	4	advcl	_	ref=63.22
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = како азъ хочю инъ законъ прияти единъ
+# sent_id = 125639
+1	како	како	ADV	Du	PronType=Int	3	advmod	_	ref=63.23
+2	азъ	азъ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	ref=63.23
+3	хочю	хотѣти	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=63.23
+4	инъ	иныи	DET	Px	Case=Acc|Gender=Masc|Number=Sing	5	det	_	ref=63.23
+5	законъ	законъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	ref=63.23
+6	прияти	прияти	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	3	xcomp	_	ref=63.23
+7	единъ	единъ	NUM	Ma	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	ref=63.23
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = а дружина сему смѣяти сѧ начнуть
+# sent_id = 125640
+1	а	а	CCONJ	C-	_	6	cc	_	ref=63.23
+2	дружина	дружина	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	ref=63.23
+3	сему	сь	ADJ	Pd	Case=Dat|Gender=Neut|Number=Sing	4	iobj	_	ref=63.24
+4	смѣяти	смѣяти	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	6	xcomp	_	ref=63.24
+5	сѧ	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	expl	_	ref=63.24
+6	начнуть	начати	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=63.24
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = ѡна же нарече ему
+# sent_id = 125641
+1	ѡна	онъ	ADJ	Pd	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	ref=63.24
+2	же	же	ADV	Df	_	3	discourse	_	ref=63.24
+3	нарече	нарещи	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=63.25
+4	ему	и	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	ref=63.25
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = аще ты кртсиши сѧ вси имуть тоже створити
+# sent_id = 141055
+1	аще	аще	SCONJ	G-	_	3	mark	_	ref=63.25
+2	ты	ты	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	ref=63.25
+3	кртсиши	крьстити	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	ref=63.25
+4	сѧ	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	expl	_	ref=63.25
+5	вси	вьсь	ADJ	Px	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	ref=63.25
+6	имуть	имѣти	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=63.25
+7	тоже	тыиже	ADJ	Pd	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	ref=63.25
+8	створити	сътворити	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	6	xcomp	_	ref=63.26
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = ѡн же не послуша мт҃ре
+# sent_id = 125642
+1	ѡн	онъ	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ref=63.26
+2	же	же	ADV	Df	_	4	discourse	_	ref=63.26
+3	не	не	ADV	Df	Polarity=Neg	4	advmod	_	ref=63.26
+4	послуша	послушати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=63.26
+5	мт҃ре	мати	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	4	dep	_	ref=63.26
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = творѧше норовы поганьския не вѣдыи аще кто мрте не послушаеть в бѣду впадаеть
+# sent_id = 141057
+1	творѧше	творити	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=63.26
+2	норовы	норовъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	ref=63.27
+3	поганьския	поганьскыи	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Strength=Weak	2	amod	_	ref=63.27
+4	не	не	ADV	Df	Polarity=Neg	5	advmod	_	ref=63.27
+5	вѣдыи	вѣдѣти	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Strength=Weak|Tense=Pres|VerbForm=Part|Voice=Act	1	advcl	_	ref=63.27
+6	аще	аще	SCONJ	G-	_	10	mark	_	ref=63.27
+7	кто	къто	ADJ	Px	Case=Nom|Number=Sing	10	nsubj	_	ref=63.27
+8	мрте	мати	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	10	dep	_	ref=63.27
+9	не	не	ADV	Df	Polarity=Neg	10	advmod	_	ref=63.28
+10	послушаеть	послушати	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	ref=63.28
+11	в	въ	ADP	R-	_	12	case	_	ref=63.28
+12	бѣду	бѣда	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	ref=63.28
+13	впадаеть	въпадати	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	ccomp	_	ref=63.28
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = якоже реч
+# sent_id = 157682
+1	якоже	якоже	ADV	Dq	PronType=Rel	2	advmod	_	ref=63.28
+2	реч	рещи	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=63.28
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = аще кто ѿца ли мт҃ре не послушаеть но см҃рть прииметь
+# sent_id = 125646
+1	аще	аще	SCONJ	G-	_	7	mark	_	ref=63.29
+2	кто	къто	ADJ	Px	Case=Nom|Number=Sing	7	nsubj	_	ref=63.29
+3	ѿца	отьць	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	7	dep	_	ref=63.29
+4	ли	ли	CCONJ	C-	_	3	cc	_	ref=63.29
+5	мт҃ре	мати	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	3	conj	_	ref=63.29
+6	не	не	ADV	Df	Polarity=Neg	7	advmod	_	ref=63.29
+7	послушаеть	послушати	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	ref=63.29
+8	но	нъ	CCONJ	C-	_	10	cc	_	ref=63.29
+9	см҃рть	съмьрть	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	ref=64.1
+10	прииметь	прияти	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=64.1
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = се же к тому гнѣваше сѧ на мт҃рь
+# sent_id = 125648
+1	се	се	INTJ	I-	_	5	vocative	_	ref=64.1
+2	же	же	ADV	Df	_	5	discourse	_	ref=64.1
+3	к	къ	ADP	R-	_	4	case	_	ref=64.1
+4	тому	тыи	ADJ	Pd	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	ref=64.1
+5	гнѣваше	гнѣвати	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=64.1
+6	сѧ	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	expl	_	ref=64.1
+7	на	на	ADP	R-	_	8	case	_	ref=64.1
+8	мт҃рь	мати	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	ref=64.2
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = соломанъ бо реч
+# sent_id = 125649
+1	соломанъ	соломонъ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	ref=64.2
+2	бо	бо	ADV	Df	_	3	discourse	_	ref=64.2
+3	реч	рещи	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=64.2
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = кака и злыя приемлеть собѣ досаженье
+# sent_id = 141061
+1	кака	какыи	PRON	Pi	Case=Acc|Gender=Neut|Number=Plur|PronType=Int	3	det	_	ref=64.2
+2	и	и	ADV	Df	_	3	advmod	_	ref=64.2
+3	злыя	зълыи	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Strength=Weak	4	nsubj	_	ref=64.2
+4	приемлеть	приимати	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=64.2
+5	собѣ	себе	PRON	Pk	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obl	_	ref=64.3
+6	досаженье	досажение	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	ref=64.3
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = ѡбличая нчств поречеть тобе
+# sent_id = 141060
+1	ѡбличая	обличати	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Strength=Strong|Tense=Pres|VerbForm=Part|Voice=Act	3	nsubj	_	ref=64.3
+2	нчств	нечьстивыи	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Strength=Strong	1	obj	_	ref=64.3
+3	поречеть	поречи	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=64.3
+4	тобе	ты	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	iobj	_	ref=64.4
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = ѡбличенья бо нечствмъ мзолье суть
+# sent_id = 125651
+1	ѡбличенья	обличение	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	ref=64.4
+2	бо	бо	ADV	Df	_	4	discourse	_	ref=64.4
+3	нечствмъ	нечьстивыи	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|Strength=Weak	1	amod	_	ref=64.4
+4	мзолье	мозоль	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	ref=64.4
+5	суть	быти	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	ref=64.5
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = не ѡбычаи злыхъ да не възненавидить тебе
+# sent_id = 125652
+1	не	не	ADV	Df	Polarity=Neg	2	advmod	_	ref=64.5
+2	ѡбычаи	обличати	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=64.5
+3	злыхъ	зълыи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Strength=Weak	2	obj	_	ref=64.5
+4	да	да	SCONJ	G-	_	6	mark	_	ref=64.5
+5	не	не	ADV	Df	Polarity=Neg	6	advmod	_	ref=64.5
+6	възненавидить	възненавидѣти	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	ref=64.5
+7	тебе	ты	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	6	obj	_	ref=64.6
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = но ѡбаче любѧше ѡльга с҃на своего с҃тослава рькущи
+# sent_id = 125653
+1	но	нъ	CCONJ	C-	_	3	cc	_	ref=64.6
+2	ѡбаче	обаче	ADV	Df	_	3	advmod	_	ref=64.6
+3	любѧше	любити	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=64.6
+4	ѡльга	ольга	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	ref=64.6
+5	с҃на	сынъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	3	obj	_	ref=64.6
+6	своего	свои	ADJ	Pt	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	5	nmod	_	ref=64.6
+7	с҃тослава	святославъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	5	appos	_	ref=64.7
+8	рькущи	рещи	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|Strength=Strong|Tense=Pres|VerbForm=Part|Voice=Act	3	advcl	_	ref=64.7
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = волѧ б҃жья да будеть
+# sent_id = 141062
+1	волѧ	воля	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	ref=64.7
+2	б҃жья	божии	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Strength=Strong	1	amod	_	ref=64.7
+3	да	да	ADV	Df	_	4	advmod	_	ref=64.7|LId=1
+4	будеть	быти	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	ref=64.7
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = аще б҃ъ хощеть помиловати род моего и землѣ рускиѣ да възложить имъ н ср҃це ѡбратити с къ б҃у якоже и мнѣ б҃ъ дарова
+# sent_id = 125655
+1	аще	аще	SCONJ	G-	_	3	mark	_	ref=64.7
+2	б҃ъ	богъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	ref=64.8
+3	хощеть	хотѣти	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	ref=64.8
+4	помиловати	помиловати	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	3	xcomp	_	ref=64.8
+5	род	родъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	ref=64.8
+6	моего	мои	ADJ	Ps	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes	5	nmod	_	ref=64.8
+7	и	и	CCONJ	C-	_	5	cc	_	ref=64.8
+8	землѣ	земля	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	5	conj	_	ref=64.8
+9	рускиѣ	русьскыи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Strength=Weak	8	amod	_	ref=64.8
+10	да	да	ADV	Df	_	11	advmod	_	ref=64.9|LId=1
+11	възложить	възложити	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=64.9
+12	имъ	и	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	det	_	ref=64.9
+13	н	на	ADP	R-	_	14	case	_	ref=64.9
+14	ср҃це	сьрдьце	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	ref=64.9
+15	ѡбратити	обратити	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	11	xcomp	_	ref=64.9
+16	с	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	15	expl	_	ref=64.9
+17	къ	къ	ADP	R-	_	18	case	_	ref=64.9
+18	б҃у	богъ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	ref=64.10
+19	якоже	якоже	ADV	Dq	PronType=Rel	23	advmod	_	ref=64.10
+20	и	и	ADV	Df	_	21	advmod	_	ref=64.10
+21	мнѣ	азъ	PRON	Pp	Case=Dat|Gender=Fem|Number=Sing|Person=1|PronType=Prs	23	iobj	_	ref=64.10
+22	б҃ъ	богъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	ref=64.10
+23	дарова	даровати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	advcl	_	ref=64.10
+
+# source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
+# text = и се рекши молѧше сѧ за с҃на и за люди по всѧ нощи и д҃ни кормѧщи с҃на своего до мужьства его и до взрас та его
+# sent_id = 125658
+1	и	и	CCONJ	C-	_	4	cc	_	ref=64.10
+2	се	сии	ADJ	Pd	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	ref=64.10
+3	рекши	рещи	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Act	4	advcl	_	ref=64.10
+4	молѧше	молити	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=64.10
+5	сѧ	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	expl	_	ref=64.10
+6	за	за	ADP	R-	_	7	case	_	ref=64.11
+7	с҃на	сынъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	ref=64.11
+8	и	и	CCONJ	C-	_	7	cc	_	ref=64.11
+9	за	за	ADP	R-	_	10	case	_	ref=64.11
+10	люди	людие	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	7	conj	_	ref=64.11
+11	по	по	ADP	R-	_	13	case	_	ref=64.11
+12	всѧ	вьсь	DET	Px	Case=Acc|Gender=Masc|Number=Plur	13	det	_	ref=64.11
+13	нощи	нощь	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	4	obl	_	ref=64.11
+14	и	и	CCONJ	C-	_	13	cc	_	ref=64.11
+15	д҃ни	дьнь	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	13	conj	_	ref=64.11
+16	кормѧщи	кърмити	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|Strength=Strong|Tense=Pres|VerbForm=Part|Voice=Act	4	advcl	_	ref=64.12
+17	с҃на	сынъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	16	obj	_	ref=64.12
+18	своего	свои	ADJ	Pt	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	17	nmod	_	ref=64.12
+19	до	до	ADP	R-	_	20	case	_	ref=64.12
+20	мужьства	мужьство	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	16	obl	_	ref=64.12
+21	его	и	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	det	_	ref=64.12
+22	и	и	CCONJ	C-	_	20	cc	_	ref=64.12
+23	до	до	ADP	R-	_	24	case	_	ref=64.12
+24	взрас	възрастъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	20	conj	_	ref=64.13
+25	та	та	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	24	flat	_	ref=64.13
+26	его	и	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	det	_	ref=64.13
+
 # source = The Suzdal Chronicle, Codex Laurentianus, 6657
 # text = В лѣт ѕ҃ х҃ н҃ з Иде изѧславъ новугороду ис кыѥва в помочь новгородцем на гюргѧ а воем повелѣ по собѣ ити
 # sent_id = 207868
