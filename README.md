@@ -8,9 +8,9 @@ UD-Old-Russian-TOROT is a conversion of a selection of the Old East Slavonic and
 
 # Data splits
 
-The test set consists of Afanasij Nikitin 5; birchbark letters 497, 502 and 902; Russkaja pravda 1-6; Novgorod First Chronicle (Synodal ms.), entries for 6642-6646; Primary Chronicle (Laurentian ms.), Introduction and the entry for 6463; Suzdal Chronicle (Laurentian ms.), entry for 6657; Zadonshchina; Tale of the Fall of Constantinople, chapters 1-2; Uspenskij sbornik, Life of Feodosij Pečerskij 26. 
+The test set consists of Afanasij Nikitin 5 and 19; birchbark letters 497, 502 and 902; Russkaja pravda 1-6; Novgorod First Chronicle (Synodal ms.), entries for 6642-6646; Primary Chronicle (Laurentian ms.), Introduction, the entry for 6463 and the Instruction of Vladimir Monomakh; Suzdal Chronicle (Laurentian ms.), entry for 6657; Zadonshchina; Tale of the Fall of Constantinople, chapters 1-2; Uspenskij sbornik, Life of Feodosij Pečerskij 25-26. 
 
-The development set consists of Afanasij Nikitin 6; birchbark letters 644 and 682; Russkaja pravda 8-9; Novgorod First Chronicle (Synodal ms.), entries for 6675-6681; Primary Chronicle (Laurentian ms.), the two entries for 6453; Suzdal Chronicle (Laurentian ms.), entry for 6659; The Tale of Dracula; Tale of the Fall of Constantinople, chapter 3; Uspenskij sbornik, Life of Feodosij Pečerskij 27.
+The development set consists of Afanasij Nikitin 6 and 20; birchbark letters 644 and 682; Russkaja pravda 8-9; Novgorod First Chronicle (Synodal ms.), entries for 6675-6681 and 6717; Primary Chronicle (Laurentian ms.), the entry for 6406, the two entries for 6453 and the entry for 6494; Suzdal Chronicle (Laurentian ms.), entries for 6659 and 662; The Tale of Dracula; Tale of the Fall of Constantinople, chapter 3; Uspenskij sbornik, Life of Feodosij Pečerskij 27-28.
 
 The training set consists of larger, continuous excerpts from Afanasij Nikitin, Russkaja pravda, Novgorod First Chronicle (Synodal ms.), Primary Chronicle (Laurentian ms.), Suzdal Chronicle (Laurentian ms.), Tale of the Fall of Constantinople, Uspenskij sbornik, as well as a further selection of birchbark letters and The Tale of Igor's campaign.
 
