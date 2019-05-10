@@ -1,0 +1,42 @@
+Running the following version of tools/evaluate_treebank.pl:
+commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat Apr 21 19:02:58 2018 +0200
+Evaluating the following revision of UD_Old_Russian-TOROT:
+commit 11b09da975c652a0184c2653bfbac3039b02e51d
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri May 10 13:36:39 2019 +0200
+Size: counted 149780 of 149780 words (nodes).
+Size: min(0, log((N/1000)**2)) = 10.0183351016424.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Found more than 10000 training words.
+Split: Found at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 0.8.
+Universal POS tags: 14 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 0.8.
+Features: 103268 out of 149780 total words have one or more features.
+Features: source of annotation (from README) factor is 0.8.
+Universal relations: 31 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 0.8.
+Udapi: found 6693 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 149780 words.
+Genres: found 2 out of 17 known.
+validate.py --lang orv --max-err=10 UD_Old_Russian-TOROT/orv_torot-ud-dev.conllu
+*** PASSED ***
+validate.py --lang orv --max-err=10 UD_Old_Russian-TOROT/orv_torot-ud-test.conllu
+*** PASSED ***
+validate.py --lang orv --max-err=10 UD_Old_Russian-TOROT/orv_torot-ud-train.conllu
+*** PASSED ***
+Validity: 1
+(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
+(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
+(weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
+(weight=0.256410256410256) * (score{size}=0.725151275416828) = 0.185936224465853
+(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
+(weight=0.0769230769230769) * (score{tags}=0.658823529411765) = 0.0506787330316742
+(weight=0.307692307692308) * (score{udapi}=0.553144612097743) = 0.170198342183921
+(weight=0.0769230769230769) * (score{udeprels}=0.67027027027027) = 0.0515592515592516
+(TOTAL score=0.64178129935533) * (availability=1) * (validity=1) = 0.64178129935533
+STARS = 3
+UD_Old_Russian-TOROT	0.64178129935533	3
