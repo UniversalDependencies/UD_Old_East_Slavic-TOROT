@@ -5086,7 +5086,7 @@
 # sent_id = 123546
 1	их	и	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	det	_	ref=12.10
 2	же	же	ADV	Df	_	3	discourse	_	ref=12.10
-3	нѣс	не.быти	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=12.10
+3	нѣс	не быти	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=12.10
 4	племени	племя	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	3	nsubj	_	ref=12.10
 5	ни	ни	CCONJ	C-	_	4	cc	_	ref=12.11
 6	наслѣдъка	наслѣдъкъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	4	conj	_	ref=12.11
@@ -6696,7 +6696,7 @@
 1	а	а	CCONJ	C-	_	4	cc	_	ref=61.20
 2	хсеянехъ	хрьстиянинъ	NOUN	Nb	Case=Loc|Gender=Masc|Number=Plur	4	obl	_	ref=61.21
 3	того	тыи	ADJ	Pd	Case=Gen|Gender=Neut|Number=Sing	4	nsubj	_	ref=61.21
-4	нѣс	не.быти	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=61.21
+4	нѣс	не быти	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=61.21
 5	закона	законъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	4	xcomp	_	ref=61.21
 
 # source = The Primary Chronicle, Codex Laurentianus, 6463: Olga goes to Constantinople and is christened
@@ -13505,7 +13505,7 @@
 11	ко	къ	ADP	R-	_	12	case	_	ref=253.32
 12	мнѣ	азъ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	10	obl	_	ref=253.32
 13	зане	зане	SCONJ	G-	_	14	mark	_	ref=253.32
-14	нѣс	не.быти	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	ref=253.32
+14	нѣс	не быти	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	ref=253.32
 15	в	въ	ADP	R-	_	16	case	_	ref=253.32
 16	неи	и	PRON	Pp	Case=Loc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obl	_	ref=253.32
 17	ни	ни	CCONJ	C-	_	18	cc	_	ref=253.32
@@ -13793,7 +13793,7 @@
 # source = The Primary Chronicle, Codex Laurentianus, Vladimir Monomakh’s Instruction
 # text = нѣсмъ ти ворожбитъ ни местьникъ
 # sent_id = 157672
-1	нѣсмъ	не.быти	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=254.20
+1	нѣсмъ	не быти	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=254.20
 2	ти	ты	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	1	obl	_	ref=254.20
 3	ворожбитъ	ворожьбитъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	1	xcomp	_	ref=254.20
 4	ни	ни	CCONJ	C-	_	3	cc	_	ref=254.20
@@ -20300,7 +20300,7 @@
 38	нашемѹ	нашь	ADJ	Ps	Case=Dat|Gender=Masc|Number=Sing|Person=1|Poss=Yes	37	nmod	_	ref=25
 39	ѳеодосию	феодосии	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	37	appos	_	ref=25
 40	ꙗко	яко	SCONJ	G-	_	41	mark	_	ref=25
-41	нѣсть	не.быти	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	35	ccomp	_	ref=25
+41	нѣсть	не быти	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	35	ccomp	_	ref=25
 42	къто	къто	ADJ	Px	Case=Nom|Gender=Masc|Number=Sing	41	nsubj	_	ref=25
 43	воды	вода	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	44	obj	_	ref=25
 44	носꙗ	носити	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Strength=Strong|Tense=Pres|VerbForm=Part|Voice=Act	42	acl	_	ref=25
@@ -22234,7 +22234,7 @@
 6	воротомъ	ворота	NOUN	Nb	Case=Dat|Gender=Neut|Number=Plur	4	nsubj:pass	_	ref=26
 7	и	и	CCONJ	C-	_	4	cc	_	ref=26
 8	ѿтолѣ	отътолѣ	ADV	Df	_	11	advmod	_	ref=26
-9	нѣсмь	не.быти	AUX	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	ref=26
+9	нѣсмь	не быти	AUX	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	ref=26
 10	ихъ	и	PRON	Pp	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	11	obj	_	ref=26
 11	ѿврьзалъ	отъвьрзати	VERB	V-	Aspect=Res|Case=Nom|Gender=Masc|Number=Sing|Strength=Strong|VerbForm=Part|Voice=Act	4	conj	_	ref=26
 12	и	и	CCONJ	C-	_	4	cc	_	ref=26
