@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Old_Russian-TOROT:
-commit 11b09da975c652a0184c2653bfbac3039b02e51d
+commit befa8f5074490ebc64155487719b233f76619363
+Merge: 6f41555 8950f54
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 10 13:36:39 2019 +0200
 Size: counted 149780 of 149780 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.0183351016424.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,12 +23,48 @@ Udapi: found 6693 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 149780 words.
 Genres: found 2 out of 17 known.
 validate.py --lang orv --max-err=10 UD_Old_Russian-TOROT/orv_torot-ud-dev.conllu
-*** PASSED ***
+[Line 267 Sent 195039 Node 6]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+[Line 268 Sent 195039 Node 7]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+[Line 269 Sent 195039 Node 8]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+[Line 271 Sent 195039 Node 10]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+[Line 283 Sent 195041 Node 8]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+[Line 284 Sent 195041 Node 9]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+[Line 285 Sent 195041 Node 10]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+[Line 287 Sent 195041 Node 12]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+[Line 298 Sent 195043 Node 7]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+...suppressing further errors regarding Syntax
+Syntax errors: 35
+*** FAILED *** with 35 errors
+Exit code: 1
 validate.py --lang orv --max-err=10 UD_Old_Russian-TOROT/orv_torot-ud-test.conllu
-*** PASSED ***
+[Line 2738 Sent 205346 Node 8]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+[Line 2742 Sent 205346 Node 12]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+[Line 3199 Sent 123318 Node 21]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
+[Line 4097 Sent 123431 Node 5]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nmod'.
+[Line 4098 Sent 123431 Node 6]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nmod'.
+[Line 4339 Sent 123462 Node 11]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
+[Line 4345 Sent 123462 Node 17]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
+[Line 6005 Sent 140084 Node 1]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+[Line 6295 Sent 140739 Node 10]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+...suppressing further errors regarding Syntax
+Syntax errors: 17
+*** FAILED *** with 17 errors
+Exit code: 1
 validate.py --lang orv --max-err=10 UD_Old_Russian-TOROT/orv_torot-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 9748 Sent 134580 Node 6]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
+[Line 9750 Sent 134580 Node 8]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+[Line 9751 Sent 134580 Node 9]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
+[Line 9752 Sent 134580 Node 10]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+[Line 9753 Sent 134580 Node 11]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
+[Line 11922 Sent 124959 Node 8]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
+[Line 12415 Sent 140991 Node 8]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+[Line 12554 Sent 125474 Node 7]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
+[Line 12555 Sent 125474 Node 8]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
+...suppressing further errors regarding Syntax
+Syntax errors: 245
+*** FAILED *** with 245 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -37,6 +73,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.658823529411765) = 0.0506787330316742
 (weight=0.307692307692308) * (score{udapi}=0.553144612097743) = 0.170198342183921
 (weight=0.0769230769230769) * (score{udeprels}=0.67027027027027) = 0.0515592515592516
-(TOTAL score=0.64178129935533) * (availability=1) * (validity=1) = 0.64178129935533
-STARS = 3
-UD_Old_Russian-TOROT	0.64178129935533	3
+(TOTAL score=0.64178129935533) * (availability=1) * (validity=0.01) = 0.0064178129935533
+STARS = 0
+UD_Old_Russian-TOROT	0.0064178129935533	0
