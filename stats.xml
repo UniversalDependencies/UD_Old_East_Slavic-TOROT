@@ -31,7 +31,7 @@
     <tag name="X">296</tag><!-- олло, худо, рагымъ, дени, оло, перводигерь, а, акъ, ерь, житель -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="44">
+  <feats unique="43">
     <feat name="Aspect" value="Imp" upos="AUX,VERB">2107</feat><!-- бѣ, бѧше, бѣша, бѧху, хотѧше, стояше, бѧшеть, гл҃ааше, творѧше, бѧхꙋ -->
     <feat name="Aspect" value="Perf" upos="AUX,VERB">9982</feat><!-- реч, быс, приде, иде, посла, повелѣ, поиде, придоша, престави, нача -->
     <feat name="Aspect" value="Res" upos="AUX,VERB">1286</feat><!-- было, былъ, створилъ, пришелъ, далъ, пришли, взѧлъ, взѧли, были, взѧл -->
@@ -65,11 +65,10 @@
     <feat name="PronType" value="Rcp" upos="PRON">36</feat><!-- другъ, дроуг, дроуга, друга, другу, дроугъ, дрѹга, дрѹгъ, дрѹг҃, дрȣгъ -->
     <feat name="PronType" value="Rel" upos="ADV,PRON">1466</feat><!-- иже, ꙗкоже, ѥже, ꙗко, еже, ѥгоже, идеже, яко, якоже, юже -->
     <feat name="Reflex" value="Yes" upos="ADJ,PRON">4885</feat><!-- сѧ, сꙗ, своѥго, свои, свою, собѣ, с, своимъ, своя, си -->
-    <feat name="Strength" value="Strong" upos="ADJ,AUX,PROPN,VERB">10548</feat><!-- много, слышавъ, гл҃ѧ, мало, велика, великъ, видѣвъ, мнози, многы, хотѧ -->
-    <feat name="Strength" value="Weak" upos="ADJ,AUX,VERB">6463</feat><!-- ст҃го, блаженыи, стаг, ст҃ѣи, друзии, великыи, ст҃ꙑꙗ, стг҃о, ст҃ѹю, блаженааго -->
     <feat name="Tense" value="Fut" upos="AUX">296</feat><!-- будеть, бѹдеть, будет, буду, будуть, бѹдѹ, будемъ, будть, будут, будущии -->
     <feat name="Tense" value="Past" upos="AUX,VERB">15597</feat><!-- бѣ, реч, быс, приде, иде, посла, повелѣ, поиде, придоша, бѧше -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">11127</feat><!-- есть, ѥсть, суть, быти, ѥси, гл҃ѧ, ити, еси, хотѧ, видѣти -->
+    <feat name="Variant" value="Short" upos="ADJ,AUX,PROPN,VERB">10548</feat><!-- много, слышавъ, гл҃ѧ, мало, велика, великъ, видѣвъ, мнози, многы, хотѧ -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">18159</feat><!-- бѣ, реч, быс, приде, иде, есть, посла, повелѣ, поиде, ѥсть -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">2424</feat><!-- быти, ити, видѣти, платити, бити, дати, створити, взѧти, имѣти, творити -->
     <feat name="VerbForm" value="Part" upos="AUX,VERB">7723</feat><!-- слышавъ, гл҃ѧ, видѣвъ, хотѧ, рекъ, рекуще, сущю, река, пришедъ, бывъ -->
