@@ -13672,7 +13672,7 @@
 # sent_id = 208541
 1	тогда	тъгда	ADV	Df	_	9	advmod	_	ref=
 2	же	же	ADV	Df	_	9	discourse	_	ref=
-3	гюргевичь	гюргевичь	PROPN	Ne	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	9	nsubj	_	ref=
+3	гюргевичь	гюргевичь	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	ref=
 4	аньдрѣи	андрѣи	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	ref=
 5	с	съ	ADP	R-	_	6	case	_	ref=
 6	володимеромъ	володимѣръ	PROPN	Ne	Case=Ins|Gender=Masc|Number=Sing	3	nmod	_	ref=
