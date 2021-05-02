@@ -11734,7 +11734,7 @@
 # text = иже нѣс ми хотѣнья оу васъ понеже ѿ въстока и до запада имѧ мое прослави с въ языцѣх
 # sent_id = 127082
 1	иже	иже	ADV	Df	_	2	advmod	_	ref=98.23
-2	нѣс	не быти	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=98.23
+2	нѣс	быти	VERB	V-	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=98.23
 3	ми	азъ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	2	iobj	_	ref=98.23
 4	хотѣнья	хотѣние	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	2	nsubj	_	ref=98.23
 5	оу	у	ADP	R-	_	6	case	_	ref=98.23
@@ -12352,7 +12352,7 @@
 1	и	и	CCONJ	C-	_	4	cc	_	ref=100.11
 2	миру	миръ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	4	iobj	_	ref=100.11
 3	его	и	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	det	_	ref=100.11
-4	нѣс	не быти	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=100.12
+4	нѣс	быти	VERB	V-	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=100.12
 5	конца	коньць	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	4	nsubj	_	ref=100.12
 
 # source = The Primary Chronicle, Codex Laurentianus, 6494: Vladimir consults with representatives of different religions
@@ -22518,7 +22518,7 @@
 8	сѧ	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	expl	_	ref=28
 9	дати	дати	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	6	xcomp	_	ref=28
 10	и	и	ADV	Df	_	13	advmod	_	ref=28
-11	нѣси	не быти	AUX	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	ref=28
+11	нѣси	быти	AUX	V-	Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	ref=28
 12	ми	азъ	PRON	Pp	Case=Dat|Gender=Fem|Number=Sing|Person=1|PronType=Prs	13	iobj	_	ref=28
 13	далъ	дати	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	0	root	_	ref=28
 
@@ -22834,7 +22834,7 @@
 # sent_id = 191896
 1	то	то	ADV	Df	_	7	advmod	_	ref=28
 2	же	же	ADV	Df	_	1	discourse	_	ref=28
-3	нѣсмь	не быти	AUX	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	ref=28
+3	нѣсмь	быти	AUX	V-	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	ref=28
 4	тако	тако	ADV	Df	_	5	advmod	_	ref=28
 5	сладъка	сладъкыи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	6	amod	_	ref=28
 6	брашьна	брашьно	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	7	dep	_	ref=28
