@@ -28,6 +28,7 @@ Hanne Martine Eckhoff and Aleksandrs Berdičevskis. 2015. 'Linguistics vs. digit
 * 2021-05-15 v2.8
   * Repository renamed from UD_Old_Russian-RNC to UD_Old_East_Slavic-RNC.
   * Undocumented feature Strength replaced with Variant=Short as in other Slavic treebanks.
+  * Undocumented Aspect=Res converted to VerbForm=PartRes|Tense=Past as in the other orv treebank.
 * 2019-05-15 v2.4
   * Initial release in Universal Dependencies.
 
