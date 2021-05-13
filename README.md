@@ -1,10 +1,10 @@
 # Summary
 
-UD\_Old\_Russian-TOROT is a conversion of a selection of the Old East Slavonic and Middle Russian data in the Tromsø Old Russian and OCS Treebank (TOROT), which was originally annotated in PROIEL dependency format.
+UD\_Old\_East\_Slavic-TOROT is a conversion of a selection of the Old East Slavonic and Middle Russian data in the Tromsø Old Russian and OCS Treebank (TOROT), which was originally annotated in PROIEL dependency format.
 
 # Introduction
 
-UD-Old-Russian-TOROT is a conversion of a selection of the Old East Slavonic and Middle Russian data in the Tromsø Old Russian and OCS Treebank (TOROT), which is maintained at UiT The Arctic University of Norway. The treebank is manually annotated, with some automatic preprocessing, on PROIEL dependency format. New texts are still being added. The treebank contains texts from a variety of mediaeval and early modern genres, such as chronicles, legal documents, lives of saints and correspondence. Treebank releases are available from  https://github.com/torottreebank/treebank-releases. This conversion is based on the 20190505 release.
+UD Old East Slavic TOROT is a conversion of a selection of the Old East Slavonic and Middle Russian data in the Tromsø Old Russian and OCS Treebank (TOROT), which is maintained at UiT The Arctic University of Norway. The treebank is manually annotated, with some automatic preprocessing, on PROIEL dependency format. New texts are still being added. The treebank contains texts from a variety of mediaeval and early modern genres, such as chronicles, legal documents, lives of saints and correspondence. Treebank releases are available from  https://github.com/torottreebank/treebank-releases. This conversion is based on the 20190505 release.
 
 # Data splits
 
@@ -25,6 +25,11 @@ Hanne Martine Eckhoff and Aleksandrs Berdičevskis. 2015. 'Linguistics vs. digit
 
 # Changelog
 
+* 2021-05-15 v2.8
+  * Repository renamed from UD_Old_Russian-RNC to UD_Old_East_Slavic-RNC.
+  * Undocumented feature Strength replaced with Variant=Short as in other Slavic treebanks.
+  * Undocumented Aspect=Res converted to VerbForm=PartRes|Tense=Past as in the other orv treebank.
+  * Negative copula не быти lemmatized as быти, added Polarity=Neg.
 * 2019-05-15 v2.4
   * Initial release in Universal Dependencies.
 
