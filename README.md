@@ -25,6 +25,8 @@ Hanne Martine Eckhoff and Aleksandrs Berdičevskis. 2015. 'Linguistics vs. digit
 
 # Changelog
 
+* 2022-05-15 UD 2.10
+  * MISC ref= changed to Ref= to match other UD treebanks.
 * 2021-05-15 v2.8
   * Repository renamed from UD_Old_Russian-RNC to UD_Old_East_Slavic-RNC.
   * Undocumented feature Strength replaced with Variant=Short as in other Slavic treebanks.
