@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
-Author: www-data (nschneid) <nschneid@github.com>
-Date:   Wed May 11 05:10:30 2022 +0200
-Evaluating the following revision of UD_Old_East_Slavic-TOROT:
-commit 04581ce41bb3093cbf876b8d7b69dce6270f91c6
-Merge: e39ff29 78c065c
+commit 13e6b709a8bc643c3f902800321a7beda46feb8d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun Nov 13 22:03:41 2022 +0100
+Evaluating the following revision of UD_Old_East_Slavic-TOROT:
+commit c956ba17ed03e0ae40f854168b48b490fd5f044b
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat May 14 15:03:13 2022 +0200
 Size: counted 149780 of 149780 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.0183351016424.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -35,8 +35,8 @@ validate.py --lang orv --max-err=10 UD_Old_East_Slavic-TOROT/orv_torot-ud-dev.co
 [Line 287 Sent 195041 Node 12]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
 [Line 298 Sent 195043 Node 7]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
 ...suppressing further errors regarding Syntax
-Syntax errors: 35
-*** FAILED *** with 35 errors
+Syntax errors: 38
+*** FAILED *** with 38 errors
 Exit code: 1
 validate.py --lang orv --max-err=10 UD_Old_East_Slavic-TOROT/orv_torot-ud-test.conllu
 [Line 2738 Sent 205346 Node 8]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
@@ -49,8 +49,8 @@ validate.py --lang orv --max-err=10 UD_Old_East_Slavic-TOROT/orv_torot-ud-test.c
 [Line 6005 Sent 140084 Node 1]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
 [Line 6295 Sent 140739 Node 10]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
 ...suppressing further errors regarding Syntax
-Syntax errors: 17
-*** FAILED *** with 17 errors
+Syntax errors: 18
+*** FAILED *** with 18 errors
 Exit code: 1
 validate.py --lang orv --max-err=10 UD_Old_East_Slavic-TOROT/orv_torot-ud-train.conllu
 [Line 9748 Sent 134580 Node 6]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
@@ -63,8 +63,8 @@ validate.py --lang orv --max-err=10 UD_Old_East_Slavic-TOROT/orv_torot-ud-train.
 [Line 12554 Sent 125474 Node 7]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
 [Line 12555 Sent 125474 Node 8]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
 ...suppressing further errors regarding Syntax
-Syntax errors: 245
-*** FAILED *** with 245 errors
+Syntax errors: 254
+*** FAILED *** with 254 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
