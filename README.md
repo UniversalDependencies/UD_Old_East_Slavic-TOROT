@@ -1,14 +1,14 @@
 # Summary
 
-UD\_Old\_East\_Slavic-TOROT is a conversion of a selection of the Old East Slavonic and Middle Russian data from the Tromsø Old Russian and OCS Treebank (TOROT), which was originally annotated in PROIEL dependency format.
+UD\_Old\_East\_Slavic-TOROT is a conversion of a selection of Old East Slavonic and Middle Russian data from the Tromsø Old Russian and OCS Treebank (TOROT), which was originally annotated in PROIEL dependency format.
 
 # Introduction
 
-UD Old East Slavic TOROT is a conversion of a selection of the Old East Slavonic and Middle Russian data from the Tromsø Old Russian and OCS Treebank (TOROT), which was built at UiT The Arctic University of Norway and is now maintained at the University of Oslo. The treebank is manually annotated, with some automatic preprocessing, on PROIEL dependency format. New texts are still being added. The treebank contains texts from a variety of mediaeval and early modern genres, such as chronicles, legal documents, lives of saints and correspondence. 
+UD Old East Slavic TOROT is a conversion of a selection of  Old East Slavonic and Middle Russian data from the Tromsø Old Russian and OCS Treebank (TOROT), which was built at UiT The Arctic University of Norway and is now maintained at the University of Oslo. The treebank is manually annotated, with some automatic preprocessing, on PROIEL dependency format. New texts are still being added. The treebank contains texts from a variety of mediaeval and early modern genres, such as chronicles, legal documents, lives of saints and correspondence. 
 
 # Data splits
 
-The development set consists of Afanasij Nikitin 12–13; birchbark letters 502 and 531; the colophont to Mstislav's Gospel book, Domostroj 22–25, Life of Sergij of Radonezh 19, Russkaja pravda 52-58; Novgorod First Chronicle (Synodal ms.) s.a. 6736–6738; Vladimir Monomakh's Instruction; Life of Avvakum 11–14; Suzdal Chronicle (Laurentian ms.) s.a. 6656–6658; The Tale of Dracula; The Tale of Igor's Campaign; Tale of the Fall of Constantinople, chapter 6; Uspenskij sbornik, Life of Feodosij Pečerskij 25-27.
+The development set consists of Afanasij Nikitin 12–13; birchbark letters 502 and 531; the colophon to Mstislav's Gospel book; Domostroj 22–25; Life of Sergij of Radonezh 19; Russkaja pravda 52-58; Novgorod First Chronicle (Synodal ms.) s.a. 6736–6738; Vladimir Monomakh's Instruction; Life of Avvakum 11–14; Suzdal Chronicle (Laurentian ms.) s.a. 6656–6658; The Tale of Dracula; The Tale of Igor's Campaign; Tale of the Fall of Constantinople, chapter 6; Uspenskij sbornik, Life of Feodosij Pečerskij 25-27.
 
 The test set consists of Afanasij Nikitin 18–19; birchbark letters 724, 725 and 731; the colophon to the Ostromir Codex; Domostroj 35–39; Life of Sergij of Radonezh 12; Life of Stefan of Perm, extract 1; Russkaja pravda 31–39; Novgorod First Chronicle (Synodal ms.), s.a. 6705–6712; Life of Avvakum 55–59; Primary Chronicle (Laurentian ms.), Introduction and s.a. 6494; Suzdal Chronicle (Laurentian ms.) s.a. 6655, 6659 and 6660; The taking of Pskov; Tale of the Fall of Constantinople, chapters 1-3; Uspenskij sbornik, Life of Feodosij Pečerskij 21-24 and 28.
 
