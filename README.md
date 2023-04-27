@@ -39,7 +39,7 @@ Hanne Martine Eckhoff and Aleksandrs Berdičevskis. 2015. 'Linguistics vs. digit
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.4
-License: CC BY-NC-SA 3.0
+License: CC BY-NC-SA 4.0
 Includes text: yes
 Genre: nonfiction legal
 Lemmas: converted from manual
