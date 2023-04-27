@@ -1419,8 +1419,8 @@
 2	б҃е	богъ	NOUN	Nb	Case=Voc|Gender=Masc|Number=Sing	1	appos	_	ref=
 3	оц҃ь	отьць	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	ref=
 4	нашихъ	нашь	DET	Ps	Case=Gen|Gender=Masc|Number=Plur|Person=1|Poss=Yes	3	det	_	ref=
-5	авраамовъ	авраамовъ.	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	appos	_	ref=
-6	исаковъ	исаковъ.	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	5	conj	_	ref=
+5	авраамовъ	авраамовъ	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	appos	_	ref=
+6	исаковъ	исаковъ	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	5	conj	_	ref=
 7	иꙗковль	ияковль	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	5	conj	_	ref=
 8	и	и	CCONJ	C-	_	9	cc	_	ref=
 9	сѣмене	сѣмя	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	3	conj	_	ref=
@@ -8596,7 +8596,7 @@
 7	рати	рать	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	ref=
 8	поиде	поити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=|LId=1
 9	въ	въ	ADP	R-	_	10	case	_	ref=
-10	пльсковъ	пльсковъ.	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	ref=
+10	пльсковъ	пльсковъ	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	ref=
 11	съ	съ	ADP	R-	_	12	case	_	ref=
 12	посадникомь	посадьникъ	NOUN	Nb	Case=Ins|Gender=Masc|Number=Sing	8	obl	_	ref=
 13	иванкомь	иванъко	PROPN	Ne	Case=Ins|Gender=Masc|Number=Sing	12	appos	_	ref=
@@ -8652,7 +8652,7 @@
 5	бѧше	быти	AUX	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	aux	_	ref=
 6	си	сии	DET	Pd	Case=Nom|Gender=Fem|Number=Sing	4	det	_	ref=
 7	въ	въ	ADP	R-	_	8	case	_	ref=
-8	пльскове	пльсковъ.	PROPN	Ne	Case=Loc|Gender=Masc|Number=Sing	1	obl	_	ref=
+8	пльскове	пльсковъ	PROPN	Ne	Case=Loc|Gender=Masc|Number=Sing	1	obl	_	ref=
 9	ꙗко	яко	SCONJ	G-	_	10	mark	_	ref=
 10	везеть	везти	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	ref=
 11	оковꙑ	оковъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	10	obj	_	ref=
@@ -8916,7 +8916,7 @@
 7	хотѧ	хотѣти	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|Variant=Short|VerbForm=Part|Voice=Act	3	conj	_	ref=
 8	ити	ити	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	7	xcomp	_	ref=
 9	на	на	ADP	R-	_	10	case	_	ref=
-10	пльсковъ	пльсковъ.	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	ref=
+10	пльсковъ	пльсковъ	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	ref=
 
 # source = The First Novgorod Chronicle, Synodal manuscript, 6736
 # text = тъгда же кн҃зь посла мишю въ пльсковъ река
@@ -8927,7 +8927,7 @@
 4	посла	посълати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=
 5	мишю	миша	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	ref=
 6	въ	въ	ADP	R-	_	7	case	_	ref=
-7	пльсковъ	пльсковъ.	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	ref=
+7	пльсковъ	пльсковъ	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	ref=
 8	река	рещи	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|Variant=Short|VerbForm=Part|Voice=Act	4	advcl	_	ref=
 
 # source = The First Novgorod Chronicle, Synodal manuscript, 6736
@@ -9219,7 +9219,7 @@
 7	ꙗрослав҃	ярославъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	ref=
 8	вꙑгнаша	выгънати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=
 9	исъ	из	ADP	R-	_	10	case	_	ref=
-10	пльскова	пльсковъ.	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	8	obl	_	ref=
+10	пльскова	пльсковъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	8	obl	_	ref=
 
 # source = The First Novgorod Chronicle, Synodal manuscript, 6736
 # text = поидите по кн҃зи своѥмь
@@ -9245,7 +9245,7 @@
 3	ꙗрослав҃	ярославъ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ref=
 4	поиде	поити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=|LId=1
 5	съ	съ	ADP	R-	_	6	case	_	ref=
-6	кнѧгꙑнею	кънягыни.	NOUN	Nb	Case=Ins|Gender=Fem|Number=Sing	4	obl	_	ref=
+6	кнѧгꙑнею	кънягыни	NOUN	Nb	Case=Ins|Gender=Fem|Number=Sing	4	obl	_	ref=
 7	из	из	ADP	R-	_	8	case	_	ref=
 8	новагорода	новъгородъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	ref=
 9	переꙗславлю	переяславль	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	4	obl:arg	_	ref=
@@ -10193,7 +10193,7 @@
 11	таковаго	таковыи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	ref=
 12	мѹж҃	мужь	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	10	obj	_	ref=
 13	въ	въ	ADP	R-	_	14	case	_	ref=
-14	попѣхъ	попъ.	NOUN	Nb	Case=Loc|Gender=Masc|Number=Plur	10	obl	_	ref=
+14	попѣхъ	попъ	NOUN	Nb	Case=Loc|Gender=Masc|Number=Plur	10	obl	_	ref=
 15	ли	ли	CCONJ	C-	_	17	cc	_	ref=
 16	в	въ	ADP	R-	_	17	case	_	ref=
 17	ꙑгѹменехъ	игуменъ	NOUN	Nb	Case=Loc|Gender=Masc|Number=Plur	14	conj	_	ref=
@@ -10716,7 +10716,7 @@
 # sent_id = 271805
 1	поставленъ	поставити	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	ref=
 2	бꙑс҃	быти	AUX	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	cop	_	ref=
-3	поп҃мъ	попъ.	NOUN	Nb	Case=Ins|Gender=Masc|Number=Sing	1	xcomp	_	ref=
+3	поп҃мъ	попъ	NOUN	Nb	Case=Ins|Gender=Masc|Number=Sing	1	xcomp	_	ref=
 4	въ	въ	ADP	R-	_	6	case	_	ref=
 5	сꙑропѹс҃ю	сыропустьныи	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	ref=
 6	нед҃	недѣля	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	ref=
@@ -11358,7 +11358,7 @@
 11	и	и	CCONJ	C-	_	12	cc	_	ref=
 12	даньслав҃	даньславъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	3	conj	_	ref=
 13	и	и	CCONJ	C-	_	14	cc	_	ref=
-14	борисовъ	борисовъ.	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	conj	_	ref=
+14	борисовъ	борисовъ	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	conj	_	ref=
 15	тꙑсѧчьскаго	тысячьскыи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	appos	_	ref=
 16	и	и	CCONJ	C-	_	17	cc	_	ref=
 17	творимириць	творимиричь	PROPN	Ne	Case=Gen|Gender=Masc|Number=Plur	3	conj	_	ref=
@@ -12585,7 +12585,7 @@
 1	сродницы	съродьникъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	ref=11
 2	же	же	ADV	Df	_	9	discourse	_	ref=11
 3	ево	и	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	det	_	ref=11
-4	попы	попъ.	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	1	appos	_	ref=11
+4	попы	попъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	1	appos	_	ref=11
 5	ꙇ	и	CCONJ	C-	_	6	cc	_	ref=11
 6	чернцы	чьрньць	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	4	conj	_	ref=11
 7	вес	вьсь	DET	Px	Case=Acc|Gender=Masc|Number=Sing	8	det	_	ref=11
@@ -12670,7 +12670,7 @@
 # source = The Life of Avvakum, 11
 # text = княиня меня в сундукъ посылала
 # sent_id = 288540
-1	княиня	кънягыни.	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	ref=11
+1	княиня	кънягыни	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	ref=11
 2	меня	азъ	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs	5	obj	_	ref=11
 3	в	въ	ADP	R-	_	4	case	_	ref=11
 4	сундукъ	сундукъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	ref=11
@@ -14208,7 +14208,7 @@
 # source = The Life of Avvakum, 12
 # text = поп ли ты ꙇли роспоп
 # sent_id = 288683
-1	поп	попъ.	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	ref=12
+1	поп	попъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	ref=12
 2	ли	ли	ADV	Du	PronType=Int	1	advmod	_	ref=12
 3	ты	ты	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	1	nsubj	_	ref=12
 4	ꙇли	или	CCONJ	C-	_	5	cc	_	ref=12
@@ -14653,16 +14653,16 @@
 # source = The Life of Avvakum, 12
 # text = ꙇсаакъ авраамович роди сквернова ꙇсава
 # sent_id = 288728
-1	ꙇсаакъ	исакъ.	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	ref=12
+1	ꙇсаакъ	исакъ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	ref=12
 2	авраамович	авраамовичь	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	ref=12
 3	роди	родити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=12
 4	сквернова	сквьрнавыи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	5	amod	_	ref=12
-5	ꙇсава	исавъ.	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	3	obj	_	ref=12
+5	ꙇсава	исавъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	3	obj	_	ref=12
 
 # source = The Life of Avvakum, 12
 # text = ꙇсавъ роди рагуила
 # sent_id = 288729
-1	ꙇсавъ	исавъ.	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	ref=12
+1	ꙇсавъ	исавъ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	ref=12
 2	роди	родити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=12
 3	рагуила	рагуилъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	2	obj	_	ref=12
 
@@ -16000,6 +16000,14 @@
 2	по	по	ADP	R-	_	3	case	_	ref=14
 3	мнѣ	азъ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	obl	_	ref=14
 4	тужить	тужити	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	1	xcomp	_	ref=14
+
+# source = The Life of Avvakum, 15
+# text = доехали до иръгеня ѡзера
+# sent_id = 288862
+1	доехали	доѣхати	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	0	root	_	ref=15
+2	до	до	ADP	R-	_	3	case	_	ref=15
+3	иръгеня	иръгень	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	1	obl	_	ref=15
+4	ѡзера	озеро	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	3	appos	_	ref=15
 
 # source = The Primary Chronicle, Codex Laurentianus, Vladimir Monomakh’s Instruction
 # text = никыты
@@ -18248,7 +18256,7 @@
 # sent_id = 268287
 1	еппсы	епископъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	8	dislocated	_	ref=245.32
 2	и	и	CCONJ	C-	_	3	cc	_	ref=245.32
-3	попы	попъ.	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	1	conj	_	ref=245.33
+3	попы	попъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	1	conj	_	ref=245.33
 4	и	и	CCONJ	C-	_	5	cc	_	ref=245.33
 5	игумены	игуменъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	1	conj	_	ref=245.33
 6	с	съ	ADP	R-	_	7	case	_	ref=245.33
@@ -19097,7 +19105,7 @@
 1	та	та	ADV	Df	_	2	advmod	_	ref=247.24
 2	посла	посълати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=247.25
 3	мѧ	азъ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	2	obj	_	ref=247.25
-4	ст҃ославъ	святославъ.	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	ref=247.25
+4	ст҃ославъ	святославъ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	ref=247.25
 5	в	въ	ADP	R-	_	6	case	_	ref=247.25
 6	лѧхы	ляхъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	2	obl	_	ref=247.25
 7	ходивъ	ходити	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Act	2	advcl	_	ref=247.25
@@ -19154,7 +19162,7 @@
 # text = и ст҃ославъ оумре
 # sent_id = 268364
 1	и	и	CCONJ	C-	_	3	cc	_	ref=247.29
-2	ст҃ославъ	святославъ.	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	ref=247.29
+2	ст҃ославъ	святославъ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	ref=247.29
 3	оумре	умрѣти	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=247.30
 
 # source = The Primary Chronicle, Codex Laurentianus, Vladimir Monomakh’s Instruction
@@ -19229,7 +19237,7 @@
 1	а	а	CCONJ	C-	_	2	cc	_	ref=247.34
 2	я	я	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	0	root	_	ref=247.34
 3	с	съ	ADP	R-	_	4	case	_	ref=247.35
-4	половци	половьчинъ.	NOUN	Nb	Case=Ins|Gender=Masc|Number=Plur	2	orphan	_	ref=247.35
+4	половци	половьчинъ	NOUN	Nb	Case=Ins|Gender=Masc|Number=Plur	2	orphan	_	ref=247.35
 5	на	на	ADP	R-	_	6	case	_	ref=247.35
 6	ѡдрьскъ	одрьскъ	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	2	orphan	_	ref=247.35
 7	воюя	воевати	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|Variant=Short|VerbForm=Part|Voice=Act	2	orphan	_	ref=247.35
@@ -19369,7 +19377,7 @@
 # text = и всеславъ смолнескъ ѡжьже
 # sent_id = 268384
 1	и	и	CCONJ	C-	_	4	cc	_	ref=248.7
-2	всеславъ	вьсеславъ.	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ref=248.7
+2	всеславъ	вьсеславъ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ref=248.7
 3	смолнескъ	смольньскъ	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	ref=248.7
 4	ѡжьже	ожещи	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=248.7
 
@@ -19380,7 +19388,7 @@
 2	азъ	азъ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	0	root	_	ref=248.8
 3	всѣдъ	въсѣсти	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Act	2	orphan	_	ref=248.8
 4	с	съ	ADP	R-	_	5	case	_	ref=248.8
-5	черниговци	чьрниговьць.	NOUN	Nb	Case=Ins|Gender=Masc|Number=Plur	2	orphan	_	ref=248.8
+5	черниговци	чьрниговьць	NOUN	Nb	Case=Ins|Gender=Masc|Number=Plur	2	orphan	_	ref=248.8
 6	ѡ	о	ADP	R-	_	8	case	_	ref=248.8
 7	двою	дъва	NUM	Ma	Case=Gen|Gender=Masc|Number=Dual	8	nummod	_	ref=248.8
 8	коню	конь	NOUN	Nb	Case=Gen|Gender=Masc|Number=Dual	2	orphan	_	ref=248.8
@@ -19400,7 +19408,7 @@
 1	тѣмже	тыиже	DET	Pd	Case=Ins|Gender=Masc|Number=Sing	2	det	_	ref=248.9
 2	путем	путь	NOUN	Nb	Case=Ins|Gender=Masc|Number=Sing	5	obl	_	ref=248.9
 3	по	по	ADP	R-	_	4	case	_	ref=248.9
-4	всеславѣ	вьсеславъ.	PROPN	Ne	Case=Loc|Gender=Masc|Number=Sing	5	obl	_	ref=248.9
+4	всеславѣ	вьсеславъ	PROPN	Ne	Case=Loc|Gender=Masc|Number=Sing	5	obl	_	ref=248.9
 5	пожегъ	пожещи	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Act	0	root	_	ref=248.10
 6	землю	земля	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	ref=248.10
 7	и	и	CCONJ	C-	_	8	cc	_	ref=248.10
@@ -19425,7 +19433,7 @@
 3	ту	тыи	DET	Pd	Case=Acc|Gender=Fem|Number=Sing	4	det	_	ref=248.12
 4	зиму	зима	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	ref=248.12
 5	повоеваша	повоевати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=248.12
-6	половци	половьчинъ.	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	ref=248.12
+6	половци	половьчинъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	ref=248.12
 7	стародубъ	стародубъ	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	ref=248.13
 8	весь	вьсь	DET	Px	Case=Acc|Gender=Masc|Number=Sing	7	det	_	ref=248.13
 
@@ -19436,10 +19444,10 @@
 2	азъ	азъ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	ref=248.13
 3	шедъ	ити	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Act	11	advcl	_	ref=248.13
 4	с	съ	ADP	R-	_	5	case	_	ref=248.13
-5	черниговци	чьрниговьць.	NOUN	Nb	Case=Ins|Gender=Masc|Number=Plur	2	nmod	_	ref=248.13
+5	черниговци	чьрниговьць	NOUN	Nb	Case=Ins|Gender=Masc|Number=Plur	2	nmod	_	ref=248.13
 6	и	и	CCONJ	C-	_	8	cc	_	ref=248.13
 7	с	съ	ADP	R-	_	8	case	_	ref=248.14
-8	половци	половьчинъ.	NOUN	Nb	Case=Ins|Gender=Masc|Number=Plur	5	conj	_	ref=248.14
+8	половци	половьчинъ	NOUN	Nb	Case=Ins|Gender=Masc|Number=Plur	5	conj	_	ref=248.14
 9	на	на	ADP	R-	_	10	case	_	ref=248.14
 10	деснѣ	десна	PROPN	Ne	Case=Loc|Gender=Fem|Number=Sing	11	obl	_	ref=248.14
 11	изьимахом	изимати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=248.14
@@ -19547,7 +19555,7 @@
 2	лтѣ	лѣто	NOUN	Nb	Case=Loc|Gender=Neut|Number=Sing	3	obl	_	ref=248.22
 3	гонихом	гонити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=248.22
 4	по	по	ADP	R-	_	5	case	_	ref=248.22
-5	полвоьцихъ	половьчинъ.	NOUN	Nb	Case=Loc|Gender=Masc|Number=Plur	3	obl	_	ref=248.23
+5	полвоьцихъ	половьчинъ	NOUN	Nb	Case=Loc|Gender=Masc|Number=Plur	3	obl	_	ref=248.23
 6	за	за	ADP	R-	_	7	case	_	ref=248.23
 7	хоролъ	хоролъ	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	5	appos	_	ref=248.23
 8	иже	иже	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	10	nsubj	_	ref=248.23
@@ -19563,10 +19571,10 @@
 4	ѡсень	осень	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	ref=248.24
 5	идохом	ити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=248.24
 6	с	съ	ADP	R-	_	7	case	_	ref=248.24
-7	черниговци	чьрниговьць.	NOUN	Nb	Case=Ins|Gender=Masc|Number=Plur	5	obl	_	ref=248.24
+7	черниговци	чьрниговьць	NOUN	Nb	Case=Ins|Gender=Masc|Number=Plur	5	obl	_	ref=248.24
 8	и	и	CCONJ	C-	_	10	cc	_	ref=248.24
 9	с	съ	ADP	R-	_	10	case	_	ref=248.24
-10	половци	половьчинъ.	NOUN	Nb	Case=Ins|Gender=Masc|Number=Plur	7	conj	_	ref=248.24
+10	половци	половьчинъ	NOUN	Nb	Case=Ins|Gender=Masc|Number=Plur	7	conj	_	ref=248.24
 11	с	съ	ADP	R-	_	12	case	_	ref=248.25
 12	читѣевичи	читѣевичь	NOUN	Nb	Case=Ins|Gender=Masc|Number=Plur	7	conj	_	ref=248.25
 13	к	къ	ADP	R-	_	14	case	_	ref=248.25
@@ -19756,7 +19764,7 @@
 # sent_id = 268416
 1	избиша	избити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=249.1
 2	ц҃	девятьсътъ	NUM	Ma	_	1	obj	_	ref=249.1
-3	половець	половьчинъ.	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	ref=249.1
+3	половець	половьчинъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	ref=249.1
 
 # source = The Primary Chronicle, Codex Laurentianus, Vladimir Monomakh’s Instruction
 # text = и два кнѧзѧ яша багубарсова брта асинѧ и сакзѧ
@@ -19786,10 +19794,10 @@
 1	и	и	CCONJ	C-	_	5	cc	_	ref=249.3
 2	потомь	потомь	ADV	Df	_	5	advmod	_	ref=249.3
 3	на	на	ADP	R-	_	4	case	_	ref=249.3
-4	ст҃ославль	святославль.	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	ref=249.3
+4	ст҃ославль	святославль	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	ref=249.3
 5	гонихом	гонити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=249.3
 6	по	по	ADP	R-	_	7	case	_	ref=249.4
-7	половцих	половьчинъ.	NOUN	Nb	Case=Loc|Gender=Masc|Number=Plur	4	appos	_	ref=249.4
+7	половцих	половьчинъ	NOUN	Nb	Case=Loc|Gender=Masc|Number=Plur	4	appos	_	ref=249.4
 
 # source = The Primary Chronicle, Codex Laurentianus, Vladimir Monomakh’s Instruction
 # text = и потомь на торческыи городъ
@@ -19808,7 +19816,7 @@
 3	на	на	ADP	R-	_	4	case	_	ref=249.5
 4	гюргевъ	гюргевъ	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	0	root	_	ref=249.5
 5	по	по	ADP	R-	_	6	case	_	ref=249.5
-6	половцих	половьчинъ.	NOUN	Nb	Case=Loc|Gender=Masc|Number=Plur	4	appos	_	ref=249.5
+6	половцих	половьчинъ	NOUN	Nb	Case=Loc|Gender=Masc|Number=Plur	4	appos	_	ref=249.5
 
 # source = The Primary Chronicle, Codex Laurentianus, Vladimir Monomakh’s Instruction
 # text = и паки на тои же сторонѣ оу красна половци побѣдихом
@@ -19821,7 +19829,7 @@
 6	сторонѣ	сторона	NOUN	Nb	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	ref=249.6
 7	оу	у	ADP	R-	_	8	case	_	ref=249.6
 8	красна	красьнъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	6	appos	_	ref=249.6
-9	половци	половьчинъ.	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	10	obj	_	ref=249.6
+9	половци	половьчинъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	10	obj	_	ref=249.6
 10	побѣдихом	побѣдити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=249.6
 
 # source = The Primary Chronicle, Codex Laurentianus, Vladimir Monomakh’s Instruction
@@ -19871,7 +19879,7 @@
 11	бивше	бити	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Act	19	advcl	_	ref=249.10
 12	сѧ	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	11	expl:pv	_	ref=249.10
 13	с	съ	ADP	R-	_	14	case	_	ref=249.10
-14	половци	половьчинъ.	NOUN	Nb	Case=Ins|Gender=Masc|Number=Plur	11	obl	_	ref=249.11
+14	половци	половьчинъ	NOUN	Nb	Case=Ins|Gender=Masc|Number=Plur	11	obl	_	ref=249.11
 15	до	до	ADP	R-	_	16	case	_	ref=249.11
 16	вечера	вечеръ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	11	obl	_	ref=249.11
 17	быхом	быти	AUX	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	19	cop	_	ref=249.11
@@ -20119,7 +20127,7 @@
 # sent_id = 268445
 1	и	и	CCONJ	C-	_	5	cc	_	ref=249.31
 2	пакы	пакы	ADV	Df	_	5	advmod	_	ref=249.31
-3	итлареву	итларевъ.	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	4	amod	_	ref=249.31
+3	итлареву	итларевъ	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	4	amod	_	ref=249.31
 4	чадь	чадь	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	ref=249.31
 5	избиша	избити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=249.31
 
@@ -20147,7 +20155,7 @@
 8	бѧше	быти	AUX	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	aux	_	ref=249.33
 9	приложилъ	приложити	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	3	advcl	_	ref=249.33
 10	к	къ	ADP	R-	_	11	case	_	ref=249.34
-11	половцем	половьчинъ.	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	9	obl	_	ref=249.34
+11	половцем	половьчинъ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	9	obl	_	ref=249.34
 
 # source = The Primary Chronicle, Codex Laurentianus, Vladimir Monomakh’s Instruction
 # text = и на б҃ъ идохом с ст҃ополком на бонѧка за рось
@@ -20195,7 +20203,7 @@
 7	мнѣ	азъ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	5	obl	_	ref=249.37
 8	и	и	ADV	Df	_	10	advmod	_	ref=249.37
 9	с	съ	ADP	R-	_	10	case	_	ref=249.37
-10	половець	половьчинъ.	NOUN	Nb	Case=Ins|Gender=Masc|Number=Plur	5	obl	_	ref=249.37
+10	половець	половьчинъ	NOUN	Nb	Case=Ins|Gender=Masc|Number=Plur	5	obl	_	ref=249.37
 11	и	и	CCONJ	C-	_	12	cc	_	ref=249.38
 12	читѣевичи	читѣевичь	NOUN	Nb	Case=Ins|Gender=Masc|Number=Plur	10	conj	_	ref=249.38
 
@@ -20331,7 +20339,7 @@
 3	приде	приити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=250.9
 4	со	съ	ADP	R-	_	6	case	_	ref=250.9
 5	всѣми	вьсь	DET	Px	Case=Ins|Gender=Masc|Number=Plur	6	det	_	ref=250.9
-6	половци	половьчинъ.	NOUN	Nb	Case=Ins|Gender=Masc|Number=Plur	3	obl	_	ref=250.9
+6	половци	половьчинъ	NOUN	Nb	Case=Ins|Gender=Masc|Number=Plur	3	obl	_	ref=250.9
 7	къ	къ	ADP	R-	_	8	case	_	ref=250.9
 8	кснѧтиню	къснятинъ	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	ref=250.10
 
@@ -20409,7 +20417,7 @@
 4	паки	пакы	ADV	Df	_	5	advmod	_	ref=250.15
 5	идох	ити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=250.15
 6	на	на	ADP	R-	_	7	case	_	ref=250.15
-7	половци	половьчинъ.	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	5	obl	_	ref=250.15
+7	половци	половьчинъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	5	obl	_	ref=250.15
 8	на	на	ADP	R-	_	9	case	_	ref=250.15
 9	оурубу	уруба	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	7	appos	_	ref=250.15
 10	с	съ	ADP	R-	_	11	case	_	ref=250.15
@@ -23715,7 +23723,7 @@
 5	и	и	CCONJ	C-	_	6	cc	_	ref=
 6	воѣ	вои	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	3	conj	_	ref=
 7	и	и	CCONJ	C-	_	8	cc	_	ref=
-8	половцѣ	половьчинъ.	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	3	conj	_	ref=
+8	половцѣ	половьчинъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	3	conj	_	ref=
 9	надѣꙗ	надѣяти	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|Variant=Short|VerbForm=Part|Voice=Act	2	advcl	_	ref=
 10	сѧ	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	9	expl:pv	_	ref=
 11	на	на	ADP	R-	_	12	case	_	ref=
@@ -23744,7 +23752,7 @@
 11	и	и	CCONJ	C-	_	12	cc	_	ref=
 12	всеволодичь	вьсеволодичь	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	ref=
 13	ѡба	оба	NUM	Ma	Case=Nom|Gender=Masc|Number=Dual	14	nummod	_	ref=
-14	ст҃ослава	святославъ.	PROPN	Ne	Case=Nom|Gender=Masc|Number=Dual	10	flat:name	_	ref=
+14	ст҃ослава	святославъ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Dual	10	flat:name	_	ref=
 15	с	съ	ADP	R-	_	16	case	_	ref=
 16	дружиною	дружина	NOUN	Nb	Case=Ins|Gender=Fem|Number=Sing	7	obl	_	ref=
 17	рекуща	рещи	VERB	V-	Case=Nom|Gender=Masc|Number=Dual|Tense=Pres|Variant=Short|VerbForm=Part|Voice=Act	7	advcl	_	ref=
@@ -23786,7 +23794,7 @@
 4	сжидающа	съжьдати	VERB	V-	Case=Nom|Gender=Masc|Number=Dual|Tense=Pres|Variant=Short|VerbForm=Part|Voice=Act	2	advcl	_	ref=
 5	к	къ	ADP	R-	_	6	case	_	ref=
 6	собѣ	себе	PRON	Pk	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obl	_	ref=
-7	половець	половьчинъ.	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	4	obl:arg	_	ref=
+7	половець	половьчинъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	4	obl:arg	_	ref=
 8	и	и	CCONJ	C-	_	11	cc	_	ref=
 9	ѿ	отъ	ADP	R-	_	10	case	_	ref=
 10	изѧслава	изъяславъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	ref=
@@ -23921,7 +23929,7 @@
 3	на	на	ADP	R-	_	4	case	_	ref=
 4	мѧ	азъ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	5	obl	_	ref=
 5	привелъ	привести	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	12	dislocated	_	ref=
-6	половци	половьчинъ.	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	ref=
+6	половци	половьчинъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	ref=
 7	и	и	CCONJ	C-	_	8	cc	_	ref=
 8	ворогы	ворогъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	6	conj	_	ref=
 9	моѣ	мои	DET	Ps	Case=Acc|Gender=Masc|Number=Plur|Person=1|Poss=Yes	8	det	_	ref=
@@ -24508,7 +24516,7 @@
 7	ходѧщю	ходити	VERB	V-	Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|Variant=Short|VerbForm=Part|Voice=Act	15	advcl	_	ref=
 8	напередь	напередъ	ADV	Df	_	7	advmod	_	ref=
 9	с	съ	ADP	R-	_	10	case	_	ref=
-10	половци	половьчинъ.	NOUN	Nb	Case=Ins|Gender=Masc|Number=Plur	7	obl	_	ref=
+10	половци	половьчинъ	NOUN	Nb	Case=Ins|Gender=Masc|Number=Plur	7	obl	_	ref=
 11	ставшим	ставити	VERB	V-	Case=Dat|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	15	advcl	_	ref=
 12	имъ	и	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	ref=
 13	ѹ	у	ADP	R-	_	14	case	_	ref=
@@ -24520,7 +24528,7 @@
 19	золъ	зълыи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	18	amod	_	ref=
 20	ꙗко	яко	SCONJ	G-	_	24	mark	_	ref=
 21	и	и	ADV	Df	_	24	advmod	_	ref=
-22	повцем	половьчинъ.	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	24	nsubj	_	ref=
+22	повцем	половьчинъ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	24	nsubj	_	ref=
 23	всѣм	вьсь	DET	Px	Case=Dat|Gender=Masc|Number=Plur	22	det	_	ref=
 24	бѣжати	бѣжати	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	15	advcl	_	ref=
 25	назадъ	назадъ	ADV	Df	_	24	advmod	_	ref=
@@ -24610,7 +24618,7 @@
 2	же	же	ADV	Df	_	8	discourse	_	ref=
 3	андрѣи	андрѣи	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	ref=
 4	бѣжавше	бѣжати	VERB	V-	Case=Acc|Gender=Masc|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Act	1	xcomp	_	ref=
-5	половьци	половьчинъ.	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	ref=
+5	половьци	половьчинъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	ref=
 6	всѣ	вьсь	DET	Px	Case=Acc|Gender=Masc|Number=Plur	5	det	_	ref=
 7	б҃а	богъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	8	obj	_	ref=
 8	похвали	похвалити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=
@@ -25340,7 +25348,7 @@
 4	болѧръ	боляринъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	3	obl:arg	_	ref=
 5	выведъ	вывести	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Act	0	root	_	ref=
 6	из	из	ADP	R-	_	7	case	_	ref=
-7	вышегорода	вышегородъ.	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	ref=
+7	вышегорода	вышегородъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	ref=
 8	сн҃а	сынъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	5	obj	_	ref=
 9	своѥго	свои	DET	Pt	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	8	det	_	ref=
 10	андрѣа	андрѣи	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	8	appos	_	ref=
@@ -25846,7 +25854,7 @@
 3	послаша	посълати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=
 4	по	по	ADP	R-	_	5	case	_	ref=
 5	нем	и	PRON	Pp	Case=Loc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	ref=
-6	ст҃ослава	святославъ.	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	3	obj	_	ref=
+6	ст҃ослава	святославъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	3	obj	_	ref=
 7	всеволодича	вьсеволодичь	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	6	flat:name	_	ref=
 8	бориса	борисъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	6	conj	_	ref=
 9	гюргевича	гюргевичь	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	8	flat:name	_	ref=
@@ -26045,7 +26053,7 @@
 2	тоже	тыиже	DET	Pd	Case=Acc|Gender=Neut|Number=Sing	3	det	_	ref=
 3	лѣт	лѣто	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	ref=
 4	придоша	приити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=
-5	половци	половьчинъ.	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	ref=
+5	половци	половьчинъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	ref=
 6	в	въ	ADP	R-	_	7	case	_	ref=
 7	помочь	помочь	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	ref=
 8	гюргеви	гюргевъ	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	ref=
@@ -26072,7 +26080,7 @@
 7	ни	ни	CCONJ	C-	_	8	cc	_	ref=
 8	ѡлговичь	ольговичь	PROPN	Ne	Case=Gen|Gender=Masc|Number=Plur	6	conj	_	ref=
 9	посла	посълати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=
-10	ст҃ослава	святославъ.	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	9	obj	_	ref=
+10	ст҃ослава	святославъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	9	obj	_	ref=
 11	всеволодича	вьсеволодичь	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	10	flat:name	_	ref=
 12	переꙗславлю	переяславль	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	9	obl:arg	_	ref=
 13	к	къ	ADP	R-	_	14	case	_	ref=
@@ -30203,7 +30211,7 @@
 11	повѣстій	повѣсть	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	7	obj	_	ref=1
 12	о	о	ADP	R-	_	13	case	_	ref=1
 13	пълку	пълкъ	NOUN	Nb	Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	ref=1
-14	Игоревѣ	игоревъ.	ADJ	A-	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	13	amod	_	ref=1
+14	Игоревѣ	игоревъ	ADJ	A-	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	13	amod	_	ref=1
 15	Игоря	игорь	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	14	appos	_	ref=1
 16	Святъславлича	святославичь	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	15	flat:name	_	ref=1
 
@@ -30290,9 +30298,9 @@
 13	Редедю	редедя	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	ref=4
 14	предъ	прѣдъ	ADP	R-	_	15	case	_	ref=4
 15	пълкы	пълкъ	NOUN	Nb	Case=Ins|Gender=Masc|Number=Plur	12	obl	_	ref=4
-16	касожьскыми	касожьскыи.	ADJ	A-	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	ref=4
+16	касожьскыми	касожьскыи	ADJ	A-	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	ref=4
 17	красному	красьныи	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	ref=4
-18	Романови	романъ.	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	8	conj	_	ref=4
+18	Романови	романъ	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	8	conj	_	ref=4
 19	Святъславличю	святославичь	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	18	flat:name	_	ref=4
 
 # source = The tale of Igor’s campaign, The tale of Igor’s campaign
@@ -30795,7 +30803,7 @@
 # text = А половци неготовами дорогами побѣгоша къ Дону Великому
 # sent_id = 282110
 1	А	а	CCONJ	C-	_	5	cc	_	ref=30
-2	половци	половьчинъ.	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	ref=30
+2	половци	половьчинъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	ref=30
 3	неготовами	неготовыи	ADJ	A-	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur|Variant=Short	4	amod	_	ref=30
 4	дорогами	дорога	NOUN	Nb	Case=Ins|Gender=Fem|Number=Plur	5	obl	_	ref=30
 5	побѣгоша	побѣгнути	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=30
@@ -31030,7 +31038,7 @@
 12	чръный	чьрныи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	ref=41
 13	воронъ	воронъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	5	vocative	_	ref=41
 14	поганый	поганыи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	ref=41
-15	половчине	половьчинъ.	NOUN	Nb	Case=Voc|Gender=Masc|Number=Sing	13	appos	_	ref=41
+15	половчине	половьчинъ	NOUN	Nb	Case=Voc|Gender=Masc|Number=Sing	13	appos	_	ref=41
 
 # source = The tale of Igor’s campaign, The tale of Igor’s campaign
 # text = Гзакъ бѣжитъ сѣрымъ влъкомъ
@@ -31158,7 +31166,7 @@
 9	на	на	ADP	R-	_	11	case	_	ref=48
 10	храбрыя	храбрыи	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	ref=48
 11	пълкы	пълкъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	5	obl	_	ref=48
-12	Игоревы	игоревъ.	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Variant=Short	11	amod	_	ref=48
+12	Игоревы	игоревъ	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Variant=Short	11	amod	_	ref=48
 
 # source = The tale of Igor’s campaign, The tale of Igor’s campaign
 # text = Земля тутнетъ
@@ -31189,7 +31197,7 @@
 # source = The tale of Igor’s campaign, The tale of Igor’s campaign
 # text = половци идуть отъ Дона и отъ моря и отъ всѣхъ странъ
 # sent_id = 282148
-1	половци	половьчинъ.	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	ref=50
+1	половци	половьчинъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	ref=50
 2	идуть	ити	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=50
 3	отъ	отъ	ADP	R-	_	4	case	_	ref=50
 4	Дона	донъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	2	obl	_	ref=50
@@ -31493,7 +31501,7 @@
 # text = хотять полетѣти на уедіе
 # sent_id = 282172
 1	хотять	хотѣти	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=65
-2	полетѣти	полетѣти.	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	1	xcomp	_	ref=65
+2	полетѣти	полетѣти	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	1	xcomp	_	ref=65
 3	на	на	ADP	R-	_	4	case	_	ref=65
 4	уедіе	уѣдие	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	ref=65
 
@@ -31620,7 +31628,7 @@
 4	полуднію	полудьние	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	ref=70
 5	падоша	пасти	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=70|LId=1
 6	стязи	стягъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	ref=70
-7	Игоревы	игоревъ.	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Variant=Short	6	amod	_	ref=70
+7	Игоревы	игоревъ	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Variant=Short	6	amod	_	ref=70
 
 # source = The tale of Igor’s campaign, The tale of Igor’s campaign
 # text = Ту ся брата разлучиста на брезѣ быстрой Каялы
@@ -31813,7 +31821,7 @@
 # text = А Игорева храбраго плъку не крѣсити
 # sent_id = 282200
 1	А	а	CCONJ	C-	_	6	cc	_	ref=80
-2	Игорева	игоревъ.	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	amod	_	ref=80
+2	Игорева	игоревъ	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	amod	_	ref=80
 3	храбраго	храбрыи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	ref=80
 4	плъку	пълкъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	6	obj	_	ref=80
 5	не	не	ADV	Df	Polarity=Neg	6	advmod	_	ref=80
@@ -31956,7 +31964,7 @@
 15	успилъ	усъпити	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	10	acl	_	ref=88
 16	отецъ	отьць	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	ref=88
 17	ихъ	и	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	det	_	ref=88
-18	Святъславь	святославъ.	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	16	appos	_	ref=88
+18	Святъславь	святославъ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	16	appos	_	ref=88
 19	грозный	грозьныи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	ref=88
 20	великый	великыи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	ref=88
 21	кіевскый	кыевьскыи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	ref=88
@@ -32036,7 +32044,7 @@
 7	Кіевѣ	кыевъ	PROPN	Ne	Case=Loc|Gender=Masc|Number=Sing	6	appos	_	ref=89
 8	въ	въ	ADP	R-	_	9	case	_	ref=89
 9	гридницѣ	гридьница	NOUN	Nb	Case=Loc|Gender=Fem|Number=Sing	6	appos	_	ref=89
-10	Святъславли	святославль.	ADJ	A-	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	9	amod	_	ref=89
+10	Святъславли	святославль	ADJ	A-	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	9	amod	_	ref=89
 
 # source = The tale of Igor’s campaign, The tale of Igor’s campaign
 # text = Ту нѣмци и венедици ту греци и морава поютъ славу Святъславлю
@@ -32051,7 +32059,7 @@
 8	морава	морава	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	ref=90
 9	поютъ	пѣти	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=90
 10	славу	слава	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	ref=90
-11	Святъславлю	святославль.	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	10	amod	_	ref=90
+11	Святъславлю	святославль	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	10	amod	_	ref=90
 
 # source = The tale of Igor’s campaign, The tale of Igor’s campaign
 # text = кають князя Игоря иже погрузи жиръ во днѣ Каялы рѣкы половецкія
@@ -32105,7 +32113,7 @@
 # text = А Святъславь мутенъ сонъ видѣ въ Кіевѣ на горахъ
 # sent_id = 282222
 1	А	а	CCONJ	C-	_	5	cc	_	ref=93
-2	Святъславь	святославъ.	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	ref=93
+2	Святъславь	святославъ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	ref=93
 3	мутенъ	мутьныи	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	amod	_	ref=93
 4	сонъ	сънъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	ref=93
 5	видѣ	видѣти	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=93
@@ -32293,7 +32301,7 @@
 5	мѣсяца	мѣсяць	NOUN	Nb	Case=Nom|Gender=Masc|Number=Dual	11	nsubj	_	ref=103
 6	Олегъ	ольгъ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	ref=103
 7	и	и	CCONJ	C-	_	8	cc	_	ref=103
-8	Святъславъ	святославъ.	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	ref=103
+8	Святъславъ	святославъ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	ref=103
 9	тъмою	тьма	NOUN	Nb	Case=Ins|Gender=Fem|Number=Sing	11	obl:arg	_	ref=103
 10	ся	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	11	expl:pv	_	ref=103
 11	поволокоста	поволочи	VERB	V-	Aspect=Perf|Mood=Ind|Number=Dual|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=103
@@ -32317,7 +32325,7 @@
 3	земли	земля	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	ref=105
 4	простроша	прострѣти	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=105
 5	ся	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	expl:pv	_	ref=105
-6	половци	половьчинъ.	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	ref=105
+6	половци	половьчинъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	ref=105
 7	аки	акы	ADV	Df	_	9	mark	_	ref=105
 8	пардуже	пардужь	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	9	amod	_	ref=105
 9	гнѣздо	гнѣздо	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	4	advcl:cmp	_	ref=105
@@ -32414,7 +32422,7 @@
 # sent_id = 282249
 1	Тогда	тъгда	ADV	Df	_	4	advmod	_	ref=111
 2	великій	великыи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	ref=111
-3	Святславъ	святославъ.	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ref=111
+3	Святславъ	святославъ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ref=111
 4	изрони	изронити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=111
 5	злато	златыи	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	6	amod	_	ref=111
 6	слово	слово	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	ref=111
@@ -32767,7 +32775,7 @@
 12	Русскую	русьскыи	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	ref=129
 13	за	за	ADP	R-	_	14	case	_	ref=129
 14	раны	рана	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	7	conj	_	ref=129
-15	Игоревы	игоревъ.	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Variant=Short	14	amod	_	ref=129
+15	Игоревы	игоревъ	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Variant=Short	14	amod	_	ref=129
 16	буего	буи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	ref=129
 17	Святславлича	святославичь	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	15	appos	_	ref=129
 
@@ -32849,7 +32857,7 @@
 8	Рускую	русьскыи	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	ref=132
 9	за	за	ADP	R-	_	10	case	_	ref=132
 10	раны	рана	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	1	obl	_	ref=132
-11	Игоревы	игоревъ.	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Variant=Short	10	amod	_	ref=132
+11	Игоревы	игоревъ	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Variant=Short	10	amod	_	ref=132
 12	буего	буи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	ref=132
 13	Святславлича	святославичь	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	11	appos	_	ref=132
 
@@ -32859,7 +32867,7 @@
 1	А	а	CCONJ	C-	_	0	root	_	ref=133
 2	ты	ты	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	1	vocative	_	ref=133
 3	буй	буи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	amod	_	ref=133
-4	Романе	романъ.	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	2	appos	_	ref=133
+4	Романе	романъ	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	2	appos	_	ref=133
 5	и	и	CCONJ	C-	_	6	cc	_	ref=133
 6	Мстиславе	мьстиславъ	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	2	conj	_	ref=133
 
@@ -32926,7 +32934,7 @@
 6	ятвязи	ятвязи	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	4	conj	_	ref=135
 7	деремела	деремела	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	ref=135
 8	и	и	CCONJ	C-	_	9	cc	_	ref=135
-9	половци	половьчинъ.	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	4	conj	_	ref=135
+9	половци	половьчинъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	4	conj	_	ref=135
 10	сулици	сулица	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	ref=135
 11	своя	свои	DET	Pt	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	10	det	_	ref=135
 12	повръгоша	поврѣщи	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=135
@@ -32971,7 +32979,7 @@
 # text = А Игорева храбраго плъку не крѣсити
 # sent_id = 282291
 1	А	а	CCONJ	C-	_	6	cc	_	ref=137
-2	Игорева	игоревъ.	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	amod	_	ref=137
+2	Игорева	игоревъ	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	amod	_	ref=137
 3	храбраго	храбрыи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	ref=137
 4	плъку	пълкъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	6	obj	_	ref=137
 5	не	не	ADV	Df	Polarity=Neg	6	advmod	_	ref=137
@@ -33052,7 +33060,7 @@
 9	Русскую	русьскыи	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	ref=142
 10	за	за	ADP	R-	_	11	case	_	ref=142
 11	раны	рана	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	1	obl	_	ref=142
-12	Игоревы	игоревъ.	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Variant=Short	11	amod	_	ref=142
+12	Игоревы	игоревъ	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Variant=Short	11	amod	_	ref=142
 13	буего	буи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	ref=142
 14	Святъславлича	святославичь	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	12	appos	_	ref=142
 
@@ -33107,7 +33115,7 @@
 2	славу	слава	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	ref=144
 3	дѣду	дѣдъ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	ref=144
 4	своему	свои	DET	Pt	Case=Dat|Gender=Masc|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	3	det	_	ref=144
-5	Всеславу	вьсеславъ.	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	3	appos	_	ref=144
+5	Всеславу	вьсеславъ	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	3	appos	_	ref=144
 6	а	а	CCONJ	C-	_	14	cc	_	ref=144
 7	самъ	самъ	PRON	Pd	Case=Nom|Gender=Masc|Number=Sing	14	nsubj:pass	_	ref=144
 8	подъ	подъ	ADP	R-	_	10	case	_	ref=144
@@ -33262,7 +33270,7 @@
 3	вѣцѣ	вѣкъ	NOUN	Nb	Case=Loc|Gender=Masc|Number=Sing	5	obl	_	ref=153|LId=1
 4	Трояни	троянь	ADJ	A-	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	amod	_	ref=153
 5	връже	врѣщи	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=153
-6	Всеславъ	вьсеславъ.	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	ref=153
+6	Всеславъ	вьсеславъ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	ref=153
 7	жребій	жрѣбии	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	ref=153
 8	о	о	ADP	R-	_	9	case	_	ref=153
 9	дѣвицю	дѣвица	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	ref=153
@@ -33400,7 +33408,7 @@
 # source = The tale of Igor’s campaign, The tale of Igor’s campaign
 # text = Всеславъ князь людемъ судяше
 # sent_id = 282329
-1	Всеславъ	вьсеславъ.	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ref=159
+1	Всеславъ	вьсеславъ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ref=159
 2	князь	кънязь	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	ref=159
 3	людемъ	людие	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	4	obl:arg	_	ref=159
 4	судяше	судити	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=159
@@ -33580,7 +33588,7 @@
 # source = The tale of Igor’s campaign, The tale of Igor’s campaign
 # text = Полечю рече зегзицею по Дунаеви
 # sent_id = 282345
-1	Полечю	полетѣти.	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=169
+1	Полечю	полетѣти	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=169
 2	рече	рещи	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	ref=169
 3	зегзицею	зегъзица	NOUN	Nb	Case=Ins|Gender=Fem|Number=Sing	1	obl	_	ref=169
 4	по	по	ADP	R-	_	5	case	_	ref=169
@@ -33721,7 +33729,7 @@
 3	еси	быти	AUX	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	ref=179
 4	на	на	ADP	R-	_	5	case	_	ref=179
 5	себѣ	себе	PRON	Pk	Case=Loc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obl	_	ref=179
-6	Святославли	святославль.	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Variant=Short	7	amod	_	ref=179
+6	Святославли	святославль	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Variant=Short	7	amod	_	ref=179
 7	носады	насадъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	ref=179
 8	до	до	ADP	R-	_	9	case	_	ref=179
 9	плъку	пълкъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	2	obl	_	ref=179
@@ -33967,7 +33975,7 @@
 # text = и полетѣ соколомъ подъ мьглами избивая гуси и лебеди завтроку и обѣду и ужинѣ
 # sent_id = 282381
 1	и	и	CCONJ	C-	_	2	cc	_	ref=190
-2	полетѣ	полетѣти.	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=190
+2	полетѣ	полетѣти	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=190
 3	соколомъ	соколъ	NOUN	Nb	Case=Ins|Gender=Masc|Number=Sing	2	obl	_	ref=190
 4	подъ	подъ	ADP	R-	_	5	case	_	ref=190
 5	мьглами	мьгла	NOUN	Nb	Case=Ins|Gender=Fem|Number=Plur	2	obl	_	ref=190
@@ -33987,7 +33995,7 @@
 1	Коли	коли	ADV	Dq	PronType=Rel	4	advcl	_	ref=191
 2	Игорь	игорь	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ref=191
 3	соколомъ	соколъ	NOUN	Nb	Case=Ins|Gender=Masc|Number=Sing	4	obl	_	ref=191
-4	полетѣ	полетѣти.	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	dislocated	_	ref=191
+4	полетѣ	полетѣти	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	dislocated	_	ref=191
 5	тогда	тъгда	ADV	Df	_	8	advmod	_	ref=191
 6	Влуръ	овлуръ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	ref=191
 7	влъкомъ	вълкъ	NOUN	Nb	Case=Ins|Gender=Masc|Number=Sing	8	obl	_	ref=191
@@ -34163,7 +34171,7 @@
 # sent_id = 282397
 1	на	на	ADP	R-	_	2	case	_	ref=200
 2	слѣду	слѣдъ	NOUN	Nb	Case=Loc|Gender=Masc|Number=Sing	4	obl	_	ref=200
-3	Игоревѣ	игоревъ.	ADJ	A-	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	amod	_	ref=200
+3	Игоревѣ	игоревъ	ADJ	A-	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	amod	_	ref=200
 4	ѣздитъ	ѣздити	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=200
 5	Гзакъ	гзакъ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ref=200
 6	съ	съ	ADP	R-	_	7	case	_	ref=200
@@ -34307,7 +34315,7 @@
 3	и	и	CCONJ	C-	_	4	cc	_	ref=209
 4	ходы	ходына	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	ref=209
 5	на	на	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	4	fixed	_	ref=209
-6	Святъславля	святославль.	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Dual|Variant=Short	7	amod	_	ref=209
+6	Святъславля	святославль	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Dual|Variant=Short	7	amod	_	ref=209
 7	пѣстворца	пѣснотворьць	NOUN	Nb	Case=Nom|Gender=Masc|Number=Dual	2	appos	_	ref=209
 8	стараго	старыи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	ref=209
 9	времени	врѣмя	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	ref=209
@@ -36304,7 +36312,7 @@
 9	въ	въ	ADP	R-	_	10	case	_	ref=317v16
 10	врата	врата	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	8	obl	_	ref=317v16
 11	с҃тго	святыи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	ref=317v16
-12	романа	романъ.	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	ref=317v16
+12	романа	романъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	ref=317v16
 13	кʼ	къ	ADP	R-	_	15	case	_	ref=317v17
 14	великои	великыи	ADJ	A-	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	ref=317v17
 15	цр҃кви	цьркы	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	ref=317v17
