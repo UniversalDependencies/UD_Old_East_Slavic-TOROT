@@ -14,7 +14,7 @@ The test set consists of Afanasij Nikitin 18–19; birchbark letters 724, 725 an
 
 The training set consists of larger, continuous excerpts from Afanasij Nikitin, Domostroj, Life of Sergij of Radonezh, Life of Stefan of Perm, Life of Avvakum, Russkaja pravda, Novgorod First Chronicle (Synodal ms.), Primary Chronicle (Laurentian ms. and Hypatian ms.), Suzdal Chronicle (Laurentian ms.), The Kiev Chronicle (Hypatian ms.), Tale of the Fall of Constantinople, Uspenskij sbornik, as well as a further selection of birchbark letters, a selection of charters, treaties and shorter chronicle texts, and the Zadonshchina.
 
-# Acknowledgments
+# Acknowledgements
 
 The conversion was performed using a script written by Dag Haug and Hanne Eckhoff. The texts were annotated and reviewed by a brilliant team of annotators, who are acknowledged in the original treebank files and who deserve to be thanked profusely.
 
