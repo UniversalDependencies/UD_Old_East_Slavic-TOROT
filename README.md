@@ -16,7 +16,7 @@ The training set consists of larger, continuous excerpts from Afanasij Nikitin, 
 
 # Acknowledgements
 
-The texts were converted by Hanne Eckhoff. The texts were annotated and reviewed by a brilliant team of annotators, who are acknowledged in the original treebank files and who deserve to be thanked profusely.
+The original treebank files were converted into UD format by Hanne Eckhoff. The texts were annotated and reviewed by a brilliant team of annotators, who are acknowledged in the original treebank files and who deserve to be thanked profusely.
 
 ## References
 
