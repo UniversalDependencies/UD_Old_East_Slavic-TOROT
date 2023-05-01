@@ -4,7 +4,7 @@ UD\_Old\_East\_Slavic-TOROT is a conversion of a selection of Old East Slavonic 
 
 # Introduction
 
-UD Old East Slavic TOROT is a conversion of a selection of  Old East Slavonic and Middle Russian data from the Tromsø Old Russian and OCS Treebank (TOROT), which was built at UiT The Arctic University of Norway and is now maintained at the University of Oslo. The treebank is manually annotated, with some automatic preprocessing, on PROIEL dependency format. New texts are still being added. The treebank contains texts from a variety of mediaeval and early modern genres, such as chronicles, legal documents, lives of saints and correspondence. 
+UD Old East Slavic TOROT is a conversion of a selection of  Old East Slavonic and Middle Russian data from the Tromsø Old Russian and OCS Treebank (TOROT), which was built at UiT The Arctic University of Norway and is now maintained at the University of Oslo. The treebank is manually annotated, with some automatic preprocessing, on PROIEL dependency format. New texts are still being added. The treebank contains texts from a variety of mediaeval and early modern genres, such as chronicles, legal documents, lives of saints and correspondence. The original treebank files are available fromhttps://github.com/syntacticus/syntacticus-treebank-data. The current conversion is based on the 20230428 release. The conversion code was written by Dag Haug and Hanne Eckhoff and is available in the Rubygem proiel-cli, available at https://github.com/proiel/proiel-cli
 
 # Data splits
 
@@ -16,7 +16,7 @@ The training set consists of larger, continuous excerpts from Afanasij Nikitin, 
 
 # Acknowledgements
 
-The conversion was performed using a script written by Dag Haug and Hanne Eckhoff. The texts were annotated and reviewed by a brilliant team of annotators, who are acknowledged in the original treebank files and who deserve to be thanked profusely.
+The texts were converted by Hanne Eckhoff. The texts were annotated and reviewed by a brilliant team of annotators, who are acknowledged in the original treebank files and who deserve to be thanked profusely.
 
 ## References
 
