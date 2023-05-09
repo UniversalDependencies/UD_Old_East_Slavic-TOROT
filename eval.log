@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Old_East_Slavic-TOROT:
-commit c956ba17ed03e0ae40f854168b48b490fd5f044b
+commit d89f3fee4dae80126c39facfb0b2e3882aa62330
+Merge: 97412ee ab76e05
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat May 14 15:03:13 2022 +0200
-Size: counted 149780 of 149780 words (nodes).
-Size: min(0, log((N/1000)**2)) = 10.0183351016424.
+Size: counted 246850 of 246850 words (nodes).
+Size: min(0, log((N/1000)**2)) = 11.0175617294097.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,66 +15,56 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 14 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 103269 out of 149780 total words have one or more features.
+Features: 170464 out of 246850 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
-Universal relations: 31 out of 37 found in the corpus.
+Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL       6692
-Udapi: found 6692 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 149780 words.
+               TOTAL      19564
+Udapi: found 19564 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 246850 words.
 Genres: found 2 out of 17 known.
-validate.py --lang orv --max-err=10 UD_Old_East_Slavic-TOROT/orv_torot-ud-dev.conllu
-[Line 267 Sent 195039 Node 6]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
-[Line 268 Sent 195039 Node 7]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
-[Line 269 Sent 195039 Node 8]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
-[Line 271 Sent 195039 Node 10]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
-[Line 283 Sent 195041 Node 8]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
-[Line 284 Sent 195041 Node 9]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
-[Line 285 Sent 195041 Node 10]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
-[Line 287 Sent 195041 Node 12]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
-[Line 298 Sent 195043 Node 7]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
-...suppressing further errors regarding Syntax
-Syntax errors: 38
-*** FAILED *** with 38 errors
-Exit code: 1
-validate.py --lang orv --max-err=10 UD_Old_East_Slavic-TOROT/orv_torot-ud-test.conllu
-[Line 2738 Sent 205346 Node 8]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
-[Line 2742 Sent 205346 Node 12]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
-[Line 3199 Sent 123318 Node 21]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
-[Line 4097 Sent 123431 Node 5]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nmod'.
-[Line 4098 Sent 123431 Node 6]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nmod'.
-[Line 4339 Sent 123462 Node 11]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
-[Line 4345 Sent 123462 Node 17]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
-[Line 6005 Sent 140084 Node 1]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
-[Line 6295 Sent 140739 Node 10]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
-...suppressing further errors regarding Syntax
-Syntax errors: 18
-*** FAILED *** with 18 errors
-Exit code: 1
-validate.py --lang orv --max-err=10 UD_Old_East_Slavic-TOROT/orv_torot-ud-train.conllu
-[Line 9748 Sent 134580 Node 6]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
-[Line 9750 Sent 134580 Node 8]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
-[Line 9751 Sent 134580 Node 9]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
-[Line 9752 Sent 134580 Node 10]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
-[Line 9753 Sent 134580 Node 11]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
-[Line 11922 Sent 124959 Node 8]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
-[Line 12415 Sent 140991 Node 8]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
-[Line 12554 Sent 125474 Node 7]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
-[Line 12555 Sent 125474 Node 8]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
-...suppressing further errors regarding Syntax
-Syntax errors: 254
-*** FAILED *** with 254 errors
-Exit code: 1
-Validity: 0.01
+/net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-TOROT/orv_torot-ud-dev.conllu
+[Line 2034 Sent 255716 Node 2]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+[Line 4511 Sent 255853 Node 3]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
+[Line 5014 Sent 292607 Node 13]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
+[Line 5951 Sent 292669 Node 9]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+[Line 5953 Sent 292669 Node 11]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+[Line 26878 Sent 281799 Node 8]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'xcomp'.
+[Line 26926 Sent 281803 Node 4]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
+Warnings: 7
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-TOROT/orv_torot-ud-test.conllu
+[Line 1655 Sent 256051 Node 7]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+[Line 1657 Sent 256051 Node 9]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+[Line 1864 Sent 256061 Node 1]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
+[Line 3470 Sent 256152 Node 17]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
+[Line 32565 Sent 281442 Node 12]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'xcomp'.
+[Line 36432 Sent 279506 Node 9]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+Warnings: 6
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-TOROT/orv_torot-ud-train.conllu
+[Line 1549 Sent 280575 Node 6]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+[Line 22924 Sent 289622 Node 8]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'xcomp'.
+[Line 23395 Sent 289666 Node 3]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
+[Line 25564 Sent 289874 Node 1]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
+[Line 35039 Sent 291061 Node 2]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+[Line 37529 Sent 255135 Node 2]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
+[Line 37531 Sent 255135 Node 4]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
+[Line 55714 Sent 256000 Node 5]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+[Line 56472 Sent 256194 Node 1]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
+...suppressing further errors regarding Warning
+Warnings: 46
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.725151275416828) = 0.185936224465853
+(weight=0.256410256410256) * (score{size}=0.797477710518517) = 0.204481464235517
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.658823529411765) = 0.0506787330316742
-(weight=0.307692307692308) * (score{udapi}=0.553211376685806) = 0.170218885134094
-(weight=0.0769230769230769) * (score{udeprels}=0.67027027027027) = 0.0515592515592516
-(TOTAL score=0.641801842305504) * (availability=1) * (validity=0.01) = 0.00641801842305504
-STARS = 0
-UD_Old_East_Slavic-TOROT	0.00641801842305504	0
+(weight=0.307692307692308) * (score{udapi}=0.207453919384241) = 0.0638319751951512
+(weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
+(TOTAL score=0.552296970473023) * (availability=1) * (validity=1) = 0.552296970473023
+STARS = 3
+UD_Old_East_Slavic-TOROT	0.552296970473023	3
