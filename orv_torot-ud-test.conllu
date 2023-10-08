@@ -11826,7 +11826,7 @@
 6	измроша	измрѣти	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=
 7	кони	конь	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	ref=
 8	новѣ.	новъгородъ	PROPN	Ne	Case=Loc|Gender=Masc|Number=Sing	6	obl	_	ref=
-9	городѣ	городѣ	PROPN	Ne	Case=Loc|Gender=Masc|Number=Sing	8	fixed	_	ref=
+9	городѣ	городѣ	PROPN	Ne	Case=Loc|Gender=Masc|Number=Sing	8	flat:name	_	ref=
 10	и	и	CCONJ	C-	_	12	cc	_	ref=
 11	по	по	ADP	R-	_	12	case	_	ref=
 12	селомъ	село	NOUN	Nb	Case=Dat|Gender=Neut|Number=Plur	8	conj	_	ref=
@@ -31883,13 +31883,13 @@
 6	галичьскыи	галичьскыи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	ref=
 7	кнѧзь	кънязь	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = ﻿Взятие Псковское
 # sent_id = 281402
 1	﻿Взятие	възятие	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	ref=
 2	Псковское	пльсковьскыи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	1	nmod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = В лѣто 7018 месяца октября въ 26 на память святого Дмитрея князь великий Василей Ивановичь приехал въ свою отчину в Великий Новгород и з своим братом удълным со князем Ондрѣем и с своими бояре
 # sent_id = 281403
 1	В	въ	ADP	R-	_	2	case	_	ref=
@@ -31927,7 +31927,7 @@
 33	своими	свои	DET	Pt	Case=Ins|Gender=Neut|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	34	det	_	ref=
 34	бояре	бояринъ	NOUN	Nb	Case=Ins|Gender=Masc|Number=Plur	26	conj	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И псковичи услышавше государя великого князя Василья Ивановича в Великом Новегороде и послаша послов своих в Великий Новгород Юрья посадника Елисѣевича и посадника Михаила Помазова и бояр изо всѣх концов
 # sent_id = 281404
 1	И	и	CCONJ	C-	_	3	cc	_	ref=
@@ -31961,7 +31961,7 @@
 29	всѣх	вьсь	DET	Px	Case=Gen|Gender=Masc|Number=Plur	30	det	_	ref=
 30	концов	коньць	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	27	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И даша псковичи дару великому князю Василью Ивановичю полтораста рублев новгородцкую о жаловании и о печаловании своея отчины мужей псковичь добровольных людей что
 # sent_id = 281405
 1	И	и	CCONJ	C-	_	2	cc	_	ref=
@@ -31988,7 +31988,7 @@
 22	людей	людие	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	19	appos	_	ref=
 23	что	чьто	SCONJ	G-	_	2	ccomp	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Есмя приобижены от твоего намѣстника а от нашего князя Ивана Михайловича Репни и от его людей и от его намѣстников от пригородцких и от ихъ людей
 # sent_id = 281406
 1	Есмя	быти	AUX	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	ref=
@@ -32018,7 +32018,7 @@
 25	ихъ	и	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	26	det	_	ref=
 26	людей	людие	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	5	conj	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И князь великий отвечал нашим посадником
 # sent_id = 281407
 1	И	и	CCONJ	C-	_	4	cc	_	ref=
@@ -32028,7 +32028,7 @@
 5	нашим	нашь	DET	Ps	Case=Dat|Gender=Masc|Number=Plur|Person=1|Poss=Yes	6	det	_	ref=
 6	посадником	посадьникъ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	4	obl:arg	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Язъ вас свою отчину хощу жаловати и боронити якоже отец нашь и дѣды наши великии князи
 # sent_id = 281408
 1	Язъ	язъ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	ref=
@@ -32048,7 +32048,7 @@
 15	великии	великыи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	ref=
 16	князи	кънязь	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	10	appos	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = аже тольке стануть на него мнози жалобы и яз его обвиню пред вами
 # sent_id = 281410
 1	аже	аже	SCONJ	G-	_	3	mark	_	ref=
@@ -32065,7 +32065,7 @@
 12	пред	прѣдъ	ADP	R-	_	13	case	_	ref=
 13	вами	вы	PRON	Pp	Case=Ins|Gender=Masc|Number=Plur|Person=2|PronType=Prs	11	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Да и посадников нашихъ и бояр отпустил
 # sent_id = 281411
 1	Да	да	ADV	Df	_	7	discourse	_	ref=|LId=2
@@ -32076,7 +32076,7 @@
 6	бояр	бояринъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	3	conj	_	ref=
 7	отпустил	отъпустити	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И посадники наши сказывають псковичем на вечи что князь великий дар их честно принял
 # sent_id = 281412
 1	И	и	CCONJ	C-	_	4	cc	_	ref=
@@ -32094,7 +32094,7 @@
 13	честно	чьстьно	ADV	Df	_	14	advmod	_	ref=
 14	принял	приняти	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	4	ccomp	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а сердечныя никтоже вѣсть что князь великий здумал на свою отчину и на мужей псковичь и на град Псков
 # sent_id = 281413
 1	а	а	CCONJ	C-	_	4	cc	_	ref=
@@ -32117,7 +32117,7 @@
 18	град	градъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	11	conj	_	ref=
 19	Псков	пльсковъ	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	18	appos	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Потом тоя же зиме по мале времени поехал изо Пскова князь псковской Иван Михайлович Репня Оболенъских князей государю великому князю жаловати ся на псковичь что де его псковичи бесчествовали
 # sent_id = 281414
 1	Потом	потомь	ADV	Df	_	8	advmod	_	ref=
@@ -32150,7 +32150,7 @@
 28	псковичи	пльсковитинъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	ref=
 29	бесчествовали	бесчьствовати	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	21	ccomp	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = А тот Репня не пошлиною во Псков приѣхал да сѣл на княжении
 # sent_id = 281415
 1	А	а	CCONJ	C-	_	8	cc	_	ref=
@@ -32166,7 +32166,7 @@
 11	на	на	ADP	R-	_	12	case	_	ref=
 12	княжении	къняжение	NOUN	Nb	Case=Loc|Gender=Neut|Number=Sing	10	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а не по крестному целованию учал во Пскове жити
 # sent_id = 281416
 1	а	а	CCONJ	C-	_	6	cc	_	ref=
@@ -32179,7 +32179,7 @@
 8	Пскове	пльсковъ	PROPN	Ne	Case=Loc|Gender=Masc|Number=Sing	9	obl	_	ref=
 9	жити	жити	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	6	xcomp	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а не учал добра хотѣть Святей Троицы ни мужем псковичем
 # sent_id = 281417
 1	а	а	CCONJ	C-	_	3	cc	_	ref=
@@ -32193,7 +32193,7 @@
 9	мужем	мужь	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	7	conj	_	ref=
 10	псковичем	пльсковитинъ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	9	appos	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Да тот Репня много зла чинил дѣтем боярским и посадничим
 # sent_id = 281418
 1	Да	да	ADV	Df	_	6	discourse	_	ref=|LId=2
@@ -32207,7 +32207,7 @@
 9	и	и	CCONJ	C-	_	10	cc	_	ref=
 10	посадничим	посадьничии	ADJ	A-	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	8	conj	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Потом того же времени посадники псковскиа здумав со псковичи такову думу а не на пользю себѣ думаша учаша грамоты писати по пригородом да и по волостем а ркучи так
 # sent_id = 281420
 1	Потом	потомь	ADV	Df	_	18	advmod	_	ref=
@@ -32240,7 +32240,7 @@
 28	ркучи	рещи	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|Variant=Short|VerbForm=Part|Voice=Act	18	conj	_	ref=
 29	так	тако	ADV	Df	_	28	advmod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Аще который человекъ каков ни буди а жаловал ся на князя и вы бы ехали къ государю великому князю в Великий Новгород противу его бити челом
 # sent_id = 281421
 1	Аще	аще	SCONJ	G-	_	15	advcl	_	ref=
@@ -32270,7 +32270,7 @@
 25	бити	бити	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	15	advcl	_	ref=
 26	челом	чело	NOUN	Nb	Case=Ins|Gender=Neut|Number=Sing	25	obl:arg	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = На той же недели поѣхал Левонтей посадникъ бити челом на посадника на Юрья на Копыла
 # sent_id = 281422
 1	На	на	ADP	R-	_	4	case	_	ref=
@@ -32289,7 +32289,7 @@
 14	на	на	ADP	R-	_	11	case	_	ref=
 15	Копыла	копылъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	13	flat:name	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И поѣхал Юрьи в Новгород противу его отвѣчивать
 # sent_id = 281423
 1	И	и	CCONJ	C-	_	2	cc	_	ref=
@@ -32301,7 +32301,7 @@
 7	его	и	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	_	ref=
 8	отвѣчивать	отвѣчивати	VERB	V-	Case=Acc|VerbForm=Sup	2	advcl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и тамо тягали ся
 # sent_id = 281424
 1	и	и	CCONJ	C-	_	3	cc	_	ref=
@@ -32309,7 +32309,7 @@
 3	тягали	тягати	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	0	root	_	ref=
 4	ся	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	expl:pv	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И Юрьи посадникъ прислал грамоту свою из Великого Новагорода ко Пскову
 # sent_id = 281425
 1	И	и	CCONJ	C-	_	4	cc	_	ref=
@@ -32324,7 +32324,7 @@
 10	ко	къ	ADP	R-	_	11	case	_	ref=
 11	Пскову	пльсковъ	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а у грамоте написано так
 # sent_id = 281426
 1	а	а	CCONJ	C-	_	4	cc	_	ref=
@@ -32333,7 +32333,7 @@
 4	написано	написати	VERB	V-	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	ref=
 5	так	тако	ADV	Df	_	4	advmod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = аще не поѣдут посадники изо Пскова говорити противу князя Ивана Репни ино будетъ вся земля виновата
 # sent_id = 281427
 1	аще	аще	SCONJ	G-	_	3	mark	_	ref=
@@ -32353,7 +32353,7 @@
 15	земля	земля	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	ref=
 16	виновата	виноватыи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И у ту пору псковичем сердце уныло
 # sent_id = 281428
 1	И	и	CCONJ	C-	_	7	cc	_	ref=
@@ -32364,7 +32364,7 @@
 6	сердце	сьрдьце	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	ref=
 7	уныло	уныти	VERB	V-	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = А на четвертый день по той грамоте поехали к Новугороду 9 посадников да и купецкии старосты всѣх рядов
 # sent_id = 281429
 1	А	а	CCONJ	C-	_	8	cc	_	ref=
@@ -32386,7 +32386,7 @@
 17	всѣх	вьсь	DET	Px	Case=Gen|Gender=Masc|Number=Plur	18	det	_	ref=
 18	рядов	рядъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = А князь великий управы им никакой не дасть
 # sent_id = 281430
 1	А	а	CCONJ	C-	_	8	cc	_	ref=
@@ -32398,14 +32398,14 @@
 7	не	не	ADV	Df	Polarity=Neg	8	advmod	_	ref=
 8	дасть	дати	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а говорит так
 # sent_id = 281431
 1	а	а	CCONJ	C-	_	2	cc	_	ref=
 2	говорит	говорити	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=
 3	так	тако	ADV	Df	_	2	advmod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Копите ся вы жалобныя люди на Крещение Господе
 # sent_id = 281432
 1	Копите	копити	VERB	V-	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=
@@ -32417,7 +32417,7 @@
 7	Крещение	крьщение	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	ref=
 8	Господе	господьнь	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	7	amod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и яз вам всѣм управы подаю
 # sent_id = 281433
 1	и	и	CCONJ	C-	_	6	cc	_	ref=
@@ -32427,7 +32427,7 @@
 5	управы	управа	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	ref=
 6	подаю	подаяти	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = А управы никаковы нѣтъ
 # sent_id = 281434
 1	А	а	CCONJ	C-	_	4	cc	_	ref=
@@ -32435,7 +32435,7 @@
 3	никаковы	никаковъ	DET	Px	Case=Gen|Gender=Fem|Number=Sing	2	det	_	ref=
 4	нѣтъ	нѣту	VERB	V-	_	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Того же времени месяца генваря въ 6 день на Крещение Господне князь великий велѣл нашим посадником всѣм копити ся да и бояром и купцем и купецким старостам велѣл ити на рѣку на водокрестие
 # sent_id = 281435
 1	Того	тыиже	DET	Pd	Case=Gen|Gender=Neut|Number=Sing	3	det	_	ref=
@@ -32472,7 +32472,7 @@
 32	на	на	ADP	R-	_	33	case	_	ref=
 33	водокрестие	водокрестие	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	29	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = А сам князь великий вышол со всѣми бояре своими на рѣку на Волхов
 # sent_id = 281436
 1	А	а	CCONJ	C-	_	5	cc	_	ref=
@@ -32489,7 +32489,7 @@
 12	на	на	ADP	R-	_	11	case	_	ref=
 13	Волхов	вълховъ	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	11	appos	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а священники и дьяконы выидоша со скресты
 # sent_id = 281437
 1	а	а	CCONJ	C-	_	5	cc	_	ref=
@@ -32500,7 +32500,7 @@
 6	со	съ	ADP	R-	_	7	case	_	ref=
 7	скресты	крьстъ	NOUN	Nb	Case=Ins|Gender=Masc|Number=Plur	5	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = в той день приспѣл бо празникъ Крещениа Господня
 # sent_id = 281438
 1	в	въ	ADP	R-	_	3	case	_	ref=
@@ -32512,7 +32512,7 @@
 7	Крещениа	крьщение	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	ref=
 8	Господня	господьнь	ADJ	A-	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	7	amod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = А владыка в то время не бысть на Новегороде
 # sent_id = 281439
 1	А	а	CCONJ	C-	_	7	cc	_	ref=
@@ -32525,7 +32525,7 @@
 8	на	на	ADP	R-	_	9	case	_	ref=
 9	Новегороде	новъгородъ	PROPN	Ne	Case=Loc|Gender=Masc|Number=Sing	7	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а крестил воду владыка смоленьской да священники
 # sent_id = 281440
 1	а	а	CCONJ	C-	_	2	cc	_	ref=
@@ -32536,7 +32536,7 @@
 6	да	да	CCONJ	C-	_	7	cc	_	ref=
 7	священники	священикъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	4	conj	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и воду окрестив да пошли ко святей Софеи
 # sent_id = 281441
 1	и	и	CCONJ	C-	_	5	cc	_	ref=
@@ -32548,7 +32548,7 @@
 7	святей	святыи	ADJ	A-	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	ref=
 8	Софеи	софия	PROPN	Ne	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И князь великий велѣл своим бояром по своей думе как себѣ здумали
 # sent_id = 281442
 1	И	и	CCONJ	C-	_	4	cc	_	ref=
@@ -32564,7 +32564,7 @@
 11	себѣ	себе	PRON	Pk	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	12	obl:arg	_	ref=
 12	здумали	съдумати	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	9	orphan	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Да нашим посадником да и людем тѣм учали говорити
 # sent_id = 281443
 1	Да	да	ADV	Df	_	8	discourse	_	ref=|LId=2
@@ -32577,7 +32577,7 @@
 8	учали	учати	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	0	root	_	ref=
 9	говорити	говорити	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	8	xcomp	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Посадники псковские и бояре и жалобныя люди государь велѣл всѣм вам копити ся на государьской двор исполна
 # sent_id = 281444
 1	Посадники	посадьникъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	9	vocative	_	ref=
@@ -32598,7 +32598,7 @@
 16	двор	дворъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	ref=
 17	исполна	испълна	ADV	Df	_	12	advmod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а кой не поидет ино боял ся бы государевы казни занеже государь хочет всѣм управу дати
 # sent_id = 281445
 1	а	а	CCONJ	C-	_	6	cc	_	ref=
@@ -32618,7 +32618,7 @@
 15	управу	управа	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	ref=
 16	дати	дати	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	13	xcomp	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И посадники псковьскиа и бояре с одного пошли с воды на владычень двор
 # sent_id = 281446
 1	И	и	CCONJ	C-	_	8	cc	_	ref=
@@ -32635,7 +32635,7 @@
 12	владычень	владычьнь	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	13	amod	_	ref=
 13	двор	дворъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И бояре посадников спросили
 # sent_id = 281447
 1	И	и	CCONJ	C-	_	4	cc	_	ref=
@@ -32643,7 +32643,7 @@
 3	посадников	посадьникъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	4	obj	_	ref=
 4	спросили	съпросити	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Уже ли есте сполна скопили ся
 # sent_id = 281448
 1	Уже	уже	ADV	Df	_	5	advmod	_	ref=
@@ -32653,7 +32653,7 @@
 5	скопили	съкопити	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	0	root	_	ref=
 6	ся	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	expl:pv	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И посадников и бояр и купцов увели в полату
 # sent_id = 281449
 1	И	и	CCONJ	C-	_	7	cc	_	ref=
@@ -32666,7 +32666,7 @@
 8	в	въ	ADP	R-	_	9	case	_	ref=
 9	полату	полата	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а молодшиа люди на дворе стояли
 # sent_id = 281450
 1	а	а	CCONJ	C-	_	6	cc	_	ref=
@@ -32676,7 +32676,7 @@
 5	дворе	дворъ	NOUN	Nb	Case=Loc|Gender=Masc|Number=Sing	6	obl	_	ref=
 6	стояли	стояти	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И влѣзли в полату
 # sent_id = 281451
 1	И	и	CCONJ	C-	_	2	cc	_	ref=
@@ -32684,7 +32684,7 @@
 3	в	въ	ADP	R-	_	4	case	_	ref=
 4	полату	полата	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и бояре рекоша посадником и бояром и купцом псковским
 # sent_id = 281452
 1	и	и	CCONJ	C-	_	3	cc	_	ref=
@@ -32697,7 +32697,7 @@
 8	купцом	купьць	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	4	conj	_	ref=
 9	псковским	пльсковьскыи	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Поимани де естя Богом и великим князем Васильем Ивановичем всеа Русии
 # sent_id = 281453
 1	Поимани	поимати	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	ref=
@@ -32712,7 +32712,7 @@
 10	всеа	вьсь	DET	Px	Case=Gen|Gender=Fem|Number=Sing	11	det	_	ref=
 11	Русии	русия	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И туто посадники седѣша и до своих жон
 # sent_id = 281454
 1	И	и	CCONJ	C-	_	4	cc	_	ref=
@@ -32724,7 +32724,7 @@
 7	своих	свои	DET	Pt	Case=Gen|Gender=Fem|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	8	det	_	ref=
 8	жон	жена	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	4	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а молодших людей переписав и подаваша наугородцом по улицам беречи и кормити до управы
 # sent_id = 281455
 1	а	а	CCONJ	C-	_	4	cc	_	ref=
@@ -32742,7 +32742,7 @@
 13	до	до	ADP	R-	_	14	case	_	ref=
 14	управы	управа	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	12	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И переняше псковичи полоняную свою вѣсть от Филипа от Поповича от купчины от псковитина
 # sent_id = 281456
 1	И	и	CCONJ	C-	_	2	cc	_	ref=
@@ -32760,7 +32760,7 @@
 13	от	отъ	ADP	R-	_	12	case	_	ref=
 14	псковитина	пльсковитинъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а он ехал к Новугороду
 # sent_id = 281457
 1	а	а	CCONJ	C-	_	3	cc	_	ref=
@@ -32769,7 +32769,7 @@
 4	к	къ	ADP	R-	_	5	case	_	ref=
 5	Новугороду	новъгородъ	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и стал у Веряжи
 # sent_id = 281458
 1	и	и	CCONJ	C-	_	2	cc	_	ref=
@@ -32777,7 +32777,7 @@
 3	у	у	ADP	R-	_	4	case	_	ref=
 4	Веряжи	веряжа	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	2	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и услышав злу вѣсть и оставя товар и погонил ко Пскову
 # sent_id = 281459
 1	и	и	CCONJ	C-	_	2	cc	_	ref=
@@ -32792,7 +32792,7 @@
 10	ко	къ	ADP	R-	_	11	case	_	ref=
 11	Пскову	пльсковъ	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и сказал псковичам что князь великий посадников наших и бояр и жалобных людей переимал
 # sent_id = 281460
 1	и	и	CCONJ	C-	_	2	cc	_	ref=
@@ -32810,7 +32810,7 @@
 13	людей	людие	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	7	conj	_	ref=
 14	переимал	переимати	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	2	ccomp	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И нападе на них страх и трепет
 # sent_id = 281461
 1	И	и	CCONJ	C-	_	2	cc	_	ref=
@@ -32821,7 +32821,7 @@
 6	и	и	CCONJ	C-	_	7	cc	_	ref=
 7	трепет	трепетъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и таковыя смяги пришли на их уста
 # sent_id = 281462
 1	и	и	CCONJ	C-	_	4	cc	_	ref=
@@ -32832,7 +32832,7 @@
 6	их	и	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	det	_	ref=
 7	уста	уста	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	4	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и многажды приходили нѣмцы ко Пскову
 # sent_id = 281463
 1	и	и	CCONJ	C-	_	3	cc	_	ref=
@@ -32842,7 +32842,7 @@
 5	ко	къ	ADP	R-	_	6	case	_	ref=
 6	Пскову	пльсковъ	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а таковыя бѣды и сухоты не бывало
 # sent_id = 281464
 1	а	а	CCONJ	C-	_	7	cc	_	ref=
@@ -32853,7 +32853,7 @@
 6	не	не	ADV	Df	Polarity=Neg	7	advmod	_	ref=
 7	бывало	бывати	VERB	V-	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И вечь поставя начаша думати
 # sent_id = 281465
 1	И	и	CCONJ	C-	_	4	cc	_	ref=
@@ -32862,7 +32862,7 @@
 4	начаша	начати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=
 5	думати	думати	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	4	xcomp	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = ставит ли щитъ против государя запирати ся ли во граде
 # sent_id = 281466
 1	ставит	ставити	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	0	root	_	ref=
@@ -32876,7 +32876,7 @@
 9	во	въ	ADP	R-	_	10	case	_	ref=
 10	граде	градъ	NOUN	Nb	Case=Loc|Gender=Masc|Number=Sing	6	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Ино помянуша крестное целование что не мощно рука воздвигнути против государя
 # sent_id = 281467
 1	Ино	ино	ADV	Df	_	2	discourse	_	ref=
@@ -32891,7 +32891,7 @@
 10	против	противъ	ADP	R-	_	11	case	_	ref=
 11	государя	государь	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	9	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а посадники и бояре и лутчие люди вси у него
 # sent_id = 281468
 1	а	а	CCONJ	C-	_	10	cc	_	ref=
@@ -32905,7 +32905,7 @@
 9	у	у	ADP	R-	_	10	case	_	ref=
 10	него	и	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И послаша псковичи к великому князю гонца своего Еустафья соцкого бити челом великому князю со слезами от мала и до велика чтобы
 # sent_id = 281469
 1	И	и	CCONJ	C-	_	2	cc	_	ref=
@@ -32931,7 +32931,7 @@
 21	велика	великыи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	18	conj	_	ref=
 22	чтобы	чьтобы	SCONJ	G-	_	11	ccomp	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = «Ты государь нашь князь великий Василей Ивановичь жаловал свою отчину старинную
 # sent_id = 281470
 1	«Ты	ты	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	ref=
@@ -32946,7 +32946,7 @@
 10	отчину	отьчина	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	ref=
 11	старинную	стариньныи	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И у великого князя своя мысль
 # sent_id = 281471
 1	И	и	CCONJ	C-	_	6	cc	_	ref=
@@ -32956,7 +32956,7 @@
 5	своя	свои	DET	Pt	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	6	det	_	ref=
 6	мысль	мысль	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = чего ради поехал с Москвы в Великий Новгород что ему превратити Псков на свои пошлины
 # sent_id = 281472
 1	чего	чьто	PRON	Pr	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	3	advcl	_	ref=
@@ -32975,7 +32975,7 @@
 14	свои	свои	DET	Pt	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	15	det	_	ref=
 15	пошлины	пошьлина	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	11	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И посла князь великий своего дьяка Третьяка Долматова
 # sent_id = 281473
 1	И	и	CCONJ	C-	_	2	cc	_	ref=
@@ -32987,7 +32987,7 @@
 7	Третьяка	третьякъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	6	appos	_	ref=
 8	Долматова	долматовъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	7	flat:name	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и псковичи обрадовали ся от государя жалованья старины
 # sent_id = 281474
 1	и	и	CCONJ	C-	_	3	cc	_	ref=
@@ -32999,7 +32999,7 @@
 7	жалованья	жалование	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	3	obl	_	ref=
 8	старины	старина	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Яже Третьяк имъ на вече и первую новую пошлину поклон от великого князя
 # sent_id = 281475
 1	Яже	иже	PRON	Pr	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	2	acl	_	ref=
@@ -33016,7 +33016,7 @@
 12	великого	великыи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	ref=
 13	князя	кънязь	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Чтобы деи отчина моя посадники псковские и псковичи тольке хотите еще въ старины прожить и вы бы есте две воли мои изволили
 # sent_id = 281476
 1	Чтобы	чьтобы	SCONJ	G-	_	22	mark	_	ref=
@@ -33042,7 +33042,7 @@
 21	мои	мои	DET	Ps	Case=Acc|Gender=Fem|Number=Dual|Person=1|Poss=Yes	20	det	_	ref=
 22	изволили	изволити	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	2	orphan	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = ино бы у вас вечья не было да и колокол бы есте сняли долой вечной а здѣся бы быти двем намѣстником а по пригородам намѣснику же быти и вы ещо проживете въ старине
 # sent_id = 281477
 1	ино	ино	ADV	Df	_	7	discourse	_	ref=
@@ -33079,7 +33079,7 @@
 32	въ	въ	ADP	R-	_	33	case	_	ref=
 33	старине	старина	NOUN	Nb	Case=Loc|Gender=Fem|Number=Sing	31	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = А только тѣх дву воль государю не изволите и не сотворите ино как государю Богъ по сердцу положить
 # sent_id = 281478
 1	А	а	CCONJ	C-	_	18	cc	_	ref=
@@ -33101,7 +33101,7 @@
 17	сердцу	сьрдьце	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	ref=
 18	положить	положити	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = ино у него много силы готовой
 # sent_id = 281479
 1	ино	ино	ADV	Df	_	6	discourse	_	ref=
@@ -33111,7 +33111,7 @@
 5	силы	сила	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	ref=
 6	готовой	готовыи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = ино тое кровопролитие на тѣх будет хто государевы воли не сотворить
 # sent_id = 281480
 1	ино	ино	ADV	Df	_	5	discourse	_	ref=
@@ -33126,7 +33126,7 @@
 10	не	не	ADV	Df	Polarity=Neg	11	advmod	_	ref=
 11	сотворить	сътворити	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Да государь нашь князь великий хочеть побывати на поклон къ Святей Троицы во Псков
 # sent_id = 281481
 1	Да	да	ADV	Df	_	6	discourse	_	ref=|LId=2
@@ -33144,7 +33144,7 @@
 13	во	въ	ADP	R-	_	14	case	_	ref=
 14	Псков	пльсковъ	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Да тое отговорив да сѣл на степени
 # sent_id = 281482
 1	Да	да	ADV	Df	_	3	discourse	_	ref=|LId=2
@@ -33155,7 +33155,7 @@
 6	на	на	ADP	R-	_	7	case	_	ref=
 7	степени	степень	NOUN	Nb	Case=Loc|Gender=Masc|Number=Sing	5	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И псковичи ударили челом в землю
 # sent_id = 281483
 1	И	и	CCONJ	C-	_	3	cc	_	ref=
@@ -33165,7 +33165,7 @@
 5	в	въ	ADP	R-	_	6	case	_	ref=
 6	землю	земля	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и не могли противу его отвечати
 # sent_id = 281484
 1	и	и	CCONJ	C-	_	3	cc	_	ref=
@@ -33175,7 +33175,7 @@
 5	его	и	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	ref=
 6	отвечати	отъвѣчати	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	3	xcomp	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = ано исполни ся бяше очи слез что в сесцу матере своея
 # sent_id = 281485
 1	ано	ано	ADV	Df	_	2	discourse	_	ref=
@@ -33190,7 +33190,7 @@
 10	матере	мати	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	ref=
 11	своея	свои	DET	Pt	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	10	det	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = но и токмо тыя слез не испустили но не в разум и младе суще
 # sent_id = 281486
 1	но	нъ	CCONJ	C-	_	7	cc	_	ref=
@@ -33208,14 +33208,14 @@
 13	младе	младыи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	11	conj	_	ref=
 14	суще	быти	AUX	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|Variant=Short|VerbForm=Part|Voice=Act	11	cop	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = толке ему отвечали
 # sent_id = 281487
 1	толке	только	ADV	Df	_	3	nsubj	_	ref=
 2	ему	и	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl:arg	_	ref=
 3	отвечали	отъвѣчати	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Посол государев дасть Богъ заутра и мы себѣ подумаем да тебѣ о всем откажем
 # sent_id = 281488
 1	Посол	посълъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	9	vocative	_	ref=
@@ -33233,7 +33233,7 @@
 13	всем	вьсь	PRON	Px	Case=Loc|Gender=Neut|Number=Sing	14	obl	_	ref=
 14	откажем	отъказати	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = А псковичи туто горко заплакали
 # sent_id = 281489
 1	А	а	CCONJ	C-	_	5	cc	_	ref=
@@ -33242,7 +33242,7 @@
 4	горко	горькыи	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	5	advmod	_	ref=
 5	заплакали	заплакати	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Како ли не упали зеницы со слезами вкупе
 # sent_id = 281490
 1	Како	како	ADV	Du	PronType=Int	4	advmod	_	ref=
@@ -33254,7 +33254,7 @@
 7	слезами	сльза	NOUN	Nb	Case=Ins|Gender=Fem|Number=Plur	4	obl	_	ref=
 8	вкупе	въкупѣ	ADV	Df	_	7	advmod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = како ти не урвало ся сердце от корени
 # sent_id = 281491
 1	како	како	ADV	Du	PronType=Int	4	advmod	_	ref=
@@ -33266,7 +33266,7 @@
 7	от	отъ	ADP	R-	_	8	case	_	ref=
 8	корени	коря	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = На утриа свитающи дни недельну и позвониша вечье
 # sent_id = 281492
 1	На	на	ADP	R-	_	2	case	_	ref=
@@ -33278,7 +33278,7 @@
 7	позвониша	позвонити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	ref=
 8	вечье	вѣче	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и вшол Третьякъ в вечье
 # sent_id = 281493
 1	и	и	CCONJ	C-	_	2	cc	_	ref=
@@ -33287,7 +33287,7 @@
 4	в	въ	ADP	R-	_	5	case	_	ref=
 5	вечье	вѣче	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и посадники псковскии и псковичи начаша ему говорити тако
 # sent_id = 281494
 1	и	и	CCONJ	C-	_	6	cc	_	ref=
@@ -33300,7 +33300,7 @@
 8	говорити	говорити	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	6	xcomp	_	ref=
 9	тако	тако	ADV	Df	_	8	advmod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = В нас написано в лѣтописцех с прадеды его и з дѣды и со отцем его крестное целование с великими князьми положоно что нам псковичам от государя своего великого князя кой ни будеть на Москве и нам от него не ити ни в Литву ни в Нѣмцы а нам жити по старине в добровольи
 # sent_id = 281495
 1	В	у	ADP	R-	_	2	case	_	ref=
@@ -33357,7 +33357,7 @@
 52	в	въ	ADP	R-	_	53	case	_	ref=
 53	добровольи	доброволие	NOUN	Nb	Case=Loc|Gender=Neut|Number=Sing	49	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = А мы пскоувичи отъидем от великого князя в Литву или в Немцы или о себѣ учнем жити без государя ино на нас гнѣв Божий глад и огнь и потоп и нашествие поганых
 # sent_id = 281496
 1	А	а	CCONJ	C-	_	23	cc	_	ref=
@@ -33393,7 +33393,7 @@
 31	нашествие	нашьствие	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	23	conj	_	ref=
 32	поганых	поганыи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	31	amod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = А государь нашь князь великий тое крестное целование не учнеть на собѣ доржати ино на него тот же обѣть который на нас коли нас не учнеть доржати в старине
 # sent_id = 281497
 1	А	а	CCONJ	C-	_	19	cc	_	ref=
@@ -33426,7 +33426,7 @@
 28	в	въ	ADP	R-	_	29	case	_	ref=
 29	старине	старина	NOUN	Nb	Case=Loc|Gender=Fem|Number=Sing	27	xcomp	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = А нынѣ Богъ волен да государь въ своей вотчине во граде Пскове и в нас и в колоколе нашем
 # sent_id = 281498
 1	А	а	CCONJ	C-	_	4	cc	_	ref=
@@ -33449,7 +33449,7 @@
 18	колоколе	колоколъ	NOUN	Nb	Case=Loc|Gender=Masc|Number=Sing	9	conj	_	ref=
 19	нашем	нашь	DET	Ps	Case=Loc|Gender=Masc|Number=Sing|Person=1|Poss=Yes	18	det	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а мы прежнего целованиа своего и проклятья не хотим изменити и на себѣ кроволитиа приняти
 # sent_id = 281499
 1	а	а	CCONJ	C-	_	9	cc	_	ref=
@@ -33468,7 +33468,7 @@
 14	кроволитиа	кръволитие	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	15	obj	_	ref=
 15	приняти	приняти	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	10	conj	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и мы на государя своего руки подняти и в городе заперети ся не хотим
 # sent_id = 281500
 1	и	и	CCONJ	C-	_	14	cc	_	ref=
@@ -33486,7 +33486,7 @@
 13	не	не	ADV	Df	Polarity=Neg	14	advmod	_	ref=
 14	хотим	хотѣти	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = А государь наш князь великий хочеть живоначальней Троицы помолити ся в своей отчине побывати во Пскове
 # sent_id = 281501
 1	А	а	CCONJ	C-	_	6	cc	_	ref=
@@ -33506,7 +33506,7 @@
 15	во	въ	ADP	R-	_	16	case	_	ref=
 16	Пскове	пльсковъ	PROPN	Ne	Case=Loc|Gender=Masc|Number=Sing	13	appos	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и мы своего государя ради всѣм сердцем чтобы нас не погубил до конца
 # sent_id = 281502
 1	и	и	CCONJ	C-	_	5	cc	_	ref=
@@ -33523,7 +33523,7 @@
 12	до	до	ADP	R-	_	13	case	_	ref=
 13	конца	коньць	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	11	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Месяца генваря въ 13 на память святых мученикъ Ермолы и Страстоника спустиша вечной колокол святыя живоначальныя Троица
 # sent_id = 281503
 1	Месяца	мѣсяць	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	ref=
@@ -33544,7 +33544,7 @@
 16	живоначальныя	живоначальныи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	ref=
 17	Троица	троица	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и начаша псковичи на колокол смотря плакати по своей старине и по своей воли
 # sent_id = 281504
 1	и	и	CCONJ	C-	_	2	cc	_	ref=
@@ -33562,7 +33562,7 @@
 13	своей	свои	DET	Pt	Case=Loc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	14	det	_	ref=
 14	воли	воля	NOUN	Nb	Case=Loc|Gender=Fem|Number=Sing	10	conj	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И повезоша его на Снетогорской двор к Ивану Богослову гдѣ нонма намѣстнич двор
 # sent_id = 281505
 1	И	и	CCONJ	C-	_	2	cc	_	ref=
@@ -33579,7 +33579,7 @@
 12	намѣстнич	намѣстьничии	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	13	amod	_	ref=
 13	двор	дворъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	6	advcl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = тоя же нощи повезоша Третьяк вѣчной колокол к великому князю в Новгород
 # sent_id = 281506
 1	тоя	тыиже	DET	Pd	Case=Gen|Gender=Fem|Number=Sing	3	det	_	ref=
@@ -33595,7 +33595,7 @@
 11	в	въ	ADP	R-	_	12	case	_	ref=
 12	Новгород	новъгородъ	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	10	appos	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И того же месяца за неделю приѣзда великого князя приехаша воеводы великого князя с силою князь Петръ Великой Иван Васильевич Хабар Иван Андрѣевич Челяднин
 # sent_id = 281507
 1	И	и	CCONJ	C-	_	10	cc	_	ref=
@@ -33623,7 +33623,7 @@
 23	Андрѣевич	андрѣевичь	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	22	flat:name	_	ref=
 24	Челяднин	челядинъ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	22	flat:name	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и поведоша псковичь к целованью
 # sent_id = 281508
 1	и	и	CCONJ	C-	_	2	cc	_	ref=
@@ -33632,7 +33632,7 @@
 4	к	къ	ADP	R-	_	5	case	_	ref=
 5	целованью	цѣлование	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а посадником сказаша что князь великий будетъ в пятницу
 # sent_id = 281509
 1	а	а	CCONJ	C-	_	3	cc	_	ref=
@@ -33645,7 +33645,7 @@
 8	в	въ	ADP	R-	_	9	case	_	ref=
 9	пятницу	пятьница	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Поѣхаша посадники псковскиа и бояре и дѣти посадничьи и купцы на Дубровно стречати государя великого князя
 # sent_id = 281510
 1	Поѣхаша	поѣхати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=
@@ -33665,7 +33665,7 @@
 15	великого	великыи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	ref=
 16	князя	кънязь	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	14	appos	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Месяца генваря въ 24 на память преподобныя матере нашея Аксеньи в день в четвергъ приѣхал государь нашь князь великий Василей Иванович всеа Русии во Псков
 # sent_id = 281511
 1	Месяца	мѣсяць	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	ref=
@@ -33694,7 +33694,7 @@
 24	во	въ	ADP	R-	_	25	case	_	ref=
 25	Псков	пльсковъ	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = А того дни порану приехал владыка коломеньской Васьян Кривой
 # sent_id = 281512
 1	А	а	CCONJ	C-	_	5	cc	_	ref=
@@ -33707,7 +33707,7 @@
 8	Васьян	васьянъ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	ref=
 9	Кривой	кривыи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и хотяше великого князя встрѣтити священноиноки и священники и дьяконы у Образа святого в Поли
 # sent_id = 281513
 1	и	и	CCONJ	C-	_	2	cc	_	ref=
@@ -33726,7 +33726,7 @@
 14	в	въ	ADP	R-	_	15	case	_	ref=
 15	Поли	поле	NOUN	Nb	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и владыка молвил не велѣл деи собя князь великий стречати далече
 # sent_id = 281514
 1	и	и	CCONJ	C-	_	3	cc	_	ref=
@@ -33741,7 +33741,7 @@
 10	стречати	стрѣчати	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	5	xcomp	_	ref=
 11	далече	далече	ADV	Df	_	10	advmod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = А псковичи сретоша его за три версты
 # sent_id = 281515
 1	А	а	CCONJ	C-	_	3	cc	_	ref=
@@ -33752,7 +33752,7 @@
 6	три	трие	NUM	Ma	Case=Acc|Gender=Fem|Number=Plur	7	nummod	_	ref=
 7	версты	вьрста	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и вдариша псковичи государю своему в землю челом
 # sent_id = 281516
 1	и	и	CCONJ	C-	_	2	cc	_	ref=
@@ -33764,7 +33764,7 @@
 7	землю	земля	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	ref=
 8	челом	чело	NOUN	Nb	Case=Ins|Gender=Neut|Number=Sing	2	obl:arg	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и государь упросил в них здравия
 # sent_id = 281517
 1	и	и	CCONJ	C-	_	3	cc	_	ref=
@@ -33774,7 +33774,7 @@
 5	них	и	PRON	Pp	Case=Loc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	obl	_	ref=
 6	здравия	съдравие	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	3	obl:arg	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и псковичи ему молвиша
 # sent_id = 281518
 1	и	и	CCONJ	C-	_	4	cc	_	ref=
@@ -33782,7 +33782,7 @@
 3	ему	и	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl:arg	_	ref=
 4	молвиша	мълвити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Ты государь нашь князь великий царь всеа Русии здрав был
 # sent_id = 281519
 1	Ты	ты	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	ref=
@@ -33796,7 +33796,7 @@
 9	здрав	съдравыи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	ref=
 10	был	быти	AUX	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	9	cop	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И поехал во Псков
 # sent_id = 281520
 1	И	и	CCONJ	C-	_	2	cc	_	ref=
@@ -33804,7 +33804,7 @@
 3	во	въ	ADP	R-	_	4	case	_	ref=
 4	Псков	пльсковъ	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и срѣтиша его владыка кои с нимъ приѣхал и священноиноки и священники и дьяконы на Торгу гдѣ нынѣ площадь
 # sent_id = 281521
 1	и	и	CCONJ	C-	_	2	cc	_	ref=
@@ -33827,7 +33827,7 @@
 18	нынѣ	нынѣ	ADV	Df	_	19	orphan	_	ref=
 19	площадь	площадь	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	16	acl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а самъ князь великий слѣз с коня во Всемилостиваго Спаса
 # sent_id = 281522
 1	а	а	CCONJ	C-	_	5	cc	_	ref=
@@ -33841,7 +33841,7 @@
 9	Всемилостиваго	вьсемилостивыи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	ref=
 10	Спаса	съпасъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = туто же и благословил его владыка
 # sent_id = 281523
 1	туто	тутъ	ADV	Df	_	4	advmod	_	ref=
@@ -33851,7 +33851,7 @@
 5	его	и	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	ref=
 6	владыка	владыка	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и пошол ко святей живоначальней Троицы
 # sent_id = 281524
 1	и	и	CCONJ	C-	_	2	cc	_	ref=
@@ -33861,7 +33861,7 @@
 5	живоначальней	живоначальныи	ADJ	A-	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	ref=
 6	Троицы	троица	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И пѣша молебен и многолѣтьство кликаша государю
 # sent_id = 281525
 1	И	и	CCONJ	C-	_	2	cc	_	ref=
@@ -33872,7 +33872,7 @@
 6	кликаша	кликати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	ref=
 7	государю	государь	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	6	obl:arg	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и благословляя владыка его
 # sent_id = 281526
 1	и	и	CCONJ	C-	_	2	cc	_	ref=
@@ -33880,7 +33880,7 @@
 3	владыка	владыка	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	ref=
 4	его	и	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = «Богь деи о государь благословляетъ Псков вземши
 # sent_id = 281527
 1	«Богь	богъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	ref=
@@ -33891,7 +33891,7 @@
 6	Псков	пльсковъ	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	ref=
 7	вземши	възяти	VERB	V-	Case=Nom|Gender=Fem,Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	acl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И кои псковичи были у церкви и то слышели и заплакали горко
 # sent_id = 281528
 1	И	и	CCONJ	C-	_	11	cc	_	ref=
@@ -33907,7 +33907,7 @@
 11	заплакали	заплакати	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	0	root	_	ref=
 12	горко	горькыи	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	11	advmod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Богь волен да государь
 # sent_id = 281529
 1	Богь	богъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	ref=
@@ -33915,7 +33915,7 @@
 3	да	да	CCONJ	C-	_	4	cc	_	ref=
 4	государь	государь	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = отчина есме его была изстари отцов его и дѣдовъ его и прадѣдов его
 # sent_id = 281530
 1	отчина	отьчина	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	ref=
@@ -33932,7 +33932,7 @@
 12	прадѣдов	прадѣдъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	3	conj	_	ref=
 13	его	и	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	det	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И велѣл в неделю быти у собя князь великий псковичем псковским и старым посадником и дѣтем посадничим и бояром и купцом и житьим людем
 # sent_id = 281531
 1	И	и	CCONJ	C-	_	2	cc	_	ref=
@@ -33960,7 +33960,7 @@
 23	житьим	житии	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	24	amod	_	ref=
 24	людем	людие	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	10	conj	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Яз вас хощу жаловати своим жалованием
 # sent_id = 281532
 1	Яз	язъ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	ref=
@@ -33970,7 +33970,7 @@
 5	своим	свои	DET	Pt	Case=Ins|Gender=Masc|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	6	det	_	ref=
 6	жалованием	жалование	NOUN	Nb	Case=Ins|Gender=Neut|Number=Sing	4	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И поидоша псковичи от малы и до велика на великого князя двор
 # sent_id = 281533
 1	И	и	CCONJ	C-	_	2	cc	_	ref=
@@ -33986,7 +33986,7 @@
 11	князя	кънязь	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	ref=
 12	двор	дворъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И посадники и бояре поидоша въ гридню
 # sent_id = 281534
 1	И	и	CCONJ	C-	_	5	cc	_	ref=
@@ -33997,7 +33997,7 @@
 6	въ	въ	ADP	R-	_	7	case	_	ref=
 7	гридню	гридьня	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а инѣх на крыльце стоя князь Петръ Васильевич по переписи почал кликати бояр и копцов псковских
 # sent_id = 281535
 1	а	а	CCONJ	C-	_	11	cc	_	ref=
@@ -34017,7 +34017,7 @@
 15	копцов	купьць	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	13	conj	_	ref=
 16	псковских	пльсковьскыи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И кои вошли в гридню то тѣх всѣх за приставы подаваша
 # sent_id = 281536
 1	И	и	CCONJ	C-	_	11	cc	_	ref=
@@ -34032,7 +34032,7 @@
 10	приставы	приставъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	11	obl	_	ref=
 11	подаваша	подавати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а псковичем молощим людем кои на дворѣ стояли отвечаша
 # sent_id = 281537
 1	а	а	CCONJ	C-	_	9	cc	_	ref=
@@ -34045,7 +34045,7 @@
 8	стояли	стояти	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	2	acl	_	ref=
 9	отвечаша	отъвѣчати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = До вас государю дѣла нѣт
 # sent_id = 281538
 1	До	до	ADP	R-	_	2	case	_	ref=
@@ -34054,7 +34054,7 @@
 4	дѣла	дѣло	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	5	nsubj	_	ref=
 5	нѣт	нѣту	VERB	V-	_	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а до которых государю дѣло есть и он тѣх к себѣ емлетъ
 # sent_id = 281539
 1	а	а	CCONJ	C-	_	12	cc	_	ref=
@@ -34070,7 +34070,7 @@
 11	себѣ	себе	PRON	Pk	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	12	obl	_	ref=
 12	емлетъ	имати	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а вас государь пожалуетъ грамотою своею жаловальною как вам впредь прожити
 # sent_id = 281540
 1	а	а	CCONJ	C-	_	4	cc	_	ref=
@@ -34085,7 +34085,7 @@
 10	впредь	въпрѣдъ	ADV	Df	_	11	advmod	_	ref=
 11	прожити	прожити	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	4	ccomp	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И подаваша тѣх за приставы кои были в гридне
 # sent_id = 281541
 1	И	и	CCONJ	C-	_	2	cc	_	ref=
@@ -34098,7 +34098,7 @@
 8	в	въ	ADP	R-	_	9	case	_	ref=
 9	гридне	гридьня	NOUN	Nb	Case=Loc|Gender=Fem|Number=Sing	3	acl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и поидоша за приставы по подворьям
 # sent_id = 281542
 1	и	и	CCONJ	C-	_	2	cc	_	ref=
@@ -34108,7 +34108,7 @@
 5	по	по	ADP	R-	_	6	case	_	ref=
 6	подворьям	подворие	NOUN	Nb	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и начаша скручати ся к Москве тое нощи з женами и з дѣтми
 # sent_id = 281543
 1	и	и	CCONJ	C-	_	2	cc	_	ref=
@@ -34125,7 +34125,7 @@
 12	з	съ	ADP	R-	_	13	case	_	ref=
 13	дѣтми	дѣтя	NOUN	Nb	Case=Ins|Gender=Neut|Number=Plur	10	conj	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и животы легкие взяша с собою
 # sent_id = 281544
 1	и	и	CCONJ	C-	_	4	cc	_	ref=
@@ -34135,7 +34135,7 @@
 5	с	съ	ADP	R-	_	6	case	_	ref=
 6	собою	себе	PRON	Pk	Case=Ins|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а то все пометаша и поѣхаше вборзе с плачем и рыданием многим
 # sent_id = 281545
 1	а	а	CCONJ	C-	_	4	cc	_	ref=
@@ -34151,7 +34151,7 @@
 11	рыданием	рыдание	NOUN	Nb	Case=Ins|Gender=Neut|Number=Sing	9	conj	_	ref=
 12	многим	мъногыи	ADJ	A-	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Да и тѣх жены поѣхали кои в Новегороде засажены
 # sent_id = 281546
 1	Да	да	ADV	Df	_	5	discourse	_	ref=|LId=2
@@ -34164,7 +34164,7 @@
 8	Новегороде	новъгородъ	PROPN	Ne	Case=Loc|Gender=Masc|Number=Sing	9	obl	_	ref=
 9	засажены	засадити	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	acl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И взяша псковичь всѣх 300 семей
 # sent_id = 281547
 1	И	и	CCONJ	C-	_	2	cc	_	ref=
@@ -34174,7 +34174,7 @@
 5	300	трисъта	NUM	Ma	_	3	appos	_	ref=
 6	семей	сѣмия	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И тогда отъят ца слава псковская
 # sent_id = 281548
 1	И	и	CCONJ	C-	_	3	cc	_	ref=
@@ -34184,7 +34184,7 @@
 5	слава	слава	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	ref=
 6	псковская	пльсковьскыи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = О славнѣйший во градех великий Пскове
 # sent_id = 281549
 1	О	о	INTJ	I-	_	0	root	_	ref=
@@ -34194,21 +34194,21 @@
 5	великий	великыи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	ref=
 6	Пскове	пльсковъ	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	2	appos	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Почто бо сѣтуеши
 # sent_id = 281550
 1	Почто	почьто	ADV	Du	PronType=Int	3	advmod	_	ref=
 2	бо	бо	ADV	Df	_	3	discourse	_	ref=
 3	сѣтуеши	сѣтовати	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = почто бо плачеши
 # sent_id = 281551
 1	почто	почьто	ADV	Du	PronType=Int	3	advmod	_	ref=
 2	бо	бо	ADV	Df	_	3	discourse	_	ref=
 3	плачеши	плакати	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И отвѣща град Псков
 # sent_id = 281552
 1	И	и	CCONJ	C-	_	2	cc	_	ref=
@@ -34216,7 +34216,7 @@
 3	град	градъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	ref=
 4	Псков	пльсковъ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Како ми не сѣтовати
 # sent_id = 281553
 1	Како	како	ADV	Du	PronType=Int	4	advmod	_	ref=
@@ -34224,7 +34224,7 @@
 3	не	не	ADV	Df	Polarity=Neg	4	advmod	_	ref=
 4	сѣтовати	сѣтовати	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = како ми не плакати
 # sent_id = 281554
 1	како	како	ADV	Du	PronType=Int	4	advmod	_	ref=
@@ -34232,7 +34232,7 @@
 3	не	не	ADV	Df	Polarity=Neg	4	advmod	_	ref=
 4	плакати	плакати	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Прилетѣл на мене многокрильный орел исполнь крыле нохтей и взя от мене кедра древа ливанова
 # sent_id = 281555
 1	Прилетѣл	прилетѣти	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	0	root	_	ref=
@@ -34251,7 +34251,7 @@
 14	древа	дрѣво	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	13	appos	_	ref=
 15	ливанова	ливановъ	ADJ	A-	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	14	amod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Попустившу Богу за грѣхи наша и землю нашу пусту сотвориша
 # sent_id = 281556
 1	Попустившу	попустити	VERB	V-	Case=Dat|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Act	0	root	_	ref=
@@ -34265,7 +34265,7 @@
 9	пусту	пустыи	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	10	xcomp	_	ref=
 10	сотвориша	сътворити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и град нашь разори ся
 # sent_id = 281557
 1	и	и	CCONJ	C-	_	4	cc	_	ref=
@@ -34274,7 +34274,7 @@
 4	разори	разорити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=
 5	ся	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	expl:pv	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и люди наши плениша
 # sent_id = 281558
 1	и	и	CCONJ	C-	_	4	cc	_	ref=
@@ -34282,7 +34282,7 @@
 3	наши	нашь	DET	Ps	Case=Acc|Gender=Masc|Number=Plur|Person=1|Poss=Yes	2	det	_	ref=
 4	плениша	плѣнити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и торжища наша раскопаша
 # sent_id = 281559
 1	и	и	CCONJ	C-	_	4	cc	_	ref=
@@ -34290,7 +34290,7 @@
 3	наша	нашь	DET	Ps	Case=Acc|Gender=Neut|Number=Plur|Person=1|Poss=Yes	2	det	_	ref=
 4	раскопаша	раскопати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а иные торжища калом коневым заметаша
 # sent_id = 281560
 1	а	а	CCONJ	C-	_	6	cc	_	ref=
@@ -34300,7 +34300,7 @@
 5	коневым	коневыи	ADJ	A-	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	ref=
 6	заметаша	заметати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а отца и братию нашу розведоша
 # sent_id = 281561
 1	а	а	CCONJ	C-	_	6	cc	_	ref=
@@ -34310,7 +34310,7 @@
 5	нашу	нашь	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes	4	det	_	ref=
 6	розведоша	розвести	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = где не бывали отцы наши и дѣды ни прадѣд наших тамо отцы и братию нашу и други наша сведоша а матери и сестры наша в поругание даша
 # sent_id = 281562
 1	где	къдѣ	ADV	Dq	PronType=Rel	3	advcl	_	ref=
@@ -34341,7 +34341,7 @@
 26	поругание	поругание	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	27	obl	_	ref=
 27	даша	дати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	19	conj	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = А иные во граде мнози постригаху ся в черньцы
 # sent_id = 281563
 1	А	а	CCONJ	C-	_	6	cc	_	ref=
@@ -34354,7 +34354,7 @@
 8	в	въ	ADP	R-	_	9	case	_	ref=
 9	черньцы	чьрньць	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	6	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а жены у черницы
 # sent_id = 281564
 1	а	а	CCONJ	C-	_	2	cc	_	ref=
@@ -34362,7 +34362,7 @@
 3	у	въ	ADP	R-	_	4	case	_	ref=
 4	черницы	чьрница	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	2	orphan	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и в монастыри поидоша не хотяще в полон поити от своего града во иные грады
 # sent_id = 281565
 1	и	и	CCONJ	C-	_	4	cc	_	ref=
@@ -34381,7 +34381,7 @@
 14	иные	иныи	DET	Px	Case=Acc|Gender=Masc|Number=Plur	15	det	_	ref=
 15	грады	градъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	8	appos	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Нынѣ же се братие ведуще убоим ся прещениа сего страшнаго
 # sent_id = 281566
 1	Нынѣ	нынѣ	ADV	Df	_	6	advmod	_	ref=
@@ -34395,7 +34395,7 @@
 9	сего	сии	DET	Pd	Case=Gen|Gender=Neut|Number=Sing	8	det	_	ref=
 10	страшнаго	страшьныи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = припадем к Господу своему исповѣдающе ся грѣхов своих да не внидем в большей гнѣв Господень не наведем на ся казни горши первой
 # sent_id = 281567
 1	припадем	припасти	VERB	V-	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=|LId=1
@@ -34421,7 +34421,7 @@
 21	горши	гории	ADJ	A-	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur|Variant=Short	20	amod	_	ref=
 22	первой	пьрвыи	ADJ	Mo	Case=Gen|Gender=Fem|Number=Sing	21	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = А еще ждеть нашего покаяниа и обращениа
 # sent_id = 281568
 1	А	а	CCONJ	C-	_	3	cc	_	ref=
@@ -34432,7 +34432,7 @@
 6	и	и	CCONJ	C-	_	7	cc	_	ref=
 7	обращениа	обращение	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	5	conj	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а мы не покаяхом ся
 # sent_id = 281569
 1	а	а	CCONJ	C-	_	4	cc	_	ref=
@@ -34441,7 +34441,7 @@
 4	покаяхом	покаяти	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=
 5	ся	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	expl:pv	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = но на большой грѣх превратихом ся на злыя и лихия поклепы и у вѣчьи кричание а не вѣдуще глава что языкъ глаголеть не умѣющу своего дому строити а градом наряжати
 # sent_id = 281570
 1	но	нъ	CCONJ	C-	_	5	cc	_	ref=
@@ -34475,7 +34475,7 @@
 29	градом	градъ	NOUN	Nb	Case=Ins|Gender=Masc|Number=Sing	30	obl:arg	_	ref=
 30	наряжати	наряжати	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	27	conj	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И по сем князь велкий нача давати деревни бояром сведеных псковичь и посади намѣстники на Пскове Григорья Федоровича да Ивана Ондрѣевича Челяднина
 # sent_id = 281571
 1	И	и	CCONJ	C-	_	6	cc	_	ref=
@@ -34501,7 +34501,7 @@
 21	Ондрѣевича	ондрѣевичь	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	20	flat:name	_	ref=
 22	Челяднина	челядинъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	20	flat:name	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и дьяком Мисюра Мунохина
 # sent_id = 281572
 1	и	и	CCONJ	C-	_	2	cc	_	ref=
@@ -34509,7 +34509,7 @@
 3	Мисюра	мисюрь	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	2	obj	_	ref=
 4	Мунохина	мунохинъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	3	flat:name	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и другим дьяком ямским Ондрѣя Волосатого
 # sent_id = 281573
 1	и	и	CCONJ	C-	_	3	cc	_	ref=
@@ -34519,7 +34519,7 @@
 5	Ондрѣя	ондрѣи	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	3	obj	_	ref=
 6	Волосатого	волосатыи	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	5	flat:name	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и 12 городничих и старостъ московскихъ 12 и пскович 12
 # sent_id = 281574
 1	и	и	CCONJ	C-	_	2	cc	_	ref=
@@ -34533,7 +34533,7 @@
 9	пскович	пльсковитинъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	ref=
 10	12	дъванадесять	NUM	Ma	_	2	conj	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и деревни им даша
 # sent_id = 281575
 1	и	и	CCONJ	C-	_	4	cc	_	ref=
@@ -34541,7 +34541,7 @@
 3	им	и	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obl:arg	_	ref=
 4	даша	дати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а велѣл им в суду седѣти с намѣсники и сь их тиуны правды стеречи
 # sent_id = 281576
 1	а	а	CCONJ	C-	_	2	cc	_	ref=
@@ -34559,7 +34559,7 @@
 13	правды	правьда	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	14	obl:arg	_	ref=
 14	стеречи	стеречи	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	6	conj	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И у намѣсников и у их тиунов и у дьяков великого князя правда их крестное целование взлетѣло на небо
 # sent_id = 281577
 1	И	и	CCONJ	C-	_	17	cc	_	ref=
@@ -34582,7 +34582,7 @@
 18	на	на	ADP	R-	_	19	case	_	ref=
 19	небо	небо	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	17	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и кривда начаша в них ходити
 # sent_id = 281578
 1	и	и	CCONJ	C-	_	3	cc	_	ref=
@@ -34592,7 +34592,7 @@
 5	них	и	PRON	Pp	Case=Loc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	obl	_	ref=
 6	ходити	ходити	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	3	xcomp	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и быша немилостивы до пскович
 # sent_id = 281579
 1	и	и	CCONJ	C-	_	3	cc	_	ref=
@@ -34601,7 +34601,7 @@
 4	до	до	ADP	R-	_	5	case	_	ref=
 5	пскович	пльсковитинъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	3	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а псковичи бѣдныя не вѣдаша правды московския
 # sent_id = 281580
 1	а	а	CCONJ	C-	_	5	cc	_	ref=
@@ -34612,7 +34612,7 @@
 6	правды	правьда	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	5	obj	_	ref=
 7	московския	москъвьскыи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И даша князь великий свою грамоту жаловальную псковичам
 # sent_id = 281581
 1	И	и	CCONJ	C-	_	2	cc	_	ref=
@@ -34624,7 +34624,7 @@
 7	жаловальную	жаловальныи	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	ref=
 8	псковичам	пльсковитинъ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	2	obl:arg	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и посла князь великий своих намѣсников по пригородом
 # sent_id = 281582
 1	и	и	CCONJ	C-	_	2	cc	_	ref=
@@ -34636,7 +34636,7 @@
 7	по	по	ADP	R-	_	8	case	_	ref=
 8	пригородом	пригородъ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и велѣл имъ пригорожан приводити к целованию
 # sent_id = 281583
 1	и	и	CCONJ	C-	_	2	cc	_	ref=
@@ -34647,7 +34647,7 @@
 6	к	къ	ADP	R-	_	7	case	_	ref=
 7	целованию	цѣлование	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И начаша пригородцкие намѣсники пригорожаны торговати
 # sent_id = 281584
 1	И	и	CCONJ	C-	_	2	cc	_	ref=
@@ -34657,7 +34657,7 @@
 5	пригорожаны	пригорожанинъ	NOUN	Nb	Case=Ins|Gender=Masc|Number=Plur	6	obl:arg	_	ref=
 6	торговати	търговати	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	2	xcomp	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И посла князь великий к Москвы Петра Яковлевича Захарьина Москве всей здоровати что князь великий Псков взял
 # sent_id = 281585
 1	И	и	CCONJ	C-	_	2	cc	_	ref=
@@ -34678,7 +34678,7 @@
 16	Псков	пльсковъ	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	ref=
 17	взял	възяти	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	12	ccomp	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И прислаша во Псков с Москвы добрых людей гостей тамгу уставливати ново занеже во Пскове тамга не бывала
 # sent_id = 281586
 1	И	и	CCONJ	C-	_	2	cc	_	ref=
@@ -34700,7 +34700,7 @@
 17	не	не	ADV	Df	Polarity=Neg	18	advmod	_	ref=
 18	бывала	бывати	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	2	advcl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и прислаша с Москвы пищальников казенных и воротников
 # sent_id = 281587
 1	и	и	CCONJ	C-	_	2	cc	_	ref=
@@ -34712,7 +34712,7 @@
 7	и	и	CCONJ	C-	_	8	cc	_	ref=
 8	воротников	воротьникъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	5	conj	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и даша мѣсто гдѣ торгъ ставити новой вонъ стены противу Лужьских ворот за рвом на Юшкове огороде Носохина да на Григорьеве посадникове садники Кротова
 # sent_id = 281588
 1	и	и	CCONJ	C-	_	2	cc	_	ref=
@@ -34740,7 +34740,7 @@
 23	садники	садьникъ	NOUN	Nb	Case=Loc|Gender=Masc|Number=Sing	17	conj	_	ref=
 24	Кротова	къротовъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	21	appos	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = Да и церковь постави князь великий святую Оксенью которой день Псков взял на Пустой улицы вь Ермолкине садники Хлѣбникове
 # sent_id = 281589
 1	Да	да	ADV	Df	_	4	discourse	_	ref=|LId=2
@@ -34763,7 +34763,7 @@
 18	садники	садьникъ	NOUN	Nb	Case=Loc|Gender=Masc|Number=Sing	15	appos	_	ref=
 19	Хлѣбникове	хлѣбьниковъ	PROPN	Ne	Case=Loc|Gender=Masc|Number=Sing	17	appos	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а по тому та улица Пустая слыла что меж огородов
 # sent_id = 281590
 1	а	а	CCONJ	C-	_	7	cc	_	ref=
@@ -34777,7 +34777,7 @@
 9	меж	межу	ADP	R-	_	10	case	_	ref=
 10	огородов	огородъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	5	acl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а дворов на ней не было
 # sent_id = 281591
 1	а	а	CCONJ	C-	_	6	cc	_	ref=
@@ -34787,7 +34787,7 @@
 5	не	не	ADV	Df	Polarity=Neg	6	advmod	_	ref=
 6	было	быти	AUX	V-	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И жил князь великий 4 недели во Пскове
 # sent_id = 281592
 1	И	и	CCONJ	C-	_	2	cc	_	ref=
@@ -34799,7 +34799,7 @@
 7	во	въ	ADP	R-	_	8	case	_	ref=
 8	Пскове	пльсковъ	PROPN	Ne	Case=Loc|Gender=Masc|Number=Sing	2	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а поехал на другой недели поста в понедельникъ изо Пскова
 # sent_id = 281593
 1	а	а	CCONJ	C-	_	2	cc	_	ref=
@@ -34813,7 +34813,7 @@
 9	изо	из	ADP	R-	_	10	case	_	ref=
 10	Пскова	пльсковъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	2	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = и другой колокол с собою взяша
 # sent_id = 281594
 1	и	и	CCONJ	C-	_	6	cc	_	ref=
@@ -34823,7 +34823,7 @@
 5	собою	себе	PRON	Pk	Case=Ins|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obl	_	ref=
 6	взяша	възяти	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а оставил здѣсь детей боярскихъ 1000 а пищальников новгородскихъ 500
 # sent_id = 281595
 1	а	а	CCONJ	C-	_	2	cc	_	ref=
@@ -34837,7 +34837,7 @@
 9	новгородскихъ	новъгородьскыи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	ref=
 10	500	пятьсътъ	NUM	Ma	_	6	conj	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И начаша намѣсники над псковичами силу велику чинити
 # sent_id = 281596
 1	И	и	CCONJ	C-	_	2	cc	_	ref=
@@ -34849,7 +34849,7 @@
 7	велику	великыи	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	6	amod	_	ref=
 8	чинити	чинити	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	2	xcomp	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а приставы их начаша от поруки имати по 10 рублев и по 7 рублев и по 5 рублев
 # sent_id = 281597
 1	а	а	CCONJ	C-	_	4	cc	_	ref=
@@ -34871,7 +34871,7 @@
 17	5	пять	NUM	Ma	_	9	conj	_	ref=
 18	рублев	рубль	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = А псковитин хто молвит великого князя грамотою а написано что имъ от поруки имати и они того убили а говорили
 # sent_id = 281598
 1	А	а	CCONJ	C-	_	4	cc	_	ref=
@@ -34895,7 +34895,7 @@
 19	а	а	CCONJ	C-	_	20	cc	_	ref=
 20	говорили	говорити	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	4	conj	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = То де тобѣ смердъ великого князя грамота
 # sent_id = 281599
 1	То	то	ADV	Df	_	7	advmod	_	ref=
@@ -34906,7 +34906,7 @@
 6	князя	кънязь	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	ref=
 7	грамота	грамота	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = И тые намѣсники их тиуны и люди пиша изо псковичь крови много
 # sent_id = 281600
 1	И	и	CCONJ	C-	_	8	cc	_	ref=
@@ -34922,7 +34922,7 @@
 11	крови	кръвь	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	ref=
 12	много	мъногыи	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	8	obj	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = а кои иноземцы жили во Пскове и тѣ разыдоша ся во своя земля
 # sent_id = 281601
 1	а	а	CCONJ	C-	_	9	cc	_	ref=
@@ -34939,7 +34939,7 @@
 12	своя	свои	DET	Pt	Case=Acc|Gender=Neut|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	13	det	_	ref=
 13	земля	земля	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	9	obl	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = ано не мочно во Пскове жити
 # sent_id = 281602
 1	ано	ано	ADV	Df	_	3	discourse	_	ref=
@@ -34949,7 +34949,7 @@
 5	Пскове	пльсковъ	PROPN	Ne	Case=Loc|Gender=Masc|Number=Sing	6	obl	_	ref=
 6	жити	жити	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	3	ccomp	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = только одны псковичи осташа
 # sent_id = 281603
 1	только	только	ADV	Df	_	4	advmod	_	ref=
@@ -34957,7 +34957,7 @@
 3	псковичи	пльсковитинъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	ref=
 4	осташа	остати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=
 
-# source = The taking of Pskov, 
+# source = The taking of Pskov,
 # text = ано земля не раступит ца а уверхъ не взлетѣть
 # sent_id = 281604
 1	ано	ано	ADV	Df	_	4	discourse	_	ref=

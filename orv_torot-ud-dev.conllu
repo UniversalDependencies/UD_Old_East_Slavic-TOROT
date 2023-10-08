@@ -1579,7 +1579,7 @@
 1	и	и	CCONJ	C-	_	2	cc	_	ref=
 2	возивъ	возити	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Act	0	root	_	ref=
 3	цр҃ю	цѣсарьгородъ	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	2	obl:arg	_	ref=
-4	городоу	городоу	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	3	fixed	_	ref=
+4	городоу	городоу	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	3	flat:name	_	ref=
 5	и	и	CCONJ	C-	_	6	cc	_	ref=
 6	оучинихъ	учинити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	ref=
 7	химипетъ	химипетъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	ref=
@@ -1594,7 +1594,7 @@
 5	сѧ	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	expl:pv	_	ref=
 6	исъ	из	ADP	R-	_	7	case	_	ref=
 7	ц҃рѧ.	цѣсарьгородъ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	ref=
-8	города	города	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	7	fixed	_	ref=
+8	города	города	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	7	flat:name	_	ref=
 
 # source = Colophon to Mstislav’s Gospel book, Colophon to Mstislav’s Gospel book
 # text = и съправихъ вьсе злато и сребро и драгыи камень пришедъ кыѥвоу
@@ -34314,7 +34314,7 @@
 2	Боянъ	боянъ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	ref=209
 3	и	и	CCONJ	C-	_	4	cc	_	ref=209
 4	ходы	ходына	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	ref=209
-5	на	на	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	4	fixed	_	ref=209
+5	на	на	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	ref=209
 6	Святъславля	святославль	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Dual|Variant=Short	7	amod	_	ref=209
 7	пѣстворца	пѣснотворьць	NOUN	Nb	Case=Nom|Gender=Masc|Number=Dual	2	appos	_	ref=209
 8	стараго	старыи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	ref=209
