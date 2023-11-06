@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Old_East_Slavic-TOROT:
-commit d89f3fee4dae80126c39facfb0b2e3882aa62330
-Merge: 97412ee ab76e05
+commit 1f0fdca83af037edb29deceb47ef2120df66790b
+Merge: dd74fda 38f04ac
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 246850 of 246850 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.0175617294097.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL      19564
-Udapi: found 19564 bugs.
+               TOTAL      19556
+Udapi: found 19556 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 246850 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-TOROT/orv_torot-ud-dev.conllu
@@ -30,21 +30,26 @@ Genres: found 2 out of 17 known.
 [Line 5014 Sent 292607 Node 13]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
 [Line 5951 Sent 292669 Node 9]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
 [Line 5953 Sent 292669 Node 11]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+[Line 14584 Sent 288723 Node 2]: [L3 Warning fixed-gap] Gaps in fixed expression [2, 4] 'то * чл҃вѣкъ'
 [Line 26878 Sent 281799 Node 8]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'xcomp'.
 [Line 26926 Sent 281803 Node 4]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
-Warnings: 7
+[Line 29407 Sent 282000 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'аще * * ни'
+...suppressing further errors regarding Warning
+Warnings: 10
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-TOROT/orv_torot-ud-test.conllu
 [Line 1655 Sent 256051 Node 7]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
 [Line 1657 Sent 256051 Node 9]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
 [Line 1864 Sent 256061 Node 1]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
 [Line 3470 Sent 256152 Node 17]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
+[Line 25099 Sent 264347 Node 21]: [L3 Warning fixed-gap] Gaps in fixed expression [21, 23] 'была * немъ'
 [Line 32565 Sent 281442 Node 12]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'xcomp'.
 [Line 36432 Sent 279506 Node 9]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
-Warnings: 6
+Warnings: 7
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-TOROT/orv_torot-ud-train.conllu
 [Line 1549 Sent 280575 Node 6]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+[Line 4811 Sent 280976 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'да * да'
 [Line 22924 Sent 289622 Node 8]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'xcomp'.
 [Line 23395 Sent 289666 Node 3]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
 [Line 25564 Sent 289874 Node 1]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
@@ -52,9 +57,8 @@ Warnings: 6
 [Line 37529 Sent 255135 Node 2]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
 [Line 37531 Sent 255135 Node 4]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
 [Line 55714 Sent 256000 Node 5]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
-[Line 56472 Sent 256194 Node 1]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
 ...suppressing further errors regarding Warning
-Warnings: 46
+Warnings: 59
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
@@ -63,8 +67,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.797477710518517) = 0.204481464235517
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.658823529411765) = 0.0506787330316742
-(weight=0.307692307692308) * (score{udapi}=0.207453919384241) = 0.0638319751951512
+(weight=0.307692307692308) * (score{udapi}=0.20777800283573) = 0.0639316931802247
 (weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
-(TOTAL score=0.552296970473023) * (availability=1) * (validity=1) = 0.552296970473023
+(TOTAL score=0.552396688458096) * (availability=1) * (validity=1) = 0.552396688458096
 STARS = 3
-UD_Old_East_Slavic-TOROT	0.552296970473023	3
+UD_Old_East_Slavic-TOROT	0.552396688458096	3
