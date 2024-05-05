@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Old_East_Slavic-TOROT:
-commit 1f0fdca83af037edb29deceb47ef2120df66790b
-Merge: dd74fda 38f04ac
+commit 99a96508a23bd7f2a09c87985b126a4b8f49ce12
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 6 12:45:57 2023 +0100
 Size: counted 246850 of 246850 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.0175617294097.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -34,7 +34,7 @@ Genres: found 2 out of 17 known.
 [Line 26878 Sent 281799 Node 8]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'xcomp'.
 [Line 26926 Sent 281803 Node 4]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
 [Line 29407 Sent 282000 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'аще * * ни'
-...suppressing further errors regarding Warning
+[Line 36221 Sent 280169 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'аще * * ни'
 Warnings: 10
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-TOROT/orv_torot-ud-test.conllu
@@ -57,6 +57,7 @@ Warnings: 7
 [Line 37529 Sent 255135 Node 2]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
 [Line 37531 Sent 255135 Node 4]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
 [Line 55714 Sent 256000 Node 5]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+[Line 56472 Sent 256194 Node 1]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
 ...suppressing further errors regarding Warning
 Warnings: 59
 *** PASSED ***
