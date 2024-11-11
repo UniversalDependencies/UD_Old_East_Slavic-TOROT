@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Old_East_Slavic-TOROT:
-commit 99a96508a23bd7f2a09c87985b126a4b8f49ce12
+commit f7b2295a6a9101ca25e7daf2f2a613669e410813
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 12:45:57 2023 +0100
+Date:   Sun May 5 13:10:10 2024 +0200
 Size: counted 246850 of 246850 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.0175617294097.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -26,40 +26,45 @@ Udapi: worst expected case (threshold) is one bug per 10 words. There are 246850
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-TOROT/orv_torot-ud-dev.conllu
 [Line 2034 Sent 255716 Node 2]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+[Line 4281 Sent 255840 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:их:det --> 8:творѧщих:acl)
 [Line 4511 Sent 255853 Node 3]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
 [Line 5014 Sent 292607 Node 13]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
 [Line 5951 Sent 292669 Node 9]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
 [Line 5953 Sent 292669 Node 11]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+[Line 7441 Sent 292774 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:томѹж:det --> 16:сказахомъ:acl)
 [Line 14584 Sent 288723 Node 2]: [L3 Warning fixed-gap] Gaps in fixed expression [2, 4] 'то * чл҃вѣкъ'
+[Line 21104 Sent 268524 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:ѥго:det --> 12:сблюд:acl)
 [Line 26878 Sent 281799 Node 8]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'xcomp'.
-[Line 26926 Sent 281803 Node 4]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
-[Line 29407 Sent 282000 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'аще * * ни'
-[Line 36221 Sent 280169 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'аще * * ни'
-Warnings: 10
+...suppressing further errors regarding Warning
+Warnings: 14
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-TOROT/orv_torot-ud-test.conllu
+[Line 801 Sent 281079 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:мнѣ:det --> 3:ѡкаанномѹ:amod)
 [Line 1655 Sent 256051 Node 7]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
 [Line 1657 Sent 256051 Node 9]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
 [Line 1864 Sent 256061 Node 1]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
+[Line 2621 Sent 256096 Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:того:det --> 19:приказано:acl)
 [Line 3470 Sent 256152 Node 17]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
 [Line 25099 Sent 264347 Node 21]: [L3 Warning fixed-gap] Gaps in fixed expression [21, 23] 'была * немъ'
 [Line 32565 Sent 281442 Node 12]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'xcomp'.
+[Line 34165 Sent 281546 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:тѣх:det --> 9:засажены:acl)
 [Line 36432 Sent 279506 Node 9]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
-Warnings: 7
+...suppressing further errors regarding Warning
+Warnings: 11
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-TOROT/orv_torot-ud-train.conllu
 [Line 1549 Sent 280575 Node 6]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+[Line 3376 Sent 280737 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:их:det --> 6:гѹндѹстанꙋ:appos)
 [Line 4811 Sent 280976 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'да * да'
+[Line 11842 Sent 288183 Node 23]: [L3 Warning leaf-det] 'det' not expected to have children (23:его:det --> 30:его:appos)
+[Line 18626 Sent 289210 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:ево:det --> 3:аѳонасьевъ:appos)
+[Line 22296 Sent 289562 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:своеи:det --> 7:дхв҃нои:amod)
 [Line 22924 Sent 289622 Node 8]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'xcomp'.
 [Line 23395 Sent 289666 Node 3]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
 [Line 25564 Sent 289874 Node 1]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
-[Line 35039 Sent 291061 Node 2]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
-[Line 37529 Sent 255135 Node 2]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
-[Line 37531 Sent 255135 Node 4]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
-[Line 55714 Sent 256000 Node 5]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
-[Line 56472 Sent 256194 Node 1]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
+[Line 29001 Sent 290187 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:него:det --> 4:дьякона:appos)
 ...suppressing further errors regarding Warning
-Warnings: 59
+Warnings: 93
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
