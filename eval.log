@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Old_East_Slavic-TOROT:
-commit f7b2295a6a9101ca25e7daf2f2a613669e410813
+commit 6d9d95f4305100ae09982aead3bc5dd79016d6fd
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 13:10:10 2024 +0200
+Date:   Mon Nov 11 16:19:03 2024 +0100
 Size: counted 246850 of 246850 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.0175617294097.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,61 +20,86 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL      19556
-Udapi: found 19556 bugs.
+               TOTAL      19469
+Udapi: found 19469 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 246850 words.
-Genres: found 2 out of 17 known.
+Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-TOROT/orv_torot-ud-dev.conllu
+[Line 1093 Sent 280909 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'какъ па' does not have the 'ExtPos' feature
 [Line 2034 Sent 255716 Node 2]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
-[Line 4281 Sent 255840 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:их:det --> 8:творѧщих:acl)
+[Line 2762 Sent 255760 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'моле нїе' does not have the 'ExtPos' feature
+[Line 4281 Sent 255840 Node 6]: [L3 Syntax leaf-det] 'det' not expected to have children (6:их:det --> 8:творѧщих:acl)
 [Line 4511 Sent 255853 Node 3]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
+[Line 4665 Sent 292585 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'ниѿкѹдꙋ же' does not have the 'ExtPos' feature
+[Line 4690 Sent 292587 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'елма ж' does not have the 'ExtPos' feature
+[Line 4816 Sent 292595 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'не п꙽щѹю' does not have the 'ExtPos' feature
+[Line 4859 Sent 292597 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'полы мѣста' does not have the 'ExtPos' feature
+[Line 5011 Sent 292607 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'не мнѡжаишим' does not have the 'ExtPos' feature
 [Line 5014 Sent 292607 Node 13]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
-[Line 5951 Sent 292669 Node 9]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
-[Line 5953 Sent 292669 Node 11]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
-[Line 7441 Sent 292774 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:томѹж:det --> 16:сказахомъ:acl)
-[Line 14584 Sent 288723 Node 2]: [L3 Warning fixed-gap] Gaps in fixed expression [2, 4] 'то * чл҃вѣкъ'
-[Line 21104 Sent 268524 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:ѥго:det --> 12:сблюд:acl)
-[Line 26878 Sent 281799 Node 8]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'xcomp'.
 ...suppressing further errors regarding Warning
-Warnings: 14
-*** PASSED ***
+[Line 7441 Sent 292774 Node 10]: [L3 Syntax leaf-det] 'det' not expected to have children (10:томѹж:det --> 16:сказахомъ:acl)
+[Line 21104 Sent 268524 Node 4]: [L3 Syntax leaf-det] 'det' not expected to have children (4:ѥго:det --> 12:сблюд:acl)
+[Line 36907 Sent 278498 Node 10]: [L3 Syntax leaf-det] 'det' not expected to have children (10:нашемѹ:det --> 9:на:mark)
+Syntax errors: 4
+Warnings: 63
+*** FAILED *** with 4 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-TOROT/orv_torot-ud-test.conllu
-[Line 801 Sent 281079 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:мнѣ:det --> 3:ѡкаанномѹ:amod)
+[Line 183 Sent 281023 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'пѣнечь че' does not have the 'ExtPos' feature
+[Line 801 Sent 281079 Node 2]: [L3 Syntax leaf-det] 'det' not expected to have children (2:мнѣ:det --> 3:ѡкаанномѹ:amod)
+[Line 903 Sent 281090 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'никоеꙗ же' does not have the 'ExtPos' feature
+[Line 1097 Sent 255241 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'по томь' does not have the 'ExtPos' feature
 [Line 1655 Sent 256051 Node 7]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
 [Line 1657 Sent 256051 Node 9]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
 [Line 1864 Sent 256061 Node 1]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
-[Line 2621 Sent 256096 Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:того:det --> 19:приказано:acl)
+[Line 2302 Sent 256086 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'никако же' does not have the 'ExtPos' feature
+[Line 2621 Sent 256096 Node 17]: [L3 Syntax leaf-det] 'det' not expected to have children (17:того:det --> 19:приказано:acl)
 [Line 3470 Sent 256152 Node 17]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
-[Line 25099 Sent 264347 Node 21]: [L3 Warning fixed-gap] Gaps in fixed expression [21, 23] 'была * немъ'
-[Line 32565 Sent 281442 Node 12]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'xcomp'.
-[Line 34165 Sent 281546 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:тѣх:det --> 9:засажены:acl)
-[Line 36432 Sent 279506 Node 9]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+[Line 3694 Sent 256165 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'никако же' does not have the 'ExtPos' feature
+[Line 3902 Sent 256177 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'никако же' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Warnings: 11
-*** PASSED ***
+[Line 34165 Sent 281546 Node 3]: [L3 Syntax leaf-det] 'det' not expected to have children (3:тѣх:det --> 9:засажены:acl)
+[Line 36560 Sent 278338 Node 20]: [L3 Syntax leaf-det] 'det' not expected to have children (20:когоджо:det --> 21:ихъ:nmod)
+Syntax errors: 4
+Warnings: 66
+*** FAILED *** with 4 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-TOROT/orv_torot-ud-train.conllu
+[Line 1252 Sent 280547 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'еже днь' does not have the 'ExtPos' feature
 [Line 1549 Sent 280575 Node 6]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
-[Line 3376 Sent 280737 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:их:det --> 6:гѹндѹстанꙋ:appos)
+[Line 1921 Sent 280606 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'еже дн҃ь' does not have the 'ExtPos' feature
+[Line 1937 Sent 280607 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'тѣ же' does not have the 'ExtPos' feature
+[Line 2253 Sent 280630 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'махмѣт дени' does not have the 'ExtPos' feature
+[Line 2266 Sent 280631 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'махмет дени' does not have the 'ExtPos' feature
+[Line 3376 Sent 280737 Node 4]: [L3 Syntax leaf-det] 'det' not expected to have children (4:их:det --> 6:гѹндѹстанꙋ:appos)
+[Line 3577 Sent 280759 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'на гарниковъ' does not have the 'ExtPos' feature
+[Line 4656 Sent 280964 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'канъ. даки' does not have the 'ExtPos' feature
+[Line 4811 Sent 280976 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'да да' does not have the 'ExtPos' feature
 [Line 4811 Sent 280976 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'да * да'
-[Line 11842 Sent 288183 Node 23]: [L3 Warning leaf-det] 'det' not expected to have children (23:его:det --> 30:его:appos)
-[Line 18626 Sent 289210 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:ево:det --> 3:аѳонасьевъ:appos)
-[Line 22296 Sent 289562 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:своеи:det --> 7:дхв҃нои:amod)
-[Line 22924 Sent 289622 Node 8]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'xcomp'.
-[Line 23395 Sent 289666 Node 3]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
-[Line 25564 Sent 289874 Node 1]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
-[Line 29001 Sent 290187 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:него:det --> 4:дьякона:appos)
 ...suppressing further errors regarding Warning
-Warnings: 93
-*** PASSED ***
-Validity: 1
+[Line 11842 Sent 288183 Node 23]: [L3 Syntax leaf-det] 'det' not expected to have children (23:его:det --> 30:его:appos)
+[Line 18626 Sent 289210 Node 2]: [L3 Syntax leaf-det] 'det' not expected to have children (2:ево:det --> 3:аѳонасьевъ:appos)
+[Line 22296 Sent 289562 Node 6]: [L3 Syntax leaf-det] 'det' not expected to have children (6:своеи:det --> 7:дхв҃нои:amod)
+[Line 29001 Sent 290187 Node 2]: [L3 Syntax leaf-det] 'det' not expected to have children (2:него:det --> 4:дьякона:appos)
+[Line 29630 Sent 290242 Node 8]: [L3 Syntax leaf-det] 'det' not expected to have children (8:насъ:det --> 6:братом:nmod)
+[Line 33619 Sent 290613 Node 1]: [L3 Syntax leaf-det] 'det' not expected to have children (1:того:det --> 2:ж:amod)
+[Line 47744 Sent 255278 Node 15]: [L3 Syntax leaf-det] 'det' not expected to have children (15:их:det --> 18:ст҃ых:appos)
+[Line 64437 Sent 256700 Node 2]: [L3 Syntax leaf-det] 'det' not expected to have children (2:томѹ:det --> 9:писано:acl)
+[Line 66312 Sent 256817 Node 3]: [L3 Syntax leaf-det] 'det' not expected to have children (3:все:det --> 6:все:appos)
+...suppressing further errors regarding Syntax
+Syntax errors: 35
+Warnings: 495
+*** FAILED *** with 35 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
+(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.797477710518517) = 0.204481464235517
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.658823529411765) = 0.0506787330316742
-(weight=0.307692307692308) * (score{udapi}=0.20777800283573) = 0.0639316931802247
+(weight=0.307692307692308) * (score{udapi}=0.21130241037067) = 0.0650161262678986
 (weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
-(TOTAL score=0.552396688458096) * (availability=1) * (validity=1) = 0.552396688458096
-STARS = 3
-UD_Old_East_Slavic-TOROT	0.552396688458096	3
+(TOTAL score=0.552978356337123) * (availability=1) * (validity=0.01) = 0.00552978356337123
+STARS = 0
+UD_Old_East_Slavic-TOROT	0.00552978356337123	0
