@@ -1691,7 +1691,7 @@
 2	даи	даяти	VERB	V-	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=
 3	б҃ъ	богъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	ref=
 4	ѥго	и	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	det	_	ref=
-5	мл҃твоу	молитва	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	ref=
+5	мл҃твоу	молитва	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	ref=
 6	вьсѣмъ	вьсь	DET	Px	Case=Dat|Gender=Masc|Number=Plur	7	det	_	ref=
 7	хрьстиꙗномъ	хрьстиянинъ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	2	obl:arg	_	ref=
 8	и	и	CCONJ	C-	_	9	cc	_	ref=
@@ -4276,7 +4276,7 @@
 3	адъ	адъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	1	obl	_	ref=24
 4	живы	живыи	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Variant=Short	5	amod	_	ref=24
 5	дш҃а	душа	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	ref=24
-6	их	и	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	det	_	ref=24
+6	их	и	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	acl	_	ref=24
 7	тако	тако	ADV	Df	_	8	advmod	_	ref=24
 8	творѧщих	творити	VERB	V-	Case=Gen|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	6	acl	_	ref=24
 
@@ -7432,7 +7432,7 @@
 7	иноѧ	иныи	DET	Px	Case=Gen|Gender=Fem|Number=Sing	8	det	_	ref=19
 8	с꙽траны	страна	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	12	obl	_	ref=19
 9	по	по	ADP	R-	_	11	case	_	ref=19
-10	томѹж	тыиже	DET	Pd	Case=Dat|Gender=Masc|Number=Sing	11	det	_	ref=19
+10	томѹж	тыиже	DET	Pd	Case=Dat|Gender=Masc|Number=Sing	11	acl	_	ref=19
 11	ѡбразѹ	образъ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	ref=19
 12	привезено	привезти	VERB	V-	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	ref=19
 13	бысть	быти	AUX	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	_	ref=19
@@ -19483,9 +19483,9 @@
 # sent_id = 268392
 1	а	а	CCONJ	C-	_	7	cc	_	ref=248.17
 2	се	се	INTJ	I-	_	7	discourse	_	ref=248.17
-3	мечи	мечь	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	ref=248.17
-4	и	и	ADV	Df	_	7	obj	_	ref=248.17
-5	полонъ	полонъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	ref=248.17
+3	мечи	мечь	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	ref=248.17
+4	и	и	CCONJ	Df	_	5	cc	_	ref=248.17
+5	полонъ	полонъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	3	conj	_	ref=248.17
 6	весь	вьсь	DET	Px	Case=Acc|Gender=Masc|Number=Sing	5	det	_	ref=248.17
 7	ѡтѧхом	отъяти	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=248.17
 
@@ -21093,7 +21093,7 @@
 1	и	и	CCONJ	C-	_	2	cc	_	ref=251.35
 2	прославьлѧю	прославляти	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=251.35
 3	млсть	милость	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	ref=251.35
-4	ѥго	и	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	det	_	ref=251.35
+4	ѥго	и	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	acl	_	ref=251.35
 5	иже	иже	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	12	nsubj	_	ref=251.35
 6	мѧ	азъ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	12	obj	_	ref=251.35
 7	грѣшнаго	грѣшьныи	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	ref=251.36
@@ -21555,9 +21555,9 @@
 3	словесы	слово	NOUN	Nb	Case=Ins|Gender=Neut|Number=Plur	4	obl	_	ref=253.5
 4	варих	варити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=253.5
 5	тѧ	ты	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	4	obj	_	ref=253.5
-6	переди	переди	ADP	R-	_	4	obl	_	ref=253.5
+6	переди	переди	ADV	R-	_	4	advmod	_	ref=253.5
 7	ѥгоже	иже	PRON	Pr	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	8	obj	_	ref=253.5
-8	почаяхъ	почати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	obj	_	ref=253.5
+8	почаяхъ	почати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	ref=253.5
 9	ѿ	отъ	ADP	R-	_	10	case	_	ref=253.5
 10	тебе	ты	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	8	obl	_	ref=253.5
 11	смѣреньем	съмѣрение	NOUN	Nb	Case=Ins|Gender=Neut|Number=Sing	14	obl	_	ref=253.6
@@ -36904,7 +36904,7 @@
 6	шедъшю	ити	VERB	V-	Case=Dat|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Act	0	root	_	ref=26
 7	великѹѹмѹ	великыи	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	ref=26
 8	оц҃ѹ	отьць	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	6	nsubj	_	ref=26
-9	на	на	ADP	R-	_	10	mark	_	ref=26
+9	на	на	X	R-	_	10	reparandum	_	ref=26
 10	нашемѹ	нашь	DET	Ps	Case=Dat|Gender=Masc|Number=Sing|Person=1|Poss=Yes	8	det	_	ref=26
 11	ѳеѡдосию	феодосии	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	8	appos	_	ref=26
 12	нѣкоторааго	нѣкоторыи	DET	Px	Case=Gen|Gender=Neut|Number=Sing	14	det	_	ref=26
@@ -39749,7 +39749,7 @@
 4	ꙗ	и	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	obj	_	ref=27
 5	ѥже	иже	PRON	Pr	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	7	nsubj	_	ref=27
 6	ѡ	о	ADP	R-	_	7	case	_	ref=27
-7	сп҃сении	съпасение	NOUN	Nb	Case=Loc|Gender=Neut|Number=Sing	3	obj	_	ref=27
+7	сп҃сении	съпасение	NOUN	Nb	Case=Loc|Gender=Neut|Number=Sing	3	obl	_	ref=27
 8	дш҃и	душа	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	ref=27
 9	и	и	CCONJ	C-	_	11	cc	_	ref=27
 10	тако	тако	ADV	Df	_	11	advmod	_	ref=27

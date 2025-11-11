@@ -16,19 +16,19 @@
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="14">
     <tag name="ADJ">17987</tag><!-- святыи, великыи, мъногыи, вьсякыи, божии, другыи, русьскыи, блаженыи, добрыи, малыи -->
-    <tag name="ADP">26788</tag><!-- въ, на, съ, къ, отъ, по, о, у, за, из -->
+    <tag name="ADP">26785</tag><!-- въ, на, съ, къ, отъ, по, о, у, за, из -->
     <tag name="ADV">22999</tag><!-- же, не, и, бо, тако, да, яко, то, пакы, како -->
     <tag name="AUX">5292</tag><!-- быти, стати -->
-    <tag name="CCONJ">25120</tag><!-- и, а, нъ, или, ни, да, ли, любо, таже, ти -->
-    <tag name="DET">8710</tag><!-- свои, вьсь, тыи, мои, сии, нашь, тыиже, твои, иныи, самъ -->
+    <tag name="CCONJ">25122</tag><!-- и, а, нъ, или, ни, да, ли, любо, таже, ти -->
+    <tag name="DET">8711</tag><!-- свои, вьсь, тыи, мои, сии, нашь, тыиже, твои, иныи, самъ -->
     <tag name="INTJ">667</tag><!-- се, о, аминъ, увы, еи, алилуя, охъ, вотъ, горе, воле -->
     <tag name="NOUN">53967</tag><!-- богъ, лѣто, кънязь, дьнь, земля, отьць, цьркы, градъ, людие, сынъ -->
     <tag name="NUM">5060</tag><!-- шесть.тысячь, единъ, дъва, трие, дъвадесяти, шестьсътъ, четыре, пять, тридесяте, шесть -->
-    <tag name="PRON">24151</tag><!-- и, себе, азъ, тыи, иже, сии, мы, ты, онъ, чьто -->
+    <tag name="PRON">24150</tag><!-- и, себе, азъ, тыи, иже, сии, мы, ты, онъ, чьто -->
     <tag name="PROPN">12960</tag><!-- новъгородъ, кыевъ, володимѣръ, мьстиславъ, изъяславъ, вьсеволодъ, ярославъ, святопълкъ, святославъ, давыдъ -->
     <tag name="SCONJ">2526</tag><!-- яко, аще, да, аже, оже, зане, доньдеже, понеже, якоже, еже -->
     <tag name="VERB">40617</tag><!-- рещи, приити, ити, глаголати, хотѣти, сътворити, посълати, поити, дати, видѣти -->
-    <tag name="X">6</tag><!-- дени, бирѹ, исаядениени, па, че -->
+    <tag name="X">7</tag><!-- дени, бирѹ, исаядениени, на, па, че -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="45">
@@ -79,43 +79,45 @@
     <feat name="Voice" value="Pass" upos="VERB">1916</feat><!-- писано, поставленъ, положенъ, послании, заложена, побѣженъ, посланъ, приказано, любимъ, велено -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="37">
-    <dep name="acl">2284</dep>
+  <deps unique="39">
+    <dep name="acl">2308</dep>
     <dep name="advcl">8424</dep>
     <dep name="advcl:cmp">421</dep>
-    <dep name="advmod">14183</dep>
-    <dep name="amod">12164</dep>
-    <dep name="appos">5418</dep>
+    <dep name="advmod">14182</dep>
+    <dep name="amod">12162</dep>
+    <dep name="appos">5416</dep>
     <dep name="aux">1195</dep>
     <dep name="aux:pass">41</dep>
     <dep name="case">26610</dep>
-    <dep name="cc">25083</dep>
-    <dep name="ccomp">967</dep>
-    <dep name="conj">17166</dep>
+    <dep name="cc">25085</dep>
+    <dep name="ccomp">968</dep>
+    <dep name="conj">17171</dep>
     <dep name="cop">3015</dep>
     <dep name="csubj">106</dep>
     <dep name="csubj:pass">18</dep>
     <dep name="dep">163</dep>
-    <dep name="det">10589</dep>
-    <dep name="discourse">7279</dep>
-    <dep name="dislocated">938</dep>
+    <dep name="det">10556</dep>
+    <dep name="discourse">7281</dep>
+    <dep name="dislocated">940</dep>
     <dep name="expl:pv">4949</dep>
     <dep name="fixed">558</dep>
     <dep name="flat:name">901</dep>
-    <dep name="mark">2780</dep>
-    <dep name="nmod">6611</dep>
+    <dep name="iobj">4</dep>
+    <dep name="mark">2779</dep>
+    <dep name="nmod">6618</dep>
     <dep name="nsubj">16190</dep>
     <dep name="nsubj:outer">8</dep>
     <dep name="nsubj:pass">590</dep>
     <dep name="nummod">1715</dep>
-    <dep name="obj">14665</dep>
-    <dep name="obl">22884</dep>
+    <dep name="obj">14650</dep>
+    <dep name="obl">22889</dep>
     <dep name="obl:agent">434</dep>
     <dep name="obl:arg">5170</dep>
     <dep name="orphan">2121</dep>
     <dep name="parataxis">364</dep>
+    <dep name="reparandum">1</dep>
     <dep name="root">26496</dep>
     <dep name="vocative">1167</dep>
-    <dep name="xcomp">3183</dep>
+    <dep name="xcomp">3184</dep>
   </deps>
 </treebank>

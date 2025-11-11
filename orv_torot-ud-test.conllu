@@ -797,7 +797,7 @@
 # text = горе мнѣ ѡкаанномѹ
 # sent_id = 281079
 1	горе	горе	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	ref=19
-2	мнѣ	азъ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	1	det	_	ref=19
+2	мнѣ	азъ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	ref=19
 3	ѡкаанномѹ	окаяныи	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	ref=19
 
 # source = Afanasij Nikitin’s journey beyond three seas, 19
@@ -2616,7 +2616,7 @@
 14	былъ	быти	AUX	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	0	root	_	ref=36
 15	бы	быти	AUX	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	aux	_	ref=36
 16	кромѣ	кромѣ	ADP	R-	_	17	case	_	ref=36
-17	того	тыи	DET	Pd	Case=Gen|Gender=Masc|Number=Sing	3	det	_	ref=36
+17	того	тыи	DET	Pd	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	ref=36
 18	комѹ	къто	PRON	Pr	Case=Dat|Gender=Masc|Number=Sing|PronType=Rel	19	obl:arg	_	ref=36
 19	приказано	приказати	VERB	V-	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	17	acl	_	ref=36
 20	сверстномѹ	съвьрстьныи	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	ref=36
@@ -34156,7 +34156,7 @@
 # sent_id = 281546
 1	Да	да	ADV	Df	_	5	discourse	_	ref=|LId=2
 2	и	и	CCONJ	C-	_	5	cc	_	ref=
-3	тѣх	тыи	DET	Pd	Case=Gen|Gender=Masc|Number=Plur	4	det	_	ref=
+3	тѣх	тыи	DET	Pd	Case=Gen|Gender=Masc|Number=Plur	4	acl	_	ref=
 4	жены	жена	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	ref=
 5	поѣхали	поѣхати	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|Variant=Short|VerbForm=PartRes|Voice=Act	0	root	_	ref=
 6	кои	кыи	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	9	nsubj:pass	_	ref=
@@ -36556,7 +36556,7 @@
 17	вьсѣ	вьсь	DET	Px	Case=Acc|Gender=Fem|Number=Plur	15	det	_	ref=20
 18	хотѧ	хотѣти	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|Variant=Short|VerbForm=Part|Voice=Act	13	advcl	_	ref=20
 19	ѹвѣдѣти	увѣдѣти	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	18	xcomp	_	ref=20
-20	когоджо	къжьдо	DET	Px	Case=Gen|Gender=Masc|Number=Sing	23	det	_	ref=20
+20	когоджо	къжьдо	DET	Px	Case=Gen|Gender=Masc|Number=Sing	23	acl	_	ref=20
 21	ихъ	и	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	nmod	_	ref=20
 22	како	како	ADV	Du	PronType=Int	19	ccomp	_	ref=20
 23	житиѥ	житие	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	22	nsubj	_	ref=20
