@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Old_East_Slavic-TOROT:
-commit 6d9d95f4305100ae09982aead3bc5dd79016d6fd
+commit 119c4fed5dcb54b530e3b2aa24d45911c904dba4
+Merge: 117de1f 88e7ef8
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 11 16:19:03 2024 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'orv_torot'
+Language code (from CoNLL-U file name) = 'orv'
+Found the following data files: orv_torot-ud-dev.conllu, orv_torot-ud-test.conllu, orv_torot-ud-train.conllu
 Size: counted 246850 of 246850 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.0175617294097.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -17,89 +21,59 @@ Universal POS tags: 14 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
 Features: 170464 out of 246850 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
-Universal relations: 30 out of 37 found in the corpus.
+Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi:
-               TOTAL      19469
-Udapi: found 19469 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 246850 words.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-TOROT/orv_torot-ud-dev.conllu
-[Line 1093 Sent 280909 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'какъ па' does not have the 'ExtPos' feature
-[Line 2034 Sent 255716 Node 2]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
-[Line 2762 Sent 255760 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'моле нїе' does not have the 'ExtPos' feature
-[Line 4281 Sent 255840 Node 6]: [L3 Syntax leaf-det] 'det' not expected to have children (6:их:det --> 8:творѧщих:acl)
-[Line 4511 Sent 255853 Node 3]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
-[Line 4665 Sent 292585 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'ниѿкѹдꙋ же' does not have the 'ExtPos' feature
-[Line 4690 Sent 292587 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'елма ж' does not have the 'ExtPos' feature
-[Line 4816 Sent 292595 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'не п꙽щѹю' does not have the 'ExtPos' feature
-[Line 4859 Sent 292597 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'полы мѣста' does not have the 'ExtPos' feature
-[Line 5011 Sent 292607 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'не мнѡжаишим' does not have the 'ExtPos' feature
-[Line 5014 Sent 292607 Node 13]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
+[Line 4 Sent 280802]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
+[Line 5 Sent 280802]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
+[Line 6 Sent 280802]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
+[Line 7 Sent 280802]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
+[Line 8 Sent 280802]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
+[Line 9 Sent 280802]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
+[Line 14 Sent 280803]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
+[Line 15 Sent 280803]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
+[Line 16 Sent 280803]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
+[Line 17 Sent 280803]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
 ...suppressing further errors regarding Warning
-[Line 7441 Sent 292774 Node 10]: [L3 Syntax leaf-det] 'det' not expected to have children (10:томѹж:det --> 16:сказахомъ:acl)
-[Line 21104 Sent 268524 Node 4]: [L3 Syntax leaf-det] 'det' not expected to have children (4:ѥго:det --> 12:сблюд:acl)
-[Line 36907 Sent 278498 Node 10]: [L3 Syntax leaf-det] 'det' not expected to have children (10:нашемѹ:det --> 9:на:mark)
-Syntax errors: 4
-Warnings: 63
-*** FAILED *** with 4 errors
-Exit code: 1
+Warnings: 29307
+*** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-TOROT/orv_torot-ud-test.conllu
-[Line 183 Sent 281023 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'пѣнечь че' does not have the 'ExtPos' feature
-[Line 801 Sent 281079 Node 2]: [L3 Syntax leaf-det] 'det' not expected to have children (2:мнѣ:det --> 3:ѡкаанномѹ:amod)
-[Line 903 Sent 281090 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'никоеꙗ же' does not have the 'ExtPos' feature
-[Line 1097 Sent 255241 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'по томь' does not have the 'ExtPos' feature
-[Line 1655 Sent 256051 Node 7]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
-[Line 1657 Sent 256051 Node 9]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
-[Line 1864 Sent 256061 Node 1]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
-[Line 2302 Sent 256086 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'никако же' does not have the 'ExtPos' feature
-[Line 2621 Sent 256096 Node 17]: [L3 Syntax leaf-det] 'det' not expected to have children (17:того:det --> 19:приказано:acl)
-[Line 3470 Sent 256152 Node 17]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
-[Line 3694 Sent 256165 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'никако же' does not have the 'ExtPos' feature
-[Line 3902 Sent 256177 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'никако же' does not have the 'ExtPos' feature
+[Line 4 Sent 281008]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
+[Line 5 Sent 281008]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
+[Line 6 Sent 281008]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
+[Line 7 Sent 281008]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
+[Line 8 Sent 281008]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
+[Line 9 Sent 281008]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
+[Line 14 Sent 281009]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
+[Line 15 Sent 281009]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
+[Line 16 Sent 281009]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
+[Line 17 Sent 281009]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
 ...suppressing further errors regarding Warning
-[Line 34165 Sent 281546 Node 3]: [L3 Syntax leaf-det] 'det' not expected to have children (3:тѣх:det --> 9:засажены:acl)
-[Line 36560 Sent 278338 Node 20]: [L3 Syntax leaf-det] 'det' not expected to have children (20:когоджо:det --> 21:ихъ:nmod)
-Syntax errors: 4
-Warnings: 66
-*** FAILED *** with 4 errors
-Exit code: 1
+Warnings: 29603
+*** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-TOROT/orv_torot-ud-train.conllu
-[Line 1252 Sent 280547 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'еже днь' does not have the 'ExtPos' feature
-[Line 1549 Sent 280575 Node 6]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
-[Line 1921 Sent 280606 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'еже дн҃ь' does not have the 'ExtPos' feature
-[Line 1937 Sent 280607 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'тѣ же' does not have the 'ExtPos' feature
-[Line 2253 Sent 280630 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'махмѣт дени' does not have the 'ExtPos' feature
-[Line 2266 Sent 280631 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'махмет дени' does not have the 'ExtPos' feature
-[Line 3376 Sent 280737 Node 4]: [L3 Syntax leaf-det] 'det' not expected to have children (4:их:det --> 6:гѹндѹстанꙋ:appos)
-[Line 3577 Sent 280759 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'на гарниковъ' does not have the 'ExtPos' feature
-[Line 4656 Sent 280964 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'канъ. даки' does not have the 'ExtPos' feature
-[Line 4811 Sent 280976 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'да да' does not have the 'ExtPos' feature
-[Line 4811 Sent 280976 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'да * да'
+[Line 4 Sent 280440]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
+[Line 5 Sent 280440]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
+[Line 6 Sent 280440]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
+[Line 7 Sent 280440]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
+[Line 8 Sent 280440]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
+[Line 9 Sent 280440]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
+[Line 10 Sent 280440]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
+[Line 11 Sent 280440]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
+[Line 12 Sent 280440]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
+[Line 13 Sent 280440]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
 ...suppressing further errors regarding Warning
-[Line 11842 Sent 288183 Node 23]: [L3 Syntax leaf-det] 'det' not expected to have children (23:его:det --> 30:его:appos)
-[Line 18626 Sent 289210 Node 2]: [L3 Syntax leaf-det] 'det' not expected to have children (2:ево:det --> 3:аѳонасьевъ:appos)
-[Line 22296 Sent 289562 Node 6]: [L3 Syntax leaf-det] 'det' not expected to have children (6:своеи:det --> 7:дхв҃нои:amod)
-[Line 29001 Sent 290187 Node 2]: [L3 Syntax leaf-det] 'det' not expected to have children (2:него:det --> 4:дьякона:appos)
-[Line 29630 Sent 290242 Node 8]: [L3 Syntax leaf-det] 'det' not expected to have children (8:насъ:det --> 6:братом:nmod)
-[Line 33619 Sent 290613 Node 1]: [L3 Syntax leaf-det] 'det' not expected to have children (1:того:det --> 2:ж:amod)
-[Line 47744 Sent 255278 Node 15]: [L3 Syntax leaf-det] 'det' not expected to have children (15:их:det --> 18:ст҃ых:appos)
-[Line 64437 Sent 256700 Node 2]: [L3 Syntax leaf-det] 'det' not expected to have children (2:томѹ:det --> 9:писано:acl)
-[Line 66312 Sent 256817 Node 3]: [L3 Syntax leaf-det] 'det' not expected to have children (3:все:det --> 6:все:appos)
-...suppressing further errors regarding Syntax
-Syntax errors: 35
-Warnings: 495
-*** FAILED *** with 35 errors
-Exit code: 1
-Validity: 0.01
-(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
-(weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.797477710518517) = 0.204481464235517
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.658823529411765) = 0.0506787330316742
-(weight=0.307692307692308) * (score{udapi}=0.21130241037067) = 0.0650161262678986
-(weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
-(TOTAL score=0.552978356337123) * (availability=1) * (validity=0.01) = 0.00552978356337123
-STARS = 0
-UD_Old_East_Slavic-TOROT	0.00552978356337123	0
+Warnings: 202869
+*** PASSED ***
+Validity: 1
+(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{genres}=0.111111111111111) = 0.0123456790123457
+(weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
+(weight=0.37037037037037) * (score{size}=0.797477710518517) = 0.295362115006858
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=0.658823529411765) = 0.073202614379085
+(weight=0.111111111111111) * (score{udeprels}=0.691891891891892) = 0.0768768768768769
+(TOTAL score=0.709639137127017) * (availability=1) * (validity=1) = 0.709639137127017
+STARS = 3.5
+UD_Old_East_Slavic-TOROT	0.709639137127017	3.5
