@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Old_East_Slavic-TOROT:
-commit 119c4fed5dcb54b530e3b2aa24d45911c904dba4
-Merge: 117de1f 88e7ef8
+commit dc3abd3c3085ecf3acce35b0aaeed202ab0562e0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:23:31 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'orv_torot'
 Language code (from CoNLL-U file name) = 'orv'
@@ -25,48 +25,139 @@ Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-TOROT/orv_torot-ud-dev.conllu
-[Line 4 Sent 280802]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
-[Line 5 Sent 280802]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
-[Line 6 Sent 280802]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
-[Line 7 Sent 280802]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
-[Line 8 Sent 280802]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
-[Line 9 Sent 280802]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
-[Line 14 Sent 280803]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
-[Line 15 Sent 280803]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
-[Line 16 Sent 280803]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
-[Line 17 Sent 280803]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
-...suppressing further errors regarding Warning
-Warnings: 29307
-*** PASSED ***
+[Line 4 Sent 280802]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
+[Line 5 Sent 280802]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
+[Line 6 Sent 280802]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
+[Line 7 Sent 280802]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
+[Line 8 Sent 280802]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
+[Line 9 Sent 280802]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
+[Line 14 Sent 280803]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
+[Line 15 Sent 280803]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
+[Line 16 Sent 280803]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
+[Line 17 Sent 280803]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=12'.
+...suppressing further messages regarding WARNING/FORMAT
+[Line 26 Sent 280804]: [L3 WARNING pron-det-without-prontype] The word 'то' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 88 Sent 280809]: [L3 WARNING pron-det-without-prontype] The word 'всеѧ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 151 Sent 280815]: [L3 WARNING pron-det-without-prontype] The word 'все' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 151 Sent 280815]: [L3 SYNTAX obl-should-be-nmod] The parent (node [6] 'хвостом') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 180 Sent 280818]: [L3 WARNING pron-det-without-prontype] The word 'всѧ' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 207 Sent 280820]: [L3 WARNING pron-det-without-prontype] The word 'всѣ' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 255 Sent 280824]: [L3 WARNING pron-det-without-prontype] The word 'всѣхъ' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 330 Sent 280831]: [L3 WARNING pron-det-without-prontype] The word 'ничево' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 353 Sent 280834]: [L3 WARNING pron-det-without-prontype] The word 'иныѧ' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 361 Sent 280835]: [L3 WARNING pron-det-without-prontype] The word 'ничево' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 410 Sent 280840]: [L3 WARNING pron-det-without-prontype] The word 'всь' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 1093 Sent 280909]: [L3 WARNING fixed-without-extpos] Fixed expression 'какъ па' does not have the 'ExtPos' feature
+[Line 2034 Sent 255716]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+[Line 2762 Sent 255760]: [L3 WARNING fixed-without-extpos] Fixed expression 'моле нїе' does not have the 'ExtPos' feature
+[Line 4040 Sent 255832]: [L3 SYNTAX obl-should-be-nmod] The parent (node [40] 'ловлю') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 4511 Sent 255853]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
+[Line 4665 Sent 292585]: [L3 WARNING fixed-without-extpos] Fixed expression 'ниѿкѹдꙋ же' does not have the 'ExtPos' feature
+[Line 4690 Sent 292587]: [L3 WARNING fixed-without-extpos] Fixed expression 'елма ж' does not have the 'ExtPos' feature
+[Line 4816 Sent 292595]: [L3 WARNING fixed-without-extpos] Fixed expression 'не п꙽щѹю' does not have the 'ExtPos' feature
+[Line 4859 Sent 292597]: [L3 WARNING fixed-without-extpos] Fixed expression 'полы мѣста' does not have the 'ExtPos' feature
+[Line 5011 Sent 292607]: [L3 WARNING fixed-without-extpos] Fixed expression 'не мнѡжаишим' does not have the 'ExtPos' feature
+[Line 5014 Sent 292607]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 14127 Sent 288674]: [L3 SYNTAX obl-should-be-nmod] The parent (node [1] 'версты') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 28828 Sent 281954]: [L3 SYNTAX obl-should-be-nmod] The parent (node [16] 'лѧсѣх') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+Warnings: 29302
+SYNTAX errors: 4
+*** FAILED *** with 4 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-TOROT/orv_torot-ud-test.conllu
-[Line 4 Sent 281008]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
-[Line 5 Sent 281008]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
-[Line 6 Sent 281008]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
-[Line 7 Sent 281008]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
-[Line 8 Sent 281008]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
-[Line 9 Sent 281008]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
-[Line 14 Sent 281009]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
-[Line 15 Sent 281009]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
-[Line 16 Sent 281009]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
-[Line 17 Sent 281009]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
-...suppressing further errors regarding Warning
-Warnings: 29603
-*** PASSED ***
+[Line 4 Sent 281008]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
+[Line 5 Sent 281008]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
+[Line 6 Sent 281008]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
+[Line 7 Sent 281008]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
+[Line 8 Sent 281008]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
+[Line 9 Sent 281008]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
+[Line 14 Sent 281009]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
+[Line 15 Sent 281009]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
+[Line 16 Sent 281009]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
+[Line 17 Sent 281009]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=18'.
+...suppressing further messages regarding WARNING/FORMAT
+[Line 50 Sent 281012]: [L3 WARNING pron-det-without-prontype] The word 'все' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 183 Sent 281023]: [L3 WARNING fixed-without-extpos] Fixed expression 'пѣнечь че' does not have the 'ExtPos' feature
+[Line 221 Sent 281027]: [L3 WARNING pron-det-without-prontype] The word 'тѹю' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 257 Sent 281030]: [L3 WARNING pron-det-without-prontype] The word 'тоѧ' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 292 Sent 281035]: [L3 WARNING pron-det-without-prontype] The word 'инаа' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 315 Sent 281037]: [L3 WARNING pron-det-without-prontype] The word 'никакого' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 326 Sent 281038]: [L3 WARNING pron-det-without-prontype] The word 'все' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 442 Sent 281048]: [L3 WARNING pron-det-without-prontype] The word 'тѣх' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 452 Sent 281049]: [L3 WARNING pron-det-without-prontype] The word 'тотъ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 503 Sent 281053]: [L3 WARNING pron-det-without-prontype] The word 'кто' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 579 Sent 281059]: [L3 WARNING pron-det-without-prontype] The word 'иныхъ' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 903 Sent 281090]: [L3 WARNING fixed-without-extpos] Fixed expression 'никоеꙗ же' does not have the 'ExtPos' feature
+[Line 1097 Sent 255241]: [L3 WARNING fixed-without-extpos] Fixed expression 'по томь' does not have the 'ExtPos' feature
+[Line 1655 Sent 256051]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+[Line 1657 Sent 256051]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+[Line 1864 Sent 256061]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
+[Line 2302 Sent 256086]: [L3 WARNING fixed-without-extpos] Fixed expression 'никако же' does not have the 'ExtPos' feature
+[Line 3470 Sent 256152]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
+[Line 3694 Sent 256165]: [L3 WARNING fixed-without-extpos] Fixed expression 'никако же' does not have the 'ExtPos' feature
+[Line 3902 Sent 256177]: [L3 WARNING fixed-without-extpos] Fixed expression 'никако же' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 10507 Sent 270533]: [L3 SYNTAX obl-should-be-nmod] The parent (node [7] 'крщ҃нии') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 15881 Sent 290848]: [L3 SYNTAX obl-should-be-nmod] The parent (node [4] 'рыбою') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 27812 Sent 274005]: [L3 SYNTAX obl-should-be-nmod] The parent (node [4] 'нощь') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 33325 Sent 281495]: [L3 SYNTAX obl-should-be-nmod] The parent (node [17] 'целование') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+Warnings: 29599
+SYNTAX errors: 4
+*** FAILED *** with 4 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-TOROT/orv_torot-ud-train.conllu
-[Line 4 Sent 280440]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
-[Line 5 Sent 280440]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
-[Line 6 Sent 280440]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
-[Line 7 Sent 280440]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
-[Line 8 Sent 280440]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
-[Line 9 Sent 280440]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
-[Line 10 Sent 280440]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
-[Line 11 Sent 280440]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
-[Line 12 Sent 280440]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
-[Line 13 Sent 280440]: [L2 Warning misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
-...suppressing further errors regarding Warning
-Warnings: 202869
-*** PASSED ***
-Validity: 1
+[Line 4 Sent 280440]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
+[Line 5 Sent 280440]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
+[Line 6 Sent 280440]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
+[Line 7 Sent 280440]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
+[Line 8 Sent 280440]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
+[Line 9 Sent 280440]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
+[Line 10 Sent 280440]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
+[Line 11 Sent 280440]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
+[Line 12 Sent 280440]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
+[Line 13 Sent 280440]: [L2 WARNING misc-attr-typo] Possible typo (case or spaces) in MISC attribute 'ref=1'.
+...suppressing further messages regarding WARNING/FORMAT
+[Line 8 Sent 280440]: [L3 WARNING pron-det-without-prontype] The word 'наших' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 17 Sent 280440]: [L3 WARNING pron-det-without-prontype] The word 'своего' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 29 Sent 280441]: [L3 WARNING pron-det-without-prontype] The word 'свое' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 134 Sent 280448]: [L3 WARNING pron-det-without-prontype] The word 'ыною' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 145 Sent 280449]: [L3 WARNING pron-det-without-prontype] The word 'всеѧ' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 322 Sent 280463]: [L3 WARNING pron-det-without-prontype] The word 'ѡни' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 342 Sent 280465]: [L3 WARNING pron-det-without-prontype] The word 'свое' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 403 Sent 280472]: [L3 WARNING pron-det-without-prontype] The word 'всю' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 404 Sent 280472]: [L3 WARNING pron-det-without-prontype] The word 'свою' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 412 Sent 280473]: [L3 WARNING pron-det-without-prontype] The word 'нашим' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 1252 Sent 280547]: [L3 WARNING fixed-without-extpos] Fixed expression 'еже днь' does not have the 'ExtPos' feature
+[Line 1286 Sent 280549]: [L3 SYNTAX obl-should-be-nmod] The parent (node [8] 'недѣли') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1426 Sent 280562]: [L3 SYNTAX obl-should-be-nmod] The parent (node [8] 'недлю') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1549 Sent 280575]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+[Line 1921 Sent 280606]: [L3 WARNING fixed-without-extpos] Fixed expression 'еже дн҃ь' does not have the 'ExtPos' feature
+[Line 1937 Sent 280607]: [L3 WARNING fixed-without-extpos] Fixed expression 'тѣ же' does not have the 'ExtPos' feature
+[Line 2253 Sent 280630]: [L3 WARNING fixed-without-extpos] Fixed expression 'махмѣт дени' does not have the 'ExtPos' feature
+[Line 2266 Sent 280631]: [L3 WARNING fixed-without-extpos] Fixed expression 'махмет дени' does not have the 'ExtPos' feature
+[Line 3325 Sent 280731]: [L3 SYNTAX obl-should-be-nmod] The parent (node [8] 'недѣли') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 3577 Sent 280759]: [L3 WARNING fixed-without-extpos] Fixed expression 'на гарниковъ' does not have the 'ExtPos' feature
+[Line 4656 Sent 280964]: [L3 WARNING fixed-without-extpos] Fixed expression 'канъ. даки' does not have the 'ExtPos' feature
+[Line 4811 Sent 280976]: [L3 WARNING fixed-without-extpos] Fixed expression 'да да' does not have the 'ExtPos' feature
+[Line 4811 Sent 280976]: [L3 WARNING fixed-gap] Gaps in fixed expression [1, 3] 'да * да'
+[Line 4913 Sent 280984]: [L3 SYNTAX obl-should-be-nmod] The parent (node [6] 'тенкѣ') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 7882 Sent 281317]: [L3 SYNTAX obl-should-be-nmod] The parent (node [14] 'мсци') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 9642 Sent 287983]: [L3 SYNTAX obl-should-be-nmod] The parent (node [9] 'недли') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 20811 Sent 289423]: [L3 SYNTAX obl-should-be-nmod] The parent (node [9] 'ꙇстинну') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 29729 Sent 290251]: [L3 SYNTAX obl-should-be-nmod] The parent (node [11] 'полунощнице') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 34103 Sent 290661]: [L3 SYNTAX obl-should-be-nmod] The parent (node [14] 'мсцъ') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 38823 Sent 279507]: [L3 SYNTAX obl-should-be-nmod] The parent (node [3] 'взѧти') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 202835
+SYNTAX errors: 31
+*** FAILED *** with 31 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
 (weight=0.111111111111111) * (score{genres}=0.111111111111111) = 0.0123456790123457
 (weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
@@ -74,6 +165,6 @@ Validity: 1
 (weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
 (weight=0.111111111111111) * (score{tags}=0.658823529411765) = 0.073202614379085
 (weight=0.111111111111111) * (score{udeprels}=0.691891891891892) = 0.0768768768768769
-(TOTAL score=0.709639137127017) * (availability=1) * (validity=1) = 0.709639137127017
-STARS = 3.5
-UD_Old_East_Slavic-TOROT	0.709639137127017	3.5
+(TOTAL score=0.709639137127017) * (availability=1) * (validity=0.01) = 0.00709639137127017
+STARS = 0
+UD_Old_East_Slavic-TOROT	0.00709639137127017	0
